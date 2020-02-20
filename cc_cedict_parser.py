@@ -6,7 +6,7 @@
 
 #Characters that are commonly used as surnames have two entries in CC-CEDICT. This program will remove the surname entry if there is another entry for the character. If you want to include the surnames, simply delete lines 59 and 60.
 
-#This code was written by Franki Allegra in February 2020.
+#This code was written by Franki Allegra in February 2020. Edited by Matthew Delaney February 2020
 #https://github.com/rubber-duck-dragon/rubber-duck-dragon.github.io/blob/master/cc-cedict_parser/parser.py
 
 #open CEDICT file
@@ -14,53 +14,67 @@
 with open('cedict_ts.u8') as file:
     text = file.read()
     lines = text.split('\n')
-    dict_lines = list(lines)
+    dictionary = {}
 
 #define functions
 
-    def parse_line(line):
-        parsed = {}
-        if line == '':
-            dict_lines.remove(line)
-            return 0
-        line = line.rstrip('/')
-        line = line.split('/')
-        if len(line) <= 1:
-            return 0
-        english = line[1]
-        char_and_pinyin = line[0].split('[')
-        characters = char_and_pinyin[0]
-        characters = characters.split()
-        traditional = characters[0]
-        simplified = characters[1]
-        pinyin = char_and_pinyin[1]
-        pinyin = pinyin.rstrip()
-        pinyin = pinyin.rstrip("]")
-        parsed['traditional'] = traditional
-        parsed['simplified'] = simplified
-        parsed['pinyin'] = pinyin
-        parsed['english'] = english
-        list_of_dicts.append(parsed)
+    def parse_lines(lines, key_is_trad_or_simp):
+        for line in lines:
+            if line == '':
+                continue
+            line = line.rstrip('/')
+            line = line.split('/')
+            english = line[1]
+            if 'surname' in english:
+                continue
+            pinyin_hanzi = line[0].split('[')
+            hanzi = pinyin_hanzi[0]
+            hanzi = hanzi.split(' ')
+            traditional = hanzi[0]
+            simplified = hanzi[1]
+            pinyin = pinyin_hanzi[1]
+            pinyin = pinyin.rstrip(' ]')
+            attrib_list = []
+            if key_is_trad_or_simp == 'trad':
+                if traditional in dictionary:
+                    attrib_list = dictionary[traditional]
+                    attrib_list.append(english)
+                    dictionary[traditional] = attrib_list
+                    print(traditional)
+                    print(dictionary[traditional])
+                    continue
+                else:
+                    attrib_list.append(simplified)
+                    attrib_list.append(pinyin)
+                    attrib_list.append(english)
+                    dictionary[traditional] = attrib_list
+            else:
+                if simplified in dictionary:
+                    attrib_list = dictionary[simplified]
+                    attrib_list.append(english)
+                    dictionary[simplified] = attrib_list
+                    continue
+                else:
+                    attrib_list.append(traditional)
+                    attrib_list.append(pinyin)
+                    attrib_list.append(english)
+                    dictionary[simplified] = attrib_list
+        
+        return dictionary
+        
 
-    def remove_surnames():
-        for x in range(len(list_of_dicts)-1, -1, -1):
-            if "surname " in list_of_dicts[x]['english']:
-                if list_of_dicts[x]['traditional'] == list_of_dicts[x+1]['traditional']:
-                    list_of_dicts.pop(x)
-            
     def parse_dict():
 
         #make each line into a dictionary
         print("Parsing dictionary . . .")
-        for line in dict_lines:
-                parse_line(line)
+        dictionary = parse_lines(lines, 'trad')
         
         #remove entries for surnames from the data (optional):
 
-        print("Removing Surnames . . .")
-        remove_surnames()
+        #print("Removing Surnames . . .")
+        #remove_surnames()
 
-        return list_of_dicts
+        return dictionary
 
 
         #If you want to save to a database as JSON objects, create a class Word in the Models file of your Django project:
@@ -72,10 +86,4 @@ with open('cedict_ts.u8') as file:
         print('Done!')
 
 if __name__ == "__main__":
-    list_of_dicts = []
     parsed_dict = parse_dict()
-    for item in parsed_dict:
-        if item['simplified'] == '人':
-            print (item['english'])
-
-list_of_dicts = []
