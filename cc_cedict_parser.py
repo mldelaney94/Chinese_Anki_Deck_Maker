@@ -11,6 +11,8 @@
 
 #open CEDICT file
 
+import sys
+
 with open('cedict_ts.u8') as file:
     text = file.read()
     lines = text.split('\n')
@@ -40,8 +42,6 @@ with open('cedict_ts.u8') as file:
                     attrib_list = dictionary[traditional]
                     attrib_list.append(english)
                     dictionary[traditional] = attrib_list
-                    print(traditional)
-                    print(dictionary[traditional])
                     continue
                 else:
                     attrib_list.append(simplified)
@@ -63,16 +63,11 @@ with open('cedict_ts.u8') as file:
         return dictionary
         
 
-    def parse_dict():
+    def parse_dict(key_is_trad_or_simp):
 
         #make each line into a dictionary
         print("Parsing dictionary . . .")
-        dictionary = parse_lines(lines, 'trad')
-        
-        #remove entries for surnames from the data (optional):
-
-        #print("Removing Surnames . . .")
-        #remove_surnames()
+        dictionary = parse_lines(lines, key_is_trad_or_simp)
 
         return dictionary
 
@@ -86,4 +81,7 @@ with open('cedict_ts.u8') as file:
         print('Done!')
 
 if __name__ == "__main__":
-    parsed_dict = parse_dict()
+    if len(sys.argv) == 1:
+        print("Please type 'trad' or 'simp' as first argument depending on how you want the dictionary to be built.")
+        exit()
+    parsed_dict = parse_dict(sys.argv[1])

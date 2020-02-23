@@ -38,18 +38,15 @@ with open(sys.argv[1]) as f:
 
     def add_translation_and_pinyin(h_set):
         hpe_set = set()
-        parsed_dict = cc_cedict_parser.parse_dict()
+        parsed_dict = cc_cedict_parser.parse_dict('trad')
         while(h_set):
             elem = h_set.pop()
             elem_split = elem.split(' ')
             #okay so this is a terrible algorithm because parsed dicts is a list of dictionarys, and this goes through every single dictionary, checks if the key value traditional is a match
             #
-            for item in parsed_dict:
-                if item['traditional'] == elem_split[0] or item['simplified'] == elem_split[0]:
-                    elem += ',' #anki likes separators other than spaces
-                    elem += get_pinyin_from_hanzi(elem) + ','
-                    elem += item['english'] + '\n'
-                    hpe_set.add(elem)
+            if elem_split[0] in parsed_dict:
+                attrib_list = parsed_dict[elem_split[0]]
+                hpe_set.add(elem)
         return hpe_set
 
     def get_pinyin_from_hanzi(hanzi):
