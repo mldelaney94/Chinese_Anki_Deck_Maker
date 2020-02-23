@@ -1,6 +1,9 @@
-import jieba
+#This script takes a Chinese text document and creates a list of words in the document. The words definitions, pinyin and word frequency is added
+#You can choose to ignore words for import that are above a certain frequency
+#Matthew Delaney 2020
+
 import sys
-from pypinyin import pinyin as Get_Pinyin
+import jieba
 import cc_cedict_parser
 
 with open(sys.argv[1]) as f:
@@ -16,7 +19,7 @@ with open(sys.argv[1]) as f:
         seg_set = set()
         for elem in file_list:
             seg_set.add(elem)
-        #these are stupid discards I made because I couldn't figure out how to programmatically check its just hanzi yet
+        #these are stupid discards I made because I couldn't figure out how to programmatically check that its just hanzi yet
         seg_set.discard('Ａ')
         seg_set.discard('Ｑ')
         seg_set.discard('《')
@@ -36,33 +39,41 @@ with open(sys.argv[1]) as f:
         seg_set.discard(' ')
         return seg_set
 
-    def add_translation_and_pinyin(h_set):
+    def add_pinyin_and_definition (h_set, zh_dict):
         hpe_set = set()
-        parsed_dict = cc_cedict_parser.parse_dict('trad')
         while(h_set):
             elem = h_set.pop()
             elem_split = elem.split(' ')
-            #okay so this is a terrible algorithm because parsed dicts is a list of dictionarys, and this goes through every single dictionary, checks if the key value traditional is a match
-            #
-            if elem_split[0] in parsed_dict:
-                attrib_list = parsed_dict[elem_split[0]]
-                hpe_set.add(elem)
+            if elem_split[0] in zh_dict:
+                attrib_list = zh_dict[elem_split[0]]
+                addition = elem_split[0] + ';'
+                for attrib in attrib_list:
+                    if attrib_list.index(attrib) == 0:
+                        continue
+                    elif attrib_list.index(attrib) == 1:
+                        addition += str(attrib) + ';'
+                    else:
+                        addition += str(attrib) + ', '
+
+                addition = addition.strip(' ,')
+                addition += '\n'
+                hpe_set.add(addition)
         return hpe_set
 
-    def get_pinyin_from_hanzi(hanzi):
-        pinyin_string = ''
-        for pinyin_list in Get_Pinyin(hanzi, errors='ignore'): #pinyin gives us a list of lists
-            for specific_pinyin in pinyin_list:
-                pinyin_string += specific_pinyin
-        return pinyin_string
+    def add_frequencies(seg_set):
+        freq_list = set()
+        
 
     def save_generated_set(seg_set, location):
         with open(location, 'w+') as g:
             g.write(" ".join(seg_set))
 
     def main():
+        zh_dict = cc_cedict_parser.parse_dict('trad')
+        
         seg_set = segment_NLP(f)
-        seg_set = add_translation_and_pinyin(seg_set)
+        seg_set = add_pinyin_and_definition(seg_set, zh_dict)
+        seg_set = add_frequencies(seg_set)
         save_generated_set(seg_set, sys.argv[2])
 
 if __name__ == "__main__":
