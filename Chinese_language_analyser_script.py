@@ -42,28 +42,28 @@ def add_pinyin_and_definition (h_set, zh_dict):
     hpe_set = set()
     while(h_set):
         elem = h_set.pop()
-        elem_split = elem.split(' ')
+        elem_split = elem.split('\t')
         if elem_split[0] in zh_dict:
             attrib_list = zh_dict[elem_split[0]]
-            addition = elem_split[0] + '\t'
             for attrib in attrib_list:
                 if attrib_list.index(attrib) == 0: #simplified
                     continue
                 elif attrib_list.index(attrib) == 1: #pinyin
-                    addition += str(attrib) + '\t'
+                    elem += str(attrib) + '\t'
                 else:
-                    addition += str(attrib) + ';'
-            hpe_set.add(addition)
+                    elem += str(attrib) + ';'
+            hpe_set.add(elem)
     return hpe_set
 
-def add_frequencies(seg_set):
+def add_frequencies(seg_set, upper_freq_bound, lower_freq_bound):
     freq_set = set()
     while(seg_set):
         elem = seg_set.pop()
         ssplit = elem.split('\t')
         freq = zipf_frequency(ssplit[0], 'zh', wordlist='large')
-        elem += '\t' + str(freq)
-        freq_set.add(elem)
+        if freq > lower_freq_bound and freq < upper_freq_bound:
+            elem += '\t' + str(freq) + '\t'
+            freq_set.add(elem)
     return freq_set
     
 def add_parts_of_speech(seg_set):
@@ -96,13 +96,13 @@ def save_generated_set(seg_set, location):
     with open(location, 'w+') as g:
         g.write(" ".join(seg_set))
 
-def main(f, quiet):
+def main(f, quiet, upper_freq_bound, lower_freq_bound):
     zh_dict = cc_cedict_parser.parse_dict('trad')
     jieba.set_dictionary('jieba_dict_large.txt')
     
     seg_set = segment_NLP(f)
+    seg_set = add_frequencies(seg_set, upper_freq_bound, lower_freq_bound)
     seg_set = add_pinyin_and_definition(seg_set, zh_dict)
-    seg_set = add_frequencies(seg_set)
     seg_set = add_parts_of_speech(seg_set)
     seg_set = add_newlines(seg_set)
 
@@ -111,11 +111,13 @@ def main(f, quiet):
 if __name__ == "__main__":
     #walk through optional args
     quiet = False
+    upper_freq_bound = 6.0
+    lower_freq_bound = 0.0
     for arg in sys.argv:
         if '-q' in arg:
             quiet = True
 
     f = open (sys.argv[1], 'r')
-    main(f, quiet)
+    main(f, quiet, upper_freq_bound, lower_freq_bound)
     f.close()
 
