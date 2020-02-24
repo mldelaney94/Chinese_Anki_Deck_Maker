@@ -18,7 +18,7 @@
 
 import sys
 
-with open('test.txt') as file:
+with open('cedict_modified.txt') as file:
     text = file.read()
     lines = text.split('\n')
     dictionary = {}

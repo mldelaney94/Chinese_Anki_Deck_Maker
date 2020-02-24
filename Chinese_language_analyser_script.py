@@ -2,6 +2,7 @@
 #You can choose to ignore words for import that are above a certain frequency
 #Matthew Delaney 2020
 
+import os
 import sys
 import jieba
 import cc_cedict_parser
@@ -46,9 +47,9 @@ def add_pinyin_and_definition (h_set, zh_dict):
             attrib_list = zh_dict[elem_split[0]]
             addition = elem_split[0] + '\t'
             for attrib in attrib_list:
-                if attrib_list.index(attrib) == 0:
+                if attrib_list.index(attrib) == 0: #simplified
                     continue
-                elif attrib_list.index(attrib) == 1:
+                elif attrib_list.index(attrib) == 1: #pinyin
                     addition += str(attrib) + '\t'
                 else:
                     addition += str(attrib) + ';'
@@ -73,36 +74,48 @@ def add_parts_of_speech(seg_set):
         elem_split = elem.split('\t')
 
         pos = pynlpir.segment(elem[0], pos_tagging=True, pos_names='all', pos_english=True)
-        elem += '\t' + pos[0][1] + '\n'
+        pos = pos[0][1].split(':')
+        for part in pos:
+            elem += '\t' + part
         pos_set.add(elem)
     
     pynlpir.close()
-    return pos_set 
+    return pos_set
+
+def add_newlines(seg_set):
+    newline_set = set()
+    while(seg_set):
+        elem = seg_set.pop()
+        elem += '\n'
+        newline_set.add(elem)
+
+    return newline_set
+
 
 def save_generated_set(seg_set, location):
     with open(location, 'w+') as g:
         g.write(" ".join(seg_set))
 
-def main(f):
+def main(f, quiet):
     zh_dict = cc_cedict_parser.parse_dict('trad')
-    jieba.set_dictionary('dict_large.txt')
+    jieba.set_dictionary('jieba_dict_large.txt')
     
     seg_set = segment_NLP(f)
     seg_set = add_pinyin_and_definition(seg_set, zh_dict)
     seg_set = add_frequencies(seg_set)
     seg_set = add_parts_of_speech(seg_set)
+    seg_set = add_newlines(seg_set)
 
     save_generated_set(seg_set, sys.argv[2])
 
-quiet = False
 if __name__ == "__main__":
     #walk through optional args
+    quiet = False
     for arg in sys.argv:
         if '-q' in arg:
             quiet = True
 
-
     f = open (sys.argv[1], 'r')
-    main(f)
+    main(f, quiet)
     f.close()
 
