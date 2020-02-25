@@ -25,6 +25,7 @@ with open('cedict_modified.txt') as file:
 
 #define functions
 
+    #builds a dictionary with a trad or simp character as the key
     def parse_lines(lines, key_is_trad_or_simp):
         for line in lines:
             if line == '':
