@@ -55,7 +55,7 @@ def add_pinyin_and_definition (h_set, zh_dict):
             hpe_set.add(elem)
     return hpe_set
 
-def add_frequencies(seg_set, upper_freq_bound, lower_freq_bound):
+def add_frequencies(seg_set):
     freq_set = set()
     while(seg_set):
         elem = seg_set.pop()
@@ -127,7 +127,7 @@ def main(f):
     jieba.set_dictionary('jieba_dict_large.txt')
     
     seg_set = segment_NLP(f)
-    seg_set = add_frequencies(seg_set, upper_freq_bound, lower_freq_bound)
+    seg_set = add_frequencies(seg_set)
     seg_set = add_pinyin_and_definition(seg_set, zh_dict)
     seg_set = remove_hsk_vocab(hsk_level, seg_set)
     seg_set = add_parts_of_speech(seg_set)
