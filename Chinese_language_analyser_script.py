@@ -82,7 +82,7 @@ def add_parts_of_speech(seg_set):
     pynlpir.close()
     return pos_set
 
-def remove_hsk_vocab(hsk_level, seg_set):
+def remove_hsk_vocab(seg_set):
     if hsk_filtering == 0:
         return seg_set
     edited_set = set()
@@ -129,7 +129,7 @@ def main(f):
     seg_set = segment_NLP(f)
     seg_set = add_frequencies(seg_set)
     seg_set = add_pinyin_and_definition(seg_set, zh_dict)
-    seg_set = remove_hsk_vocab(hsk_level, seg_set)
+    seg_set = remove_hsk_vocab(seg_set)
     seg_set = add_parts_of_speech(seg_set)
     seg_set = add_newlines(seg_set)
 
