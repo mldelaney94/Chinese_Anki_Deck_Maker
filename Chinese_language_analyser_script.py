@@ -85,29 +85,41 @@ def add_parts_of_speech(seg_set):
 def remove_hsk_vocab(seg_set):
     if hsk_filtering == 0:
         return seg_set
-    edited_set = set()
-    hsk_list = {}
+    hsk_dict = {}
     if simp_or_trad == 'trad':
         with open('HSK_materials/HSK_1-6_trad.txt', 'r') as h:
             for line in h:
                 liness = line.split()
-                hsk_list[liness[0]] = liness[1]
+                hsk_dict[liness[0]] = liness[1]
     else:
-        with open('HSK_materials/HSK_1-6_trad.txt', 'r') as h:
+        with open('HSK_materials/HSK_1-6_simp.txt', 'r') as h:
             for line in h:
                 liness = line.split()
-                hsk_list[liness[0]] = liness[1]
-    while (seg_set):
-        elem = seg_set.pop()
-        elem_split = elem.split('\t')
-        liness = line.split()
-        if elem_split[0] in hsk_list:
-            if int(hsk_list[elem_split[0]]) > hsk_level:
-                edited_set.add(elem)
-        else:
-            edited_set.add(elem)
+                hsk_dict[liness[0]] = liness[1]
 
-    return edited_set
+    seg_set = [elem for elem in seg_set if elem in hsk_dict and hsk_dict[elem.split('\t')[0]] < hsk_level]
+
+    return seg_set
+
+def remove_tocfl_vocab(seg_set):
+    if tocfl_filtering == 0:
+        return seg_set
+    tocfl_dict = {}
+    if simp_or_trad == 'trad':
+        with open('TOCFL_materials/TOCFL_1-5_trad.txt', 'r') as h:
+            for line in h:
+                liness = line.split()
+                tocfl_dict[liness[0]] = liness[1]
+    else:
+        with open('TOCFL_materials/TOCFL_1-5_simp.txt', 'r') as h:
+            for line in h:
+                liness = line.split()
+                tocfl_dict[liness[0]] = liness[1]
+
+    seg_set = [elem for elem in seg_set if elem in tocfl_dict and tocfl_dict[elem.split('\t')[0]] < tocfl_level]
+
+    return seg_set
+
 
 def add_newlines(seg_set):
     newline_set = set()
@@ -129,6 +141,7 @@ def main(f):
     seg_set = segment_NLP(f)
     seg_set = add_frequencies(seg_set)
     seg_set = add_pinyin_and_definition(seg_set, zh_dict)
+    seg_set = remove_tocfl_vocab(seg_set)
     seg_set = remove_hsk_vocab(seg_set)
     seg_set = add_parts_of_speech(seg_set)
     seg_set = add_newlines(seg_set)
@@ -143,8 +156,12 @@ if __name__ == "__main__":
     global simp_or_trad
     global hsk_level
     global hsk_filtering
+    global tocfl_level
+    global tocfl_filtering
     hsk_level = 6
     hsk_filtering = 1
+    tocfl_level = 5
+    tocfl_filtering = 1
     simp_or_trad = 'trad'
     quiet = False
     upper_freq_bound = 8.0
