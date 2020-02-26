@@ -1,0 +1,306 @@
+一些	yìxiē	some
+一共	yígòng	altogether
+一定	yídìng	certainly, indeed, surely
+一樣	yíyàng	to be the same, identical
+一直	yìzhí	straight; constantly, continuously
+一起	yìqǐ	together
+上面	shàng	miàn above, on top of
+上午	shàngwǔ	before noon, morning
+上班	shàngbān	to begin work, to start work, to go to work
+上網	shàngwǎng	internet access
+上課	shàngkè	to go to class, to attend class
+下面	xiàmiàn	below
+下午	xiàwǔ	afternoon
+下班	xiàbān	to get off from work, to go off work
+下課	xiàkè	to get out of class, end of class
+下雨	xiàyǔ	to rain
+中午	zhōngwǔ	noon
+中國	zhōngguó	China, Chinese
+中文	zhōngwén	Chinese language
+乾淨	gānjìng	to be clean
+什麼	shénme	what
+今天	jīntiān	today
+今年	jīnnián	this year
+介紹	jièshào	to introduce
+以前	yǐqián	before; previously
+以後	yǐhòu	after, afterwards; later
+休息	xiūxí	to rest
+你們	nǐmen	you (plural)
+便宜	piányi	to be cheap
+信封	xìnfēng	envelope
+做完	zuòwán	done
+做飯	zuòfàn	to cook food
+健康	jiànkāng	to be healthy
+先生	xiānshēng	mister, Mr, gentleman, sir, husband
+兒子	érzi	son
+公司	gōngsī	company
+公園	gōngyuán	park
+公寓	gōngyù	apartment building
+再見	zàijiàn	Good-bye
+冬天	dōngtiān	winter, wintertime
+出來	chūlái	to come out
+出去	chūqù	to go out, to leave
+出國	chūguó	go abroad from one's own country
+分鐘	fēnzhōng	minute
+別的	biéde	some other, an additional or a different one
+前面	qiánmiàn	in  front
+功課	gōngkè	schoolwork, homework
+包子	bāozi	steamed stuffed bun
+北邊	běi	biān north
+南邊	nánbiān	south
+卡片	kǎpiàn	card
+去年	qùnián	last year
+參加	cānjiā	to attend, to participate, to take part in
+可以	kěyǐ	can, may, be permitted
+可是	kěshì	but, however
+可樂	kělè	cola
+可能	kěnéng	probably, maybe
+右邊	yòubiān	rightside
+吃飯	chīfàn	to eat, to have a meal
+吃飽	chībǎo	satiate; full
+同學	tóngxué	classmate
+名字	míngzì	full name, given name
+告訴	gàosù	to tell, to inform
+咖啡	kāfēi	coffee
+哥哥	gēgē	elder brother
+商店	shāngdiàn	shop, store
+問題	wèntí	problem/ question
+喜歡	xǐhuān	to like
+回來	huílái	to come back
+回去	huíqù	to go back
+回家	huíjiā	to return home
+因為	yīnwèi	because
+國家	guójiā	nation, country
+圖片	túpiàn	picture
+地上	dìshàng	on  the ground, floor
+地圖	dìtú	map
+地方	dìfāng	location, place
+報紙	bàozhǐ	newspaper
+夏天	xiàtiān	summer, summertime
+外面	wàimiàn	outside
+多少	duōshǎo	how much, how many
+大學	dàxué	university
+大家	dàjiā	everyone
+大樓	dàlóu	multi-storied building
+天氣	tiānqì	weather
+太太	tàitài	Mrs, wife
+女兒	nǚér	daughter
+女生	nǚshēng	girl
+好像	hǎoxiàng	to seem, to be likely, to be like
+好吃	hǎochī	to be fond of eating
+妹妹	mèimei	younger sister
+媽媽	māma	mother
+孩子	háizi	child
+學校	xuéxiào	school
+學生	xuéshēng	student
+安靜	ānjìng	to be quiet, calm, peaceful
+客廳	kètīng	living room
+家人	jiārén	family members
+容易	róngyì	to be easy
+宿舍	sùshè	dorm
+寒假	hánjià	winter vacation
+寫字	xiězì	to write
+對面	duìmiàn	the other side, place across from
+小姐	xiǎojiě	Miss
+小心	xiǎoxīn	to be careful
+小時	xiǎoshí	hour
+工作	gōngzuò	work
+左邊	zuǒbiān	leftside
+已經	yǐjīng	already
+常常	chángcháng	often, usually, generally
+廚房	chúfáng	kitchen
+弟弟	dìdì	younger brother
+後面	hòumiàn	back, behind
+快樂	kuàilè	to be happy
+怎麼	zěnme	how
+意思	yìsī	meaning, idea, definition
+感冒	gǎnmào	to have a cold; cold, flu
+成績	chéngjī	grade at school, academic record, achievement
+我們	wǒmen	we, us
+房子	fángzi	house
+房間	fángjiān	room
+所以	suǒyǐ	therefore, so
+手機	shǒujī	cell phone; mobile phone
+打開	dǎkāi	to open up
+找到	zhǎodào	to have found
+收到	shōudào	to receive, get, obtain
+教室	jiàoshì	classroom
+新年	xīnnián	new year
+方便	fāngbiàn	to be convenient
+旅行	lǚxíng	to travel, to take a trip
+日本	rìběn	Japan, Japanese
+早上	zǎoshàng	morning
+明天	míngtiān	tomorrow
+明年	míngnián	next year
+星期	xīngqī	week
+春天	chūntiān	spring, springtime
+昨天	zuótiān	yesterday
+時候	shíhòu	time
+時鐘	shízhōng	clock
+時間	shíjiān	time
+晚上	wǎnshàng	evening, night
+晚安	wǎnān	good night
+暑假	shǔjià	summer vacation
+書包	shūbāo	school-bag
+最近	zuìjìn	recently, lately
+朋友	péngyǒu	friend
+本子	běnzi	book, notebook, edition
+杯子	bēizi	cup, glass
+東邊	dōngbiān	east
+東西	dōngxī	thing
+桌子	zhuōzi	table
+棒球	bàngqiú	baseball
+椅子	yǐzi	chair
+樓上	lóushàng	upstairs
+樓下	lóuxià	downstairs
+歡迎	huānyíng	to welcome
+比賽	bǐsài	competition, contest, match
+比賽	bǐsài	to compete in a game/ activity/ match
+比較	bǐjiào	comparatively;
+水果	shuǐguǒ	fruit
+沒有	méiyǒu	used to ask if an action has been completed
+洗澡	xǐzǎo	to take a bath or shower
+活動	huódòng	activity
+海邊	hǎibiān	seaside, beach
+游泳	yóuyǒng	to swim
+漂亮	piāoliàng	to be beautiful, to be pretty
+火車	huǒchē	train
+照片	zhàopiàn	photo, picture
+照相	zhàoxiàng	to take picture/ photograph
+熱狗	règǒu	hot dog
+熱鬧	rènào	to be lively, to be fun, to be bustling with noise
+爸爸	bàba	father
+牛奶	niúnǎi	cow's milk
+特別	tèbié	to be special
+玩兒	wánér	to play, to enjoy
+現在	xiànzài	now, right now
+生日	shēngrì	birthday
+生病	shēngbìng	to become ill, to be sick
+男生	nánshēng	boy
+畫畫	huàhuà	to drawpicture
+當然	dāngrán	certainly, of course
+白色	báisè	white
+皮包	píbāo	handbag, briefcase
+眼睛	yǎnjīng	eyes
+睡覺	shuìjiào	to sleep
+知道	zhīdào	to know
+秋天	qiūtiān	autumn, fall
+籃球	lánqiú	basketball
+紅色	hóngsè	red
+結束	jiéshù	to end, close, conclude
+綠色	lǜsè	green
+網球	wǎngqiú	tennis, tennis ball
+網站	wǎngzhàn	websites
+美國	měiguó	USA, American
+老師	lǎoshī	teacher
+考試	kǎoshì	test, exam
+考試	kǎoshì	to take a test
+肚子	dùzǐ	stomach, belly, abdomen
+自己	zìjǐ	oneself, by oneself
+舒服	shūfú	to be comfortable
+船兒	chuánér	ship, boat
+花兒	huāér	flower
+英國	yīngguó	UK, United Kingdom
+英文	yīngwén	English language
+號碼	hàomǎ	number
+蛋糕	dàngāo	cake
+衣服	yīfú	clothes, clothing
+裡面	lǐmiàn	inside
+褲子	kùzi	trousers, pants
+西邊	xībiān	west
+見面	jiànmiàn	to meet someone, to see someone
+覺得	juédé	to feel, to think, to consider
+記得	jìdé	to remember
+認識	rènshi	to recognize, to realize
+說話	shuōhuà	to speak, to say, to talk
+請問	qǐngwèn	excuse me, may I ask?
+謝謝	xièxie	Thank you.
+走路	zǒulù	to walkin the road or street
+起床	qǐchuáng	to get up
+足球	zúqiú	football, soccer
+跑步	pǎobù	jogging
+路口	lùkǒu	crossway, junction, intersection
+跳舞	tiàowǔ	to dance
+身體	shēntǐ	body
+車子	chēzi	car, vehicle
+車站	chēzhàn	station
+這些	zhèxiē	these
+週末	zhōumò	weekend
+進來	jìnlái	to come in
+進去	jìnqù	to go in
+進步	jìnbù	to progress; to improve
+運動	yùndòng	sport, exercise
+運動	yùndòng	to exercise
+還是	háishì	or
+那些	nàxiē	those
+郵局	yóujú	post office
+郵票	yóupiào	postage stamp
+醫生	yīshēng	doctor
+醫院	yīyuàn	hospital
+重要	zhòngyào	to be important, to be vital
+銀行	yínháng	bank
+錢包	qiánbāo	wallet, purse, pouch
+門口	ménkǒu	entrance, doorway
+開始	kāishǐ	to start, to begin
+開車	kāichē	to drive a car
+附近	fùjìn	nearby
+離開	líkāi	to leave
+雨天	yǔtiān	rainy day
+電影	diànyǐng	movie
+電腦	diànnǎo	computer
+電話	diànhuà	telephone, call
+非常	fēicháng	very, extremely
+鞋子	xiézi	shoes
+音樂	yīnyuè	music
+風景	fēngjǐng	scenery, landscape
+飛機	fēijī	airplane
+高興	gāoxìng	to be happy
+魚兒	yúér	fish
+麵包	miànbāo	bread
+黃色	huángsè	yellow
+點鐘	diǎnzhōng	o'clock
+飛機場	fēijīchǎng	airport
+一點兒	yìdiǎnér	some
+不客氣	búkèqì	you're welcome
+他/她	tā/tā	he, she
+冷氣機	lěngqìjī	air conditioning; air conditioner
+唱歌兒	chànggē'ér	sing
+圖書館	túshūguǎn	library
+好玩兒	hǎowánér	to be interesting, to be full of fun
+對不起	duìbùqǐ	I'm sorry; excuse me
+怎麼了	zěnmele	what's wrong?
+怎麼樣	zěnmeyàng	how about…? how's everything ?
+怎麼辦	zěnmebàn	what now ?
+打電話	dǎdiànhuà	make a telephone call
+有意思	yǒuyìsī	to be interesting
+有時候	yǒushíhòu	sometimes, now and then
+有空兒	yǒukòngér	to have free time, to be free
+有點兒	yǒudiǎnér	somewhat, rather, a bit
+沒問題	méiwèntí	no problem
+沒關係	méiguānxì	no problem, never mind, it doesn' t matter
+洗衣機	xǐyījī	clothes washing machine
+游泳池	yóuyǒngchí	swimming pool
+為什麼	wèishénme	why
+照相機	zhàoxiàngjī	camera
+辦公室	bàngōngshì	office
+電影院	diànyǐngyuàn	cinema, moviehouse
+電視機	diànshìjī	television set
+不好意思	bùhǎoyìsī	to feel embarrassed; to be ill at ease
+哪裡/兒	nǎlǐ/ér	where
+百貨公司	bǎihuògōngsī	department store
+這裡/兒	zhèlǐ/ér	here
+那裡/兒	nàlǐ/ér	there, over there
+他們/她們	tāmen/tāmen they,	them
+午餐/午飯	wǔcān/wǔfàn	lunch
+女孩子/兒	nǚháizi/ér	girl
+姐姐	jiějie	elder sister
+小孩子/兒	xiǎoháizi/ér	child
+早餐/早飯	zǎocān/zǎofàn	breakfast
+晚餐/晚飯	wǎncān/wǎnfàn	dinner, supper
+男孩子/兒	nánháizi/ér	boy
+華語/華文	huáyǔ/huáwén	Chinese language
+公共汽車/公車	gōnggòngqìchē/gōngchē	bus
+洗手間/廁所	xǐshǒujiān/cèsuǒ	toilet
+餐廳/飯館兒	cāntīng/fànguǎnér	restaurant
+星期天/星期日	xīngqītiān/xīngqīrì	Sunday
+腳踏車/自行車	jiǎotàchē/zìxíngchē	bicycle

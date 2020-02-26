@@ -88,15 +88,15 @@ def remove_hsk_vocab(seg_set):
     edited_set = set()
     hsk_list = {}
     if simp_or_trad == 'trad':
-        h = open ('HSK_materials/HSK_1-6_trad.txt', 'r')
-        for line in h:
-            liness = line.split()
-            hsk_list[liness[0]] = liness[1]
+        with open('HSK_materials/HSK_1-6_trad.txt', 'r') as h:
+            for line in h:
+                liness = line.split()
+                hsk_list[liness[0]] = liness[1]
     else:
-        h = open ('HSK_materials/HSK_1-6_simp.txt', 'r')
-        for line in h:
-            liness = line.split()
-            hsk_list[liness[0]] = liness[1]
+        with open('HSK_materials/HSK_1-6_trad.txt', 'r') as h:
+            for line in h:
+                liness = line.split()
+                hsk_list[liness[0]] = liness[1]
     while (seg_set):
         elem = seg_set.pop()
         elem_split = elem.split('\t')
