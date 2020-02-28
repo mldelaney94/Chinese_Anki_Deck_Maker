@@ -97,7 +97,7 @@ def remove_hsk_vocab(seg_set):
                 liness = line.split()
                 hsk_dict[liness[0]] = liness[1]
 
-    seg_set = [elem for elem in seg_set if elem in hsk_dict and hsk_dict[elem.split('\t')[0]] < hsk_level]
+    seg_set = [elem for elem in seg_set if elem.split('\t')[0] in hsk_dict and int(hsk_dict[elem.split('\t')[0]]) < hsk_level]
 
     return seg_set
 
@@ -116,7 +116,7 @@ def remove_tocfl_vocab(seg_set):
                 liness = line.split()
                 tocfl_dict[liness[0]] = liness[1]
 
-    seg_set = [elem for elem in seg_set if elem in tocfl_dict and tocfl_dict[elem.split('\t')[0]] < tocfl_level]
+    seg_set = [elem for elem in seg_set if elem.split('\t')[0] in tocfl_dict and int(tocfl_dict[elem.split('\t')[0]]) < tocfl_level]
 
     return seg_set
 
@@ -164,7 +164,7 @@ if __name__ == "__main__":
     tocfl_filtering = 1
     simp_or_trad = 'trad'
     quiet = False
-    upper_freq_bound = 8.0
+    upper_freq_bound = 4.0
     lower_freq_bound = 0.0
     for arg in sys.argv:
         if '-q' in arg:

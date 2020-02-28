@@ -1,0 +1,5 @@
+饅頭	3.94	mántóu	steamed roll;steamed bun;steamed bread;CL:個|个[ge4];	noun
+ 盤子	3.93	pánzi	tray;plate;dish;CL:個|个[ge4];	noun
+ 接著	3.78	jiēzhù	to catch and hold on;to continue;to go on to do sth;to follow;to carry on;then;after that;subsequently;to proceed;to ensue;in turn;in one's turn;	verb
+ 毛巾	3.95	máojīn	towel;CL:條|条[tiao2];	noun	personal name	Chinese surname
+ 得意	3.96	déyì	proud of oneself;pleased with oneself;complacent;	verb
