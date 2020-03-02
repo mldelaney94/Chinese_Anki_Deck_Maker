@@ -111,7 +111,7 @@ def remove_hsk_vocab(seg_set):
                 liness = line.split()
                 hsk_dict[liness[0]] = liness[1]
 
-    #seg_set = [elem for elem in seg_set if elem.split()[0] in hsk_dict and hsk_dict[elem.split()[0]] > hsk_level]
+    #seg_set = [elem for elem in seg_set if elem.split()[0] in hsk_dict and int(hsk_dict[elem.split()[0]]) < hsk_level]
     for elem in seg_set:
         hanzi = elem.split('\t')[0]
         if hanzi in hsk_dict and int(hsk_dict[hanzi]) < hsk_level:
