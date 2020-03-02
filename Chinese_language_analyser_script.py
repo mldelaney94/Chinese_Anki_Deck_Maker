@@ -156,7 +156,7 @@ def save_generated_set(seg_set, location):
 
 def main(f):
     zh_dict = cc_cedict_parser.parse_dict(simp_or_trad)
-    jieba.set_dictionary('jieba_dict_large.txt')
+    jieba.set_dictionary('dicts/jieba_dict_large.txt')
     
     seg_set = segment_NLP(f)
     seg_set = filter_by_freq(seg_set)

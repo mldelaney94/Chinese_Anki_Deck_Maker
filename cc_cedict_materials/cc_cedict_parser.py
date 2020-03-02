@@ -18,7 +18,7 @@
 
 import sys
 
-with open('cedict_modified.txt') as file:
+with open("C:\\Users\\Matthew\\dev\\Chinese_Anki_Creator\\dicts\\cedict_modified.txt", 'r') as file:
     text = file.read()
     lines = text.split('\n')
     dictionary = {}
