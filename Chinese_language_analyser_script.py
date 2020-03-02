@@ -2,7 +2,6 @@
 #You can choose to ignore words for import that are above a certain frequency
 #Matthew Delaney 2020
 
-import os
 import sys
 import jieba
 from cc_cedict_materials import cc_cedict_parser
@@ -17,7 +16,7 @@ def segment_NLP(input_file):
         file_list += jieba.cut(line, cut_all=False) #accurate mode
     seg_set = set()
     for elem in file_list:
-        seg_set.add(elem)
+        seg_set.add(elem + '\t')
     #these are stupid discards I made because I couldn't figure out how to programmatically check that its just hanzi yet
     seg_set.discard('Ａ')
     seg_set.discard('Ｑ')
@@ -51,22 +50,37 @@ def add_pinyin_and_definition (h_set, zh_dict):
                 elif attrib_list.index(attrib) == 1: #pinyin
                     elem += str(attrib) + '\t'
                 else: #english
-                    elem += str(attrib) + ';'
+                    if exclude_surname_definition == 1:
+                        if 'surname' in attrib:
+                            pass
+                        else:
+                            elem += str(attrib) + ';'
+                    else:
+                        elem += str(attrib) + ';'
+
             hpe_set.add(elem)
     return hpe_set
 
-def add_frequencies(seg_set):
+def add_frequencies(elem, freq):
+    elem += str(freq) + '\t'
+    return elem
+
+def filter_by_freq(seg_set):
     freq_set = set()
     while(seg_set):
         elem = seg_set.pop()
         ssplit = elem.split('\t')
         freq = zipf_frequency(ssplit[0], 'zh', wordlist='large')
         if freq > lower_freq_bound and freq < upper_freq_bound:
-            elem += '\t' + str(freq) + '\t'
+            if add_freq_to_output == 1:
+                elem = add_frequencies(elem, freq)
             freq_set.add(elem)
     return freq_set
+
     
 def add_parts_of_speech(seg_set):
+    if add_pos_to_output == 0:
+        return seg_set
     pynlpir.open()
     pos_set = set()
     while(seg_set):
@@ -97,7 +111,13 @@ def remove_hsk_vocab(seg_set):
                 liness = line.split()
                 hsk_dict[liness[0]] = liness[1]
 
-    seg_set = [elem for elem in seg_set if elem.split('\t')[0] in hsk_dict and int(hsk_dict[elem.split('\t')[0]]) < hsk_level]
+    #seg_set = [elem for elem in seg_set if elem.split()[0] in hsk_dict and hsk_dict[elem.split()[0]] > hsk_level]
+    for elem in seg_set:
+        hanzi = elem.split('\t')[0]
+        if hanzi in hsk_dict and int(hsk_dict[hanzi]) < hsk_level:
+            pass
+        else:
+            seg_set.add(elem)
 
     return seg_set
 
@@ -139,7 +159,7 @@ def main(f):
     jieba.set_dictionary('jieba_dict_large.txt')
     
     seg_set = segment_NLP(f)
-    seg_set = add_frequencies(seg_set)
+    seg_set = filter_by_freq(seg_set)
     seg_set = add_pinyin_and_definition(seg_set, zh_dict)
     seg_set = remove_tocfl_vocab(seg_set)
     seg_set = remove_hsk_vocab(seg_set)
@@ -158,23 +178,20 @@ if __name__ == "__main__":
     global hsk_filtering
     global tocfl_level
     global tocfl_filtering
-    hsk_level = 6
+    global add_freq_to_output
+    global add_pos_to_output
+    global exclude_surname_definition
+    exclude_surname_definition = 1
+    add_pos_to_output = 0
+    hsk_level = 3
     hsk_filtering = 1
-    tocfl_level = 5
-    tocfl_filtering = 1
+    tocfl_level = 1
+    tocfl_filtering = 0
+    add_freq_to_output = 0
     simp_or_trad = 'trad'
     quiet = False
-    upper_freq_bound = 4.0
+    upper_freq_bound = 5.0
     lower_freq_bound = 0.0
-    for arg in sys.argv:
-        if '-q' in arg:
-            quiet = True
-        elif 'simp' in arg:
-            simp_or_trad = 'simp'
-        elif 'hsk' in arg:
-            hsk_level = arg
-            hsk_filtering = 1
-
 
     f = open (sys.argv[1], 'r')
     main(f)
