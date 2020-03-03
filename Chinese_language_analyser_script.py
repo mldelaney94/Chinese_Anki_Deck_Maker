@@ -44,6 +44,7 @@ def add_pinyin_and_definition (h_set, zh_dict):
         elem_split = elem.split('\t')
         if elem_split[0] in zh_dict:
             attrib_list = zh_dict[elem_split[0]]
+            eng_attrib_num = 1
             for attrib in attrib_list:
                 if attrib_list.index(attrib) == 0:
                     pass
@@ -54,18 +55,21 @@ def add_pinyin_and_definition (h_set, zh_dict):
                         if 'surname' in attrib:
                             pass
                         else:
-                            elem += str(attrib) + ';'
+                            elem += str(eng_attrib_num) + '. ' + str(attrib) + ';'
+                            eng_attrib_num += 1
                     else:
                         elem += str(attrib) + ';'
-
+            elem = elem.strip(';')
             hpe_set.add(elem)
     return hpe_set
 
-def add_frequencies(elem, freq):
+def add_frequencies_to_card(elem, freq):
     elem += str(freq) + '\t'
     return elem
 
 def filter_by_freq(seg_set):
+    if freq_filtering == 0:
+        return seg_set
     freq_set = set()
     while(seg_set):
         elem = seg_set.pop()
@@ -73,7 +77,7 @@ def filter_by_freq(seg_set):
         freq = zipf_frequency(ssplit[0], 'zh', wordlist='large')
         if freq > lower_freq_bound and freq < upper_freq_bound:
             if add_freq_to_output == 1:
-                elem = add_frequencies(elem, freq)
+                elem = add_frequencies_to_card(elem, freq)
             freq_set.add(elem)
     return freq_set
 
@@ -100,6 +104,7 @@ def remove_hsk_vocab(seg_set):
     if hsk_filtering == 0:
         return seg_set
     hsk_dict = {}
+    hsk_filtered_set = set()
     if simp_or_trad == 'trad':
         with open('HSK_materials/HSK_1-6_trad.txt', 'r') as h:
             for line in h:
@@ -117,14 +122,15 @@ def remove_hsk_vocab(seg_set):
         if hanzi in hsk_dict and int(hsk_dict[hanzi]) < hsk_level:
             pass
         else:
-            seg_set.add(elem)
+            hsk_filtered_set.add(elem)
 
-    return seg_set
+    return hsk_filtered_set
 
 def remove_tocfl_vocab(seg_set):
     if tocfl_filtering == 0:
         return seg_set
     tocfl_dict = {}
+    tocfl_filtered_set = set()
     if simp_or_trad == 'trad':
         with open('TOCFL_materials/TOCFL_1-5_trad.txt', 'r') as h:
             for line in h:
@@ -136,9 +142,15 @@ def remove_tocfl_vocab(seg_set):
                 liness = line.split()
                 tocfl_dict[liness[0]] = liness[1]
 
-    seg_set = [elem for elem in seg_set if elem.split('\t')[0] in tocfl_dict and int(tocfl_dict[elem.split('\t')[0]]) < tocfl_level]
+    #seg_set = [elem for elem in seg_set if elem.split('\t')[0] in tocfl_dict and int(tocfl_dict[elem.split('\t')[0]]) < tocfl_level]
+    for elem in seg_set:
+        hanzi = elem.split('\t')[0]
+        if hanzi in tocfl_dict and int(tocfl_dict[hanzi]) < tocfl_level:
+            pass
+        else:
+            tocfl_filtered_set.add(elem)
 
-    return seg_set
+    return tocfl_filtered_set
 
 
 def add_newlines(seg_set):
@@ -160,9 +172,9 @@ def main(f):
     
     seg_set = segment_NLP(f)
     seg_set = filter_by_freq(seg_set)
-    seg_set = add_pinyin_and_definition(seg_set, zh_dict)
     seg_set = remove_tocfl_vocab(seg_set)
     seg_set = remove_hsk_vocab(seg_set)
+    seg_set = add_pinyin_and_definition(seg_set, zh_dict)
     seg_set = add_parts_of_speech(seg_set)
     seg_set = add_newlines(seg_set)
 
@@ -179,15 +191,17 @@ if __name__ == "__main__":
     global tocfl_level
     global tocfl_filtering
     global add_freq_to_output
+    global freq_filtering
     global add_pos_to_output
     global exclude_surname_definition
     exclude_surname_definition = 1
     add_pos_to_output = 0
-    hsk_level = 3
+    hsk_level = 7 #needs to be one above desired lvl of filtering
     hsk_filtering = 1
-    tocfl_level = 1
-    tocfl_filtering = 0
+    tocfl_level = 6
+    tocfl_filtering = 1
     add_freq_to_output = 0
+    freq_filtering = 0
     simp_or_trad = 'trad'
     quiet = False
     upper_freq_bound = 5.0

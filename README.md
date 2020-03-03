@@ -14,3 +14,5 @@ What is this kind of code?
 5. What is a generator, why does += make it into a list?
 
 6. How to do command line arguments? Like -q for quiet
+
+7. How to make sure anyone who downloads this has the dependencies
