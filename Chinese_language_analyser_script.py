@@ -11,8 +11,7 @@ import pynlpir
 def segment_NLP(input_file):
     file_list = []
     for line in f:
-        line = line.strip()
-        line = line.strip('「」。: ，')
+        line = line.strip(' 「」。: ，')
         file_list += jieba.cut(line, cut_all=False) #accurate mode
     seg_set = set()
     for elem in file_list:
@@ -45,30 +44,26 @@ def add_pinyin_and_definition (h_set, zh_dict):
         if elem_split[0] in zh_dict:
             attrib_list = zh_dict[elem_split[0]]
             eng_attrib_num = 1
-            for attrib in attrib_list:
-                if attrib_list.index(attrib) == 0:
+            for index, attrib in enumerate(attrib_list):
+                if index == 0:
                     pass
-                elif attrib_list.index(attrib) == 1: #pinyin
+                elif index == 1: #pinyin
                     elem += str(attrib) + '\t'
                 else: #english
-                    if exclude_surname_definition == 1:
-                        if 'surname' in attrib:
-                            pass
-                        else:
-                            elem += str(eng_attrib_num) + '. ' + str(attrib) + ';'
-                            eng_attrib_num += 1
+                    if exclude_surname_definition and 'surname' in attrib:
+                        pass
                     else:
-                        elem += str(attrib) + ';'
+                        elem += str(eng_attrib_num) + '. ' + str(attrib) + ';'
+                        eng_attrib_num += 1
             elem = elem.strip(';')
             hpe_set.add(elem)
     return hpe_set
 
 def add_frequencies_to_card(elem, freq):
-    elem += str(freq) + '\t'
-    return elem
+    return elem + str(freq) + '\t'
 
 def filter_by_freq(seg_set):
-    if freq_filtering == 0:
+    if not freq_filtering:
         return seg_set
     freq_set = set()
     while(seg_set):
@@ -76,14 +71,14 @@ def filter_by_freq(seg_set):
         ssplit = elem.split('\t')
         freq = zipf_frequency(ssplit[0], 'zh', wordlist='large')
         if freq > lower_freq_bound and freq < upper_freq_bound:
-            if add_freq_to_output == 1:
+            if add_freq_to_output:
                 elem = add_frequencies_to_card(elem, freq)
             freq_set.add(elem)
     return freq_set
 
     
 def add_parts_of_speech(seg_set):
-    if add_pos_to_output == 0:
+    if not add_pos_to_output:
         return seg_set
     pynlpir.open()
     pos_set = set()
@@ -101,7 +96,7 @@ def add_parts_of_speech(seg_set):
     return pos_set
 
 def remove_hsk_vocab(seg_set):
-    if hsk_filtering == 0:
+    if not hsk_filtering:
         return seg_set
     hsk_dict = {}
     hsk_filtered_set = set()
@@ -127,7 +122,7 @@ def remove_hsk_vocab(seg_set):
     return hsk_filtered_set
 
 def remove_tocfl_vocab(seg_set):
-    if tocfl_filtering == 0:
+    if not tocfl_filtering:
         return seg_set
     tocfl_dict = {}
     tocfl_filtered_set = set()
@@ -142,7 +137,6 @@ def remove_tocfl_vocab(seg_set):
                 liness = line.split()
                 tocfl_dict[liness[0]] = liness[1]
 
-    #seg_set = [elem for elem in seg_set if elem.split('\t')[0] in tocfl_dict and int(tocfl_dict[elem.split('\t')[0]]) < tocfl_level]
     for elem in seg_set:
         hanzi = elem.split('\t')[0]
         if hanzi in tocfl_dict and int(tocfl_dict[hanzi]) < tocfl_level:
@@ -154,17 +148,13 @@ def remove_tocfl_vocab(seg_set):
 
 
 def add_newlines(seg_set):
-    newline_set = set()
-    while(seg_set):
-        elem = seg_set.pop()
-        elem += '\n'
-        newline_set.add(elem)
+    newline_set = [elem + '\n' for elem in seg_set]
 
     return newline_set
 
 def save_generated_set(seg_set, location):
     with open(location, 'w+') as g:
-        g.write(" ".join(seg_set))
+        g.write("".join(seg_set))
 
 def main(f):
     zh_dict = cc_cedict_parser.parse_dict(simp_or_trad)
@@ -182,29 +172,21 @@ def main(f):
 
 if __name__ == "__main__":
     #walk through optional args
-    global quiet
-    global upper_freq_bound
-    global lower_freq_bound
-    global simp_or_trad
-    global hsk_level
-    global hsk_filtering
-    global tocfl_level
-    global tocfl_filtering
-    global add_freq_to_output
-    global freq_filtering
-    global add_pos_to_output
+    global quiet, upper_freq_bound, lower_freq_bound, simp_or_trad, hsk_level, hsk_filtering
+    global tocfl_level, tocfl_filtering, add_freq_to_output, freq_filtering, add_pos_to_output
     global exclude_surname_definition
+
     exclude_surname_definition = 1
     add_pos_to_output = 0
     hsk_level = 7 #needs to be one above desired lvl of filtering
     hsk_filtering = 1
     tocfl_level = 6
     tocfl_filtering = 1
-    add_freq_to_output = 0
-    freq_filtering = 0
+    add_freq_to_output = 1
+    freq_filtering = 1
     simp_or_trad = 'trad'
     quiet = False
-    upper_freq_bound = 5.0
+    upper_freq_bound = 3.0
     lower_freq_bound = 0.0
 
     f = open (sys.argv[1], 'r')
