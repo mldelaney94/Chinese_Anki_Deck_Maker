@@ -18,7 +18,6 @@
 
 import sys
 
-
 #define functions
 
 #builds a dictionary with a trad or simp character as the key
@@ -28,11 +27,7 @@ def parse_lines(lines, key_is_trad_or_simp):
         if line == '':
             continue
         parts = get_parts_of_line(line)
-        attrib_list = []
-        if key_is_trad_or_simp == 'trad':
-            dictionary = add_trad_based_entry(parts, dictionary)
-        else:
-            dictionary = add_simp_based_entry(parts, dictionary)
+        add_entry(parts, dictionary, key_is_trad_or_simp)
     
     return dictionary
 
@@ -55,43 +50,29 @@ def get_parts_of_line(line):
     
     return parts
     
-def add_trad_based_entry(parts, dictionary):
-    trad_hanzi = parts['trad_hanzi']
-    simp_hanzi = parts['simp_hanzi']
-    pinyin = parts['pinyin']
-    english = parts['english']
-    attrib_list = []
-    if trad_hanzi in dictionary:
-        attrib_list = dictionary[trad_hanzi]
-        for part in english:
-            attrib_list.append(part)
-        dictionary[trad_hanzi] = attrib_list
+#no return deliberately
+def add_entry(parts, dictionary, key_is_trad_or_simp):
+    if key_is_trad_or_simp == 'trad':
+        key = parts['trad_hanzi']
+        non_key = parts['simp_hanzi']
     else:
-        attrib_list.append(simp_hanzi)
-        attrib_list.append(pinyin)
-        for part in english:
-            attrib_list.append(part)
-        dictionary[trad_hanzi] = attrib_list
-    return dictionary
+        key = parts['simp_hanzi']
+        non_key = parts['trad_hanzi']
 
-def add_simp_based_entry(parts, dictionary):
-    trad_hanzi = parts['trad_hanzi']
-    simp_hanzi = parts['simp_hanzi']
     pinyin = parts['pinyin']
     english = parts['english']
     attrib_list = []
-    if simp_hanzi in dictionary:
-        attrib_list = dictionary[simp_hanzi]
+    if key in dictionary:
+        attrib_list = dictionary[key]
         for part in english:
             attrib_list.append(part)
-        dictionary[simp_hanzi] = attrib_list
+        dictionary[key] = attrib_list
     else:
-        attrib_list.append(trad_hanzi)
+        attrib_list.append(non_key)
         attrib_list.append(pinyin)
         for part in english:
             attrib_list.append(part)
-        dictionary[simp_hanzi] = attrib_list
-    return dictionary
+        dictionary[key] = attrib_list
 
 def parse_dict(key_is_trad_or_simp):
     #make each line into a dictionary
