@@ -13,7 +13,9 @@ def segment_NLP(input_file):
     for line in f:
         line = line.strip(' 「」。: ，')
         file_list += jieba.cut(line, cut_all=False) #accurate mode
-    seg_set = {elem + '\t' for elem in file_list}
+    seg_set = set()
+    for elem in file_list:
+        seg_set.add(elem + '\t')
     #these are stupid discards I made because I couldn't figure out how to programmatically check that its just hanzi yet
     seg_set.discard('Ａ')
     seg_set.discard('Ｑ')

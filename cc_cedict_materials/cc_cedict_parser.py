@@ -18,68 +18,91 @@
 
 import sys
 
-with open("C:\\Users\\Matthew\\dev\\Chinese_Anki_Creator\\dicts\\cedict_modified.txt", 'r') as file:
-    text = file.read()
-    lines = text.split('\n')
-    dictionary = {}
 
 #define functions
 
-    #builds a dictionary with a trad or simp character as the key
-    def parse_lines(lines, key_is_trad_or_simp):
-        for line in lines:
-            if line == '':
-                continue
-            line = line.rstrip('/')
-            line = line.split('/')
-            english = line[1:]
-            if 'surname' in english:
-                continue
-            pinyin_hanzi = line[0].split('[')
-            hanzi = pinyin_hanzi[0]
-            hanzi = hanzi.split(' ')
-            traditional = hanzi[0]
-            simplified = hanzi[1]
-            pinyin = pinyin_hanzi[1]
-            pinyin = pinyin.rstrip(' ]')
-            attrib_list = []
-            if key_is_trad_or_simp == 'trad':
-                if traditional in dictionary:
-                    attrib_list = dictionary[traditional]
-                    for part in english:
-                        attrib_list.append(part)
-                    dictionary[traditional] = attrib_list
-                    continue
-                else:
-                    attrib_list.append(simplified)
-                    attrib_list.append(pinyin)
-                    for part in english:
-                        attrib_list.append(part)
-                    dictionary[traditional] = attrib_list
-            else:
-                if simplified in dictionary:
-                    attrib_list = dictionary[simplified]
-                    for part in english:
-                        attrib_list.append(part)
-                    dictionary[simplified] = attrib_list
-                    continue
-                else:
-                    attrib_list.append(traditional)
-                    attrib_list.append(pinyin)
-                    for part in english:
-                        attrib_list.append(part)
-                    dictionary[simplified] = attrib_list
-        
-        return dictionary
-        
+#builds a dictionary with a trad or simp character as the key
+def parse_lines(lines, key_is_trad_or_simp):
+    dictionary = {}
+    for line in lines:
+        if line == '':
+            continue
+        parts = get_parts_of_line(line)
+        attrib_list = []
+        if key_is_trad_or_simp == 'trad':
+            dictionary = add_trad_based_entry(parts, dictionary)
+        else:
+            dictionary = add_simp_based_entry(parts, dictionary)
+    
+    return dictionary
 
-    def parse_dict(key_is_trad_or_simp):
-        #make each line into a dictionary
-        print("Parsing dictionary . . .")
+def get_parts_of_line(line):
+    parts = {}
+    line = line.rstrip('/')
+    line = line.split('/')
+    
+    parts['english'] = line[1:]
+    
+    pinyin_hanzi = line[0].split('[')
+    hanzi = pinyin_hanzi[0]
+    hanzi = hanzi.split(' ')
+    parts['trad_hanzi'] = hanzi[0]
+    parts['simp_hanzi'] = hanzi[1]
+    
+    pinyin = pinyin_hanzi[1]
+    pinyin = pinyin.rstrip(' ]')
+    parts['pinyin'] = pinyin
+    
+    return parts
+    
+def add_trad_based_entry(parts, dictionary):
+    trad_hanzi = parts['trad_hanzi']
+    simp_hanzi = parts['simp_hanzi']
+    pinyin = parts['pinyin']
+    english = parts['english']
+    attrib_list = []
+    if trad_hanzi in dictionary:
+        attrib_list = dictionary[trad_hanzi]
+        for part in english:
+            attrib_list.append(part)
+        dictionary[trad_hanzi] = attrib_list
+    else:
+        attrib_list.append(simp_hanzi)
+        attrib_list.append(pinyin)
+        for part in english:
+            attrib_list.append(part)
+        dictionary[trad_hanzi] = attrib_list
+    return dictionary
+
+def add_simp_based_entry(parts, dictionary):
+    trad_hanzi = parts['trad_hanzi']
+    simp_hanzi = parts['simp_hanzi']
+    pinyin = parts['pinyin']
+    english = parts['english']
+    attrib_list = []
+    if simp_hanzi in dictionary:
+        attrib_list = dictionary[simp_hanzi]
+        for part in english:
+            attrib_list.append(part)
+        dictionary[simp_hanzi] = attrib_list
+    else:
+        attrib_list.append(trad_hanzi)
+        attrib_list.append(pinyin)
+        for part in english:
+            attrib_list.append(part)
+        dictionary[simp_hanzi] = attrib_list
+    return dictionary
+
+def parse_dict(key_is_trad_or_simp):
+    #make each line into a dictionary
+    print("Parsing dictionary . . .")
+    with open("C:\\Users\\Matthew\\dev\\Chinese_Anki_Creator\\dicts\\cedict_modified.txt", 'r') as f:
+        text = f.read()
+        lines = text.split('\n')
         dictionary = parse_lines(lines, key_is_trad_or_simp)
-        print("Done")
+    print("Done")
 
-        return dictionary
+    return dictionary
 
 if __name__ == "__main__":
     if len(sys.argv) == 1:
