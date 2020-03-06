@@ -97,7 +97,7 @@ def add_parts_of_speech(seg_set):
     while seg_set:
         elem = seg_set.pop()
         pos = pynlpir.segment(elem[0], pos_tagging=True, pos_names='all',
-                                pos_english=True)
+                              pos_english=True)
         pos = pos[0][1].split(':')
         for part in pos:
             elem += '\t' + part
