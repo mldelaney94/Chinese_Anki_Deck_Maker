@@ -67,7 +67,7 @@ def add_pinyin_and_definition(h_set, zh_dict):
             hpe_set.add(elem)
     return hpe_set
 
-def add_frequencies_to_card(elem, freq):
+def add_freq_to_elem(elem, freq):
     """Appends relative freqs to entries"""
     return elem + str(freq) + '\t'
 
@@ -82,7 +82,7 @@ def filter_by_freq(seg_set):
         freq = zipf_frequency(ssplit[0], 'zh', wordlist='large')
         if freq > lower_freq_bound and freq < upper_freq_bound:
             if add_freq_to_output:
-                elem = add_frequencies_to_card(elem, freq)
+                elem = add_freq_to_elem(elem, freq)
             freq_set.add(elem)
     return freq_set
 
