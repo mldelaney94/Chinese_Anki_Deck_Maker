@@ -1,15 +1,15 @@
-#A parser for the CC-Cedict. Convert the Chinese-English dictionary into a list of python
-    #dictionaries with "traditional","simplified", "pinyin", and "english" keys.
+#A parser for the CC-Cedict. Convert the Chinese-English dictionary into a 
+#list of python dictionaries with "traditional","simplified", "pinyin",
+#and "english" keys.
 
-#Make sure that the cedict_ts.u8 file is in the same folder as this file, and that the name matches
-#the file name on line 13.
+#Make sure that the cedict_ts.u8 file is in the same folder as this file,
+#and that the name matches the file name on line 13.
 
-#Before starting, open the CEDICT text file and delete the copyright information at the top.
-#Otherwise the program will try to parse it and you will get an error message.
+#Before starting, open the CEDICT text file and delete the copyright 
+#information at the top. Otherwise the program will try to parse it and you
+#will get an error message.
 
-#Characters that are commonly used as surnames have two entries in CC-CEDICT. This program will
-#remove the surname entry if there is another entry for the character. If you want to include the
-#surnames, simply delete lines 59 and 60.
+#Characters that are commonly used as surnames have two entries in CC-CEDICT.
 
 #This code was written by Franki Allegra in February 2020. Edited by Matthew Delaney February 2020
 #https://github.com/rubber-duck-dragon/rubber-duck-dragon.github.io/blob/master/cc-cedict_parser/parser.py
@@ -87,7 +87,8 @@ def parse_dict(key_is_trad_or_simp):
 
 if __name__ == "__main__":
     if len(sys.argv) == 1:
-        print("Please type 'trad' or 'simp' as first argument depending on how you want the dictionary to be built.")
+        print("Please type 'trad' or 'simp' as first argument depending on"
+                " how you want the dictionary to be built.")
         exit()
     parsed_dict = parse_dict(sys.argv[1])
     print(parsed_dict)

@@ -1,4 +1,5 @@
-#This script takes a Chinese text document and creates a list of words in the document. The words definitions, pinyin and word frequency is added
+#This script takes a Chinese text document and creates a list of words in the
+#document. The words definitions, pinyin and word frequency is added
 #You can choose to ignore words for import that are above a certain frequency
 #Matthew Delaney 2020
 
@@ -16,7 +17,8 @@ def segment_NLP(input_file):
     seg_set = set()
     for elem in file_list:
         seg_set.add(elem + '\t')
-    #these are stupid discards I made because I couldn't figure out how to programmatically check that its just hanzi yet
+    #these are stupid discards I made because I couldn't figure out how to
+    #programmatically check that its just hanzi yet
     seg_set.discard('Ａ')
     seg_set.discard('Ｑ')
     seg_set.discard('《')
@@ -86,7 +88,8 @@ def add_parts_of_speech(seg_set):
         elem = seg_set.pop()
         elem_split = elem.split('\t')
 
-        pos = pynlpir.segment(elem[0], pos_tagging=True, pos_names='all', pos_english=True)
+        pos = pynlpir.segment(elem[0], pos_tagging=True, pos_names='all',
+                                pos_english=True)
         pos = pos[0][1].split(':')
         for part in pos:
             elem += '\t' + part
@@ -111,7 +114,8 @@ def remove_hsk_vocab(seg_set):
                 liness = line.split()
                 hsk_dict[liness[0]] = liness[1]
 
-    #seg_set = [elem for elem in seg_set if elem.split()[0] in hsk_dict and int(hsk_dict[elem.split()[0]]) < hsk_level]
+    #seg_set = [elem for elem in seg_set if elem.split()[0] in hsk_dict and
+    #int(hsk_dict[elem.split()[0]]) < hsk_level]
     for elem in seg_set:
         hanzi = elem.split('\t')[0]
         if hanzi in hsk_dict and int(hsk_dict[hanzi]) < hsk_level:
@@ -172,9 +176,9 @@ def main(f):
 
 if __name__ == "__main__":
     #walk through optional args
-    global quiet, upper_freq_bound, lower_freq_bound, simp_or_trad, hsk_level, hsk_filtering
-    global tocfl_level, tocfl_filtering, add_freq_to_output, freq_filtering, add_pos_to_output
-    global exclude_surname_definition
+    global quiet, upper_freq_bound, lower_freq_bound, simp_or_trad, hsk_level
+    global hsk_filtering, tocfl_level, tocfl_filtering, add_freq_to_output
+    global freq_filtering, add_pos_to_output, exclude_surname_definition
 
     exclude_surname_definition = 1
     add_pos_to_output = 0
