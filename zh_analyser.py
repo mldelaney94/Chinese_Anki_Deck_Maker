@@ -1,6 +1,7 @@
 """This script takes a Chinese text document and creates a list of words in the
 document. The words definitions, pinyin and word frequency is added
-You can choose to ignore words for import that are above a certain frequency
+You can choose to ignore words for import that are above a certain frequency,
+or below a certain level on the HSK or TOCFL test
 Matthew Delaney 2020"""
 
 import sys
