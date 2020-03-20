@@ -59,7 +59,7 @@ def add_pinyin_and_definition(h_set, zh_dict):
                 elif index == 1: #pinyin
                     elem += str(attrib) + '\t'
                 else: #english
-                    if exclude_surname_definition and 'surname' in attrib:
+                    if EXCLUDE_SURNAME_DEFINITION and 'surname' in attrib:
                         pass
                     else:
                         elem += str(eng_attrib_num) + '. ' + str(attrib) + ';'
@@ -74,22 +74,22 @@ def add_freq_to_elem(elem, freq):
 
 def filter_by_freq(seg_set):
     """Filters words based on their relative frequency"""
-    if not freq_filtering:
+    if not FREQ_FILTERING:
         return seg_set
     freq_set = set()
     while seg_set:
         elem = seg_set.pop()
         ssplit = elem.split('\t')
         freq = zipf_frequency(ssplit[0], 'zh', wordlist='large')
-        if freq > lower_freq_bound and freq < upper_freq_bound:
-            if add_freq_to_output:
+        if freq > LOWER_FREQ_BOUND and freq < UPPER_FREQ_BOUND:
+            if ADD_FREQ_TO_OUTPUT:
                 elem = add_freq_to_elem(elem, freq)
             freq_set.add(elem)
     return freq_set
 
 def add_parts_of_speech(seg_set):
     """Parts of speech such as noun, verb will be added to entries where available"""
-    if not add_pos_to_output:
+    if not ADD_POS_TO_OUTPUT:
         return seg_set
     pynlpir.open()
     pos_set = set()
@@ -107,11 +107,11 @@ def add_parts_of_speech(seg_set):
 
 def remove_hsk_vocab(seg_set):
     """Filters HSK vocab"""
-    if not hsk_filtering:
+    if not HSK_FILTERING:
         return seg_set
     hsk_dict = {}
     hsk_filtered_set = set()
-    if simp_or_trad == 'trad':
+    if SIMP_OR_TRAD == 'trad':
         with open('HSK_materials/HSK_1-6_trad.txt', 'r') as h:
             for line in h:
                 liness = line.split()
@@ -123,10 +123,10 @@ def remove_hsk_vocab(seg_set):
                 hsk_dict[liness[0]] = liness[1]
 
     #seg_set = [elem for elem in seg_set if elem.split()[0] in hsk_dict and
-    #int(hsk_dict[elem.split()[0]]) < hsk_level]
+    #int(hsk_dict[elem.split()[0]]) < HSK_LEVEL]
     for elem in seg_set:
         hanzi = elem.split('\t')[0]
-        if hanzi in hsk_dict and int(hsk_dict[hanzi]) < hsk_level:
+        if hanzi in hsk_dict and int(hsk_dict[hanzi]) < HSK_LEVEL:
             pass
         else:
             hsk_filtered_set.add(elem)
@@ -135,11 +135,11 @@ def remove_hsk_vocab(seg_set):
 
 def remove_tocfl_vocab(seg_set):
     """filters TOCFL vocab"""
-    if not tocfl_filtering:
+    if not TOCFL_FILTERING:
         return seg_set
     tocfl_dict = {}
     tocfl_filtered_set = set()
-    if simp_or_trad == 'trad':
+    if SIMP_OR_TRAD == 'trad':
         with open('TOCFL_materials/TOCFL_1-5_trad.txt', 'r') as h:
             for line in h:
                 liness = line.split()
@@ -152,7 +152,7 @@ def remove_tocfl_vocab(seg_set):
 
     for elem in seg_set:
         hanzi = elem.split('\t')[0]
-        if hanzi in tocfl_dict and int(tocfl_dict[hanzi]) < tocfl_level:
+        if hanzi in tocfl_dict and int(tocfl_dict[hanzi]) < TOCFL_LEVEL:
             pass
         else:
             tocfl_filtered_set.add(elem)
@@ -161,7 +161,6 @@ def remove_tocfl_vocab(seg_set):
 
 def add_newlines(seg_set):
     newline_set = [elem + '\n' for elem in seg_set]
-
     return newline_set
 
 def save_generated_set(seg_set, location):
@@ -170,7 +169,7 @@ def save_generated_set(seg_set, location):
 
 def main(f):
     """Parses text and applies filters"""
-    zh_dict = cc_cedict_parser.parse_dict(simp_or_trad)
+    zh_dict = cc_cedict_parser.parse_dict(SIMP_OR_TRAD)
     jieba.set_dictionary('dicts/jieba_dict_large.txt')
 
     seg_set = segment_NLP(f)
@@ -184,24 +183,23 @@ def main(f):
     save_generated_set(seg_set, sys.argv[2])
 
 if __name__ == "__main__":
-    """Sets up file for running by itself"""
     #walk through optional args
-    global quiet, upper_freq_bound, lower_freq_bound, simp_or_trad, hsk_level
-    global hsk_filtering, tocfl_level, tocfl_filtering, add_freq_to_output
-    global freq_filtering, add_pos_to_output, exclude_surname_definition
+    global QUIET, UPPER_FREQ_BOUND, LOWER_FREQ_BOUND, SIMP_OR_TRAD, HSK_LEVEL
+    global HSK_FILTERING, TOCFL_LEVEL, TOCFL_FILTERING, ADD_FREQ_TO_OUTPUT
+    global FREQ_FILTERING, ADD_POS_TO_OUTPUT, EXCLUDE_SURNAME_DEFINITION
 
-    exclude_surname_definition = 0
-    add_pos_to_output = 1
-    hsk_level = 7 #needs to be one above desired lvl of filtering
-    hsk_filtering = 1
-    tocfl_level = 6
-    tocfl_filtering = 1
-    add_freq_to_output = 1
-    freq_filtering = 0
-    simp_or_trad = 'trad'
-    quiet = False
-    upper_freq_bound = 3.0
-    lower_freq_bound = 0.0
+    EXCLUDE_SURNAME_DEFINITION = 0
+    ADD_POS_TO_OUTPUT = 1
+    HSK_LEVEL = 7 #needs to be one above desired lvl of filtering
+    HSK_FILTERING = 1
+    TOCFL_LEVEL = 6
+    TOCFL_FILTERING = 1
+    ADD_FREQ_TO_OUTPUT = 1
+    FREQ_FILTERING = 0
+    SIMP_OR_TRAD = 'trad'
+    QUIET = False
+    UPPER_FREQ_BOUND = 3.0
+    LOWER_FREQ_BOUND = 0.0
 
     if len(sys.argv) < 3:
         print("Please give the location of the file to be read and the save file location")
