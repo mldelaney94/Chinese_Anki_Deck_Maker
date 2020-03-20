@@ -87,7 +87,6 @@ def filter_by_freq(seg_set):
             freq_set.add(elem)
     return freq_set
 
-
 def add_parts_of_speech(seg_set):
     """Parts of speech such as noun, verb will be added to entries where available"""
     if not add_pos_to_output:
@@ -160,7 +159,6 @@ def remove_tocfl_vocab(seg_set):
 
     return tocfl_filtered_set
 
-
 def add_newlines(seg_set):
     newline_set = [elem + '\n' for elem in seg_set]
 
@@ -171,6 +169,7 @@ def save_generated_set(seg_set, location):
         g.write("".join(seg_set))
 
 def main(f):
+    """Parses text and applies filters"""
     zh_dict = cc_cedict_parser.parse_dict(simp_or_trad)
     jieba.set_dictionary('dicts/jieba_dict_large.txt')
 
@@ -185,6 +184,7 @@ def main(f):
     save_generated_set(seg_set, sys.argv[2])
 
 if __name__ == "__main__":
+    """Sets up file for running by itself"""
     #walk through optional args
     global quiet, upper_freq_bound, lower_freq_bound, simp_or_trad, hsk_level
     global hsk_filtering, tocfl_level, tocfl_filtering, add_freq_to_output

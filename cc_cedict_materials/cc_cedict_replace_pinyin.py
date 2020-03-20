@@ -1,51 +1,66 @@
-import sys
-from pypinyin import lazy_pinyin, Style
+""" This program makes a new dictionary with accent pinyin instead of numbered
+pinyin. """
 
-with open('cedict_ts.u8') as file:
-    text = file.read()
-    lines = text.split('\n')
+REP = {'iang4': 'iàng', 'iang3': 'iăng', 'iang2': 'iáng', 'iang1': 'iāng',
+       'iong4': 'iòng', 'iong3': 'iŏng', 'iong2': 'ióng', 'iong1': 'iōng',
+       'uang4': 'uàng', 'uang3': 'uăng', 'uang2': 'uáng', 'uang1': 'uāng',
+       'iao1': 'iāo', 'iao4': 'iào', 'iao3': 'iăo', 'iao2':'iáo',
+       'eng4': 'èng', 'eng3': 'ĕng', 'eng2': 'éng', 'eng1': 'ēng',
+       'ang4': 'àng', 'ang3': 'ăng', 'ang2': 'áng', 'ang1': 'āng',
+       'ian4': 'iàn', 'ian3': 'iăn', 'ian2': 'ián', 'ian1': 'iān',
+       'ong4': 'òng', 'ong3': 'ŏng', 'ong2': 'óng', 'ong1': 'ōng',
+       'uan4': 'uàn', 'uan3': 'uăn', 'uan2': 'uán', 'uan1': 'uān',
+       'ing4': 'ìng', 'ing3': 'ĭng', 'ing2': 'íng', 'ing1': 'īng',
+       'uai1': 'uāi', 'uai4': 'uài', 'uai3': 'uăi', 'uai2': 'uái',
+       'ao1': 'āo', 'ao4': 'ào', 'ao3': 'ăo', 'ao2':'áo',
+       'ai1': 'āi', 'ai4': 'ài', 'ai3': 'ăi', 'ai2':'ái',
+       'au1': 'āu', 'au4': 'àu', 'au3': 'ău', 'au2':'áu',
+       'ei1': 'ēi', 'ei2': 'éi', 'ei3': 'ĕi', 'ei4': 'èi',
+       'an4': 'àn', 'an3': 'ăn', 'an2': 'án', 'an1': 'ān',
+       'en4': 'èn', 'en3': 'ĕn', 'en2': 'én', 'en1': 'ēn',
+       'ie4': 'iè', 'ie3': 'iĕ', 'ie2': 'ié', 'ie1': 'iē',
+       'iu4': 'iù', 'iu3': 'iŭ', 'iu2': 'iú', 'iu1': 'iū',
+       'ia4': 'ià', 'ia3': 'iă', 'ia2': 'iá', 'ia1': 'iā',
+       'on4': 'òn', 'on3': 'ŏn', 'on2': 'ón', 'on1': 'ōn',
+       'ou4': 'òu', 'ou3': 'ŏu', 'ou2': 'óu', 'ou1': 'ōu',
+       'uo4': 'uò', 'uo3': 'uŏ', 'uo2': 'uó', 'uo1': 'uō',
+       'ua4': 'uà', 'ua3': 'uă', 'ua2': 'uá', 'ua1': 'uā',
+       'in4': 'ìn', 'in3': 'ĭn', 'in2': 'ín', 'in1': 'īn',
+       'ui4': 'uì', 'ui3': 'uĭ', 'ui2': 'uí', 'ui1': 'uī',
+       'er2': 'ér', 'er3': 'ĕr', 'er4': 'èr', 'Er2': 'ér', 'Er3': 'ĕr', 'Er4': 'èr',
+       'un4': 'ùn', 'un3': 'ŭn', 'un2': 'ún', 'un1': 'ūn',
+       'i4': 'ì', 'i3': 'ĭ', 'i2': 'í', 'i1': 'ī',
+       'a1': 'ā', 'a4': 'à', 'a3': 'ă', 'a2':'á',
+       'e4': 'è', 'e3': 'ĕ', 'e2': 'é', 'e1': 'ē',
+       'o4': 'ò', 'o3': 'ŏ', 'o2': 'ó', 'o1': 'ō',
+       'u4': 'ù', 'u3': 'ŭ', 'u2': 'ú', 'u1': 'ū',
+       'u:4': 'ǜ', 'u:3': 'ǚ', 'u:2': 'ǘ', 'u:1': 'ǖ',
+       }
+KEYS = REP.keys()
 
 #define functions
 
-    def parse_lines(lines):
-        dictionary = []
-        for line in lines:
-            if line == '':
-                continue
+def parse_lines(lines):
+    """ Reconstruct the dictionary by search and replacing all pinyin """
+    dictionary = []
+    for line in lines:
+        for key in KEYS:
+            if key in line:
+                line = line.replace(key, REP[key])
+        dictionary.append(line)
+    return dictionary
 
-            liness = line.split(' ')
-            p_list = lazy_pinyin(liness[0], style=Style.TONE, errors='default')
-            p_list.reverse() #will insert in reverse
-
-            s = list(line)
-            charCount = 0
-            for char in s:
-                if char == '[':
-                    index = s.index(char)
-                    index += 1 #insert/delete at index after '['
-                    while s[index] != ']':
-                        del(s[index])
-                    for pin in p_list:
-                        s.insert(index, pin)
-                    print(s[index])
-            dictionary.append(s)
-        return dictionary
-        
-
-    def parse_dict():
-
-        #make each line into a dictionary
-        print("Parsing dictionary . . .")
-        dictionary = parse_lines(lines)
-        with open('test.txt', 'w+') as f:
-            for line in dictionary:
-                to_write = "".join(line) + '\n'
-                #print(to_write)
-                f.write(to_write)
-
-        return dictionary
-
+def parse_dict():
+    """ Saves the dictionary created by parse_lines """
+    print("Parsing dictionary . . .")
+    dictionary = []
+    with open('cedict_ts.u8', 'r') as f:
+        dictionary = parse_lines(f)
+    with open('test.txt', 'w+') as f:
+        for line in dictionary:
+            to_write = "".join(line)
+            f.write(to_write)
 
 if __name__ == "__main__":
-    parsed_dict = parse_dict()
+    parse_dict()
     print('Done!')
