@@ -7,42 +7,22 @@ Matthew Delaney 2020"""
 import sys
 
 import jieba
-from wordfreq import zipf_frequency
+from more_itertools import unique_everseen
 import pynlpir
+from wordfreq import zipf_frequency
 
 from cc_cedict_materials import cc_cedict_parser
 
 def segment_NLP(in_file):
-    """Segments zh input using Jieba NLP"""
+    """ Segments zh input using Jieba NLP, returns a list of lists with the
+    words as their first entries """
     word_list = []
-    seg_set = set()
     with open(in_file, 'r') as g:
         for line in g:
-            line = line.strip(' 「」。: ，')
             word_list += jieba.cut(line, cut_all=False) #accurate mode
-    for word in word_list:
-        seg_set.add(word + '\t')
-    #these are stupid discards I made because I couldn't figure out how to
-    #programmatically check that its just hanzi yet
-    seg_set.discard('Ａ')
-    seg_set.discard('Ｑ')
-    seg_set.discard('《')
-    seg_set.discard('，')
-    seg_set.discard('。')
-    seg_set.discard('\n')
-    seg_set.discard('」')
-    seg_set.discard('？')
-    seg_set.discard('、')
-    seg_set.discard('：')
-    seg_set.discard('》')
-    seg_set.discard('*')
-    seg_set.discard('；')
-    seg_set.discard('「')
-    seg_set.discard('—')
-    seg_set.discard('你給')
-    seg_set.discard('Ｊ')
-    seg_set.discard(' ')
-    return seg_set
+    word_list = list(unique_everseen(word_list))
+    word_list = [[el] for el in word_list]
+    return word_list
 
 def add_pinyin_and_definition(h_set, zh_dict):
     """Adds pinyin and definition from zh_dict to entries in hanzi_set"""
@@ -81,7 +61,7 @@ def filter_by_freq(seg_set):
         elem = seg_set.pop()
         ssplit = elem.split('\t')
         freq = zipf_frequency(ssplit[0], 'zh', wordlist='large')
-        if freq > LOWER_FREQ_BOUND and freq < UPPER_FREQ_BOUND:
+        if LOWER_FREQ_BOUND < freq < UPPER_FREQ_BOUND:
             if ADD_FREQ_TO_OUTPUT:
                 elem = add_freq_to_elem(elem, freq)
             freq_set.add(elem)
@@ -172,7 +152,7 @@ def main(f):
     zh_dict = cc_cedict_parser.parse_dict(SIMP_OR_TRAD)
     jieba.set_dictionary('dicts/jieba_dict_large.txt')
 
-    seg_set = segment_NLP(f)
+    seg_list = segment_NLP(f)
     seg_set = filter_by_freq(seg_set)
     seg_set = remove_tocfl_vocab(seg_set)
     seg_set = remove_hsk_vocab(seg_set)
@@ -187,7 +167,9 @@ if __name__ == "__main__":
     global QUIET, UPPER_FREQ_BOUND, LOWER_FREQ_BOUND, SIMP_OR_TRAD, HSK_LEVEL
     global HSK_FILTERING, TOCFL_LEVEL, TOCFL_FILTERING, ADD_FREQ_TO_OUTPUT
     global FREQ_FILTERING, ADD_POS_TO_OUTPUT, EXCLUDE_SURNAME_DEFINITION
+    global SORT_BY_FREQ
 
+    SORT_BY_FREQ = 1
     EXCLUDE_SURNAME_DEFINITION = 0
     ADD_POS_TO_OUTPUT = 1
     HSK_LEVEL = 7 #needs to be one above desired lvl of filtering
@@ -195,13 +177,14 @@ if __name__ == "__main__":
     TOCFL_LEVEL = 6
     TOCFL_FILTERING = 1
     ADD_FREQ_TO_OUTPUT = 1
-    FREQ_FILTERING = 0
+    FREQ_FILTERING = 1
     SIMP_OR_TRAD = 'trad'
     QUIET = False
     UPPER_FREQ_BOUND = 3.0
-    LOWER_FREQ_BOUND = 0.0
+    LOWER_FREQ_BOUND = 2.5
 
     if len(sys.argv) < 3:
-        print("Please give the location of the file to be read and the save file location")
+        print("Please give the location of the file to be read and the save" +
+              "file location, in that order")
 
     main(sys.argv[1])
