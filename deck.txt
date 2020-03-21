@@ -1,999 +1,999 @@
-向	5.99	Xiàng	['towards', 'to face', 'to turn towards', 'direction', 'to support', 'to side with', 'shortly before', 'formerly', 'always', 'all along', '(suffix) suitable for ...', 'oriented to ...']	['preposition']	
-兩	5.99	liăng	['two', 'both', 'some', 'a few', 'tael, unit of weight equal to 50 grams (modern) or 1⁄16 of a catty 斤[jīn] (old)']	['noun']	
-們	5.96	men	['plural marker for pronouns, and nouns referring to individuals']	['noun']	
-卻	5.96	què	['but', 'yet', 'however', 'while', 'to go back', 'to decline', 'to retreat', 'nevertheless', 'even though']	['noun']	
-該	5.96	gāi	['should', 'ought to', 'probably', 'must be', 'to deserve', 'to owe', "to be sb's turn to do sth", 'that', 'the above-mentioned']	['noun']	
-已	5.95	yĭ	['already', 'to stop', 'then', 'afterwards']	['adverb']	
-前	5.95	qián	['front', 'forward', 'ahead', 'first', 'top (followed by a number)', 'future', 'ago', 'before', 'BC (e.g. 前293年)', 'former', 'formerly']	['noun of locality']	
-再	5.94	zài	['again', 'once more', 're-', 'second', 'another', 'then (after sth, and not until then)', 'no matter how ... (followed by an adjective or verb, and then (usually) 也[yĕ] or 都[dōu] for emphasis)']	['adverb']	
-當	5.94	dāng	['to be', 'to act as', 'manage', 'withstand', 'when', 'during', 'ought', 'should', 'match equally', 'equal', 'same', 'obstruct', 'just at (a time or place)', 'on the spot', 'right', 'just at', 'at or in the very same...', 'suitable', 'adequate', 'fitting', 'proper', 'to replace', 'to regard as', 'to think', 'to pawn', '(coll.) to fail (a student)']	['noun']	
-時候	5.92	shí hou	['time', 'length of time', 'moment', 'period']	['noun']	
-才	5.91	cái	['ability', 'talent', 'sb of a certain type', 'a capable individual', 'only', 'only then', 'just now']	['adverb']	
-長	5.9	cháng	['length', 'long', 'forever', 'always', 'constantly', 'chief', 'head', 'elder', 'to grow', 'to develop', 'to increase', 'to enhance']	['noun']	
-起來	5.89	qĭ lai	['to stand up', 'to get up', 'also pr. [qĭ lái]', '(after a verb) indicating the beginning and continuation of an action or a state', 'indicating an upward movement (e.g. after 站[zhàn])', 'indicating completion', '(after a perception verb, e.g. 看[kàn]) expressing preliminary judgment', 'also pr. [qĭ lai]']	['verb', 'directional verb']	
-事	5.89	shì	['matter', 'thing', 'item', 'work', 'affair', 'CL:件[jiàn],樁|桩[zhuāng],回[huí]']	['noun']	
-不能	5.89	bù néng	['cannot', 'must not', 'should not']	['adverb']	
-地方	5.87	dì fāng	['region', 'regional (away from the central administration)', 'local', 'area', 'place', 'space', 'room', 'territory', 'CL:處|处[chù],個|个[gè],塊|块[kuài]']	['noun']	
-小	5.87	xiăo	['small', 'tiny', 'few', 'young']	['adjective']	
-走	5.86	zŏu	['to walk', 'to go', 'to run', 'to move (of vehicle)', 'to visit', 'to leave', 'to go away', 'to die (euph.)', 'from', 'through', 'away (in compound verbs, such as 撤走[chè zŏu])', 'to change (shape, form, meaning)']	['verb']	
-三	5.86	Sān	['three', '3']	['numeral']	
-應該	5.84	yīng gāi	['ought to', 'should', 'must']	['noun']	
-聽	5.82	tīng	['to listen', 'to hear', 'to obey', 'a can (loanword from English "tin")', 'classifier for canned beverages', '(literary pronunciation, still advocated in Taiwan) to rule', 'to sentence', 'to allow']	['noun']	
-使	5.81	shĭ	['to make', 'to cause', 'to enable', 'to use', 'to employ', 'to send', 'to instruct sb to do sth', 'envoy', 'messenger']	['verb']	
-日本	5.81	Rì bĕn	['Japan']	['noun', 'toponym', 'transcribed toponym']	
-天	5.81	tiān	['day', 'sky', 'heaven']	['noun']	
-還有	5.8	hái yŏu	['furthermore', 'in addition', 'still', 'also']	['noun']	
-出現	5.8	chū xiàn	['to appear', 'to arise', 'to emerge', 'to show up']	['verb', 'directional verb']	
-這裡	5.8	zhè lĭ	['here']	['noun']	
-起	5.79	qĭ	['to rise', 'to raise', 'to get up', 'to set out', 'to start', 'to appear', 'to launch', 'to initiate (action)', 'to draft', 'to establish', 'to get (from a depot or counter)', 'verb suffix, to start', 'starting from (a time, place, price etc)', 'classifier for occurrences or unpredictable events: case, instance', 'classifier for groups: batch, group']	['verb', 'directional verb']	
-一樣	5.79	yī yàng	['same', 'like', 'equal to', 'the same as', 'just like']	['numeral']	
-所有	5.79	suŏ yŏu	['all', 'to have', 'to possess', 'to own']	['distinguishing word']	
-如	5.79	rú	['as', 'as if', 'such as']	['verb']	
-呢	5.79	ne	['particle indicating that a previously asked question is to be applied to the preceding word ("What about ...?", "And ...?")', 'particle for inquiring about location ("Where is ...?")', 'particle signaling a pause, to emphasize the preceding words and allow the listener time to take them on board ("ok?", "are you with me?")', '(at the end of a declarative sentence) particle indicating continuation of a state or action', 'particle indicating strong affirmation', 'woolen material']	['modal particle']	
-覺得	5.79	jué de	['to think', 'to feel']	['noun']	
-不會	5.78	bù huì	['improbable', 'unlikely', 'will not (act, happen etc)', 'not able', 'not having learned to do sth', "(coll.) (Tw) don't mention it", 'not at all']	['adverb']	
-家	5.78	jiā	['home', 'family', '(polite) my (sister, uncle etc)', 'classifier for families or businesses', 'refers to the philosophical schools of pre-Han China', 'noun suffix for a specialist in some activity, such as a musician or revolutionary, corresponding to English -ist, -er, -ary or -ian', 'CL:個|个[gè]']	['noun']	
-像	5.77	xiàng	['to resemble', 'to be like', 'to look as if', 'such as', 'appearance', 'image', 'portrait', 'image under a mapping (math.)']	['verb']	
-問	5.77	wèn	['to ask']	['noun']	
-跟	5.77	gēn	['heel', 'to follow closely', 'to go with', '(of a woman) to marry sb', 'with', 'compared with', 'to', 'towards', 'and (joining two nouns)']	['preposition']	
-怎麼	5.77	zĕn me	['how?', 'what?', 'why?']	['pronoun', 'interrogative pronoun', 'predicate interrogative pronoun']	
-還是	5.77	hái shi	['or', 'still', 'nevertheless', 'had better']	['noun']	
-比	5.76	Bĭ	['Belgium', 'Belgian', 'abbr. for 比利時|比利时[Bĭ lì shí]', 'euphemistic variant of 屄[bī]', '(particle used for comparison and "-er than")', 'to compare', 'to contrast', 'to gesture (with hands)', 'ratio', 'to associate with', 'to be near']	['preposition']	
-不過	5.76	bù guò	['only', 'merely', 'no more than', 'but', 'however', 'anyway (to get back to a previous topic)', 'cannot be more (after adjectival)']	['adverb']	
-帶	5.75	dài	['band', 'belt', 'girdle', 'ribbon', 'tire', 'area', 'zone', 'region', 'CL:條|条[tiáo]', 'to wear', 'to carry', 'to take along', 'to bear (i.e. to have)', 'to lead', 'to bring', 'to look after', 'to raise']	['noun']	
-道	5.75	dào	['road', 'path', 'CL:條|条[tiáo],股[gŭ]', 'principle', 'truth', 'morality', 'reason', 'skill', 'method', 'Dao (of Daoism)', 'to say', 'to speak', 'to talk', 'classifier for long thin things (rivers, cracks etc), barriers (walls, doors etc), questions (in an exam etc), commands, courses in a meal, steps in a process', '(old) circuit (administrative division)']	['noun']	
-請	5.75	qĭng	['to ask', 'to invite', 'please (do sth)', 'to treat (to a meal etc)', 'to request']	['noun']	
-只是	5.74	zhĭ shì	['merely', 'simply', 'only', 'but']	['adverb']	
-出來	5.73	chū lái	['to come out', 'to appear', 'to arise', '(after a verb, indicates coming out, completion of an action, or ability to discern or detect)']	['verb', 'directional verb']	
-吧	5.72	bā	['bar (loanword) (serving drinks, or providing Internet access etc)', 'to puff (on a pipe etc)', '(onom.) bang', 'abbr. for 貼吧|贴吧[tiē bā]', '(modal particle indicating suggestion or surmise)', '...right?', '...OK?', '...I presume.', '(onom.) smack!']	['modal particle']	
-當時	5.72	dāng shí	['then', 'at that time', 'while', 'at once', 'right away']	['noun']	
-那麼	5.72	nà me	['like that', 'in that way', 'or so', 'so', 'so very much', 'about', 'in that case']	['pronoun', 'demonstrative pronoun', 'predicate demonstrative pronoun']	
-孩子	5.71	hái zi	['child']	['noun']	
-誰	5.71	shéi	['who', 'also pr. [shuí]']	['noun']	
-便	5.71	biàn	['plain', 'informal', 'suitable', 'convenient', 'opportune', 'to urinate or defecate', 'equivalent to 就[jiù]: then', 'in that case', 'even if', 'soon afterwards', 'see 便宜|便宜[pián yi]']	['adverb']	
-最後	5.7	zuì hòu	['final', 'last', 'finally', 'ultimate']	['adverb']	
-之後	5.7	zhī hòu	['afterwards', 'following', 'later', 'after']	['pronoun', 'demonstrative pronoun']	
-見	5.69	jiàn	['to see', 'to meet', 'to appear (to be sth)', 'to interview', 'to appear', 'also written 現|现[xiàn]']	['noun']	
-你們	5.69	nĭ men	['you (plural)']	['pronoun', 'personal pronoun']	
-因	5.67	yīn	['cause', 'reason', 'because']	['preposition']	
-這麼	5.66	zhè me	['so much', 'this much', 'how much?', 'this way', 'like this']	['noun']	
-過去	5.66	guò qù	['(in the) past', 'former', 'previous', 'to go over', 'to pass by', '(verb suffix)']	['noun']	
-特別	5.66	tè bié	['especially', 'special', 'particular', 'unusual']	['adjective', 'adjective morpheme']	
-吃	5.64	chī	['to eat', 'to consume', 'to eat at (a cafeteria etc)', 'to eradicate', 'to destroy', 'to absorb', 'to suffer', 'to stammer (Taiwan pr. for this sense is [jí])']	['verb']	
-打	5.64	dá	['dozen (loanword)', 'to beat', 'to strike', 'to hit', 'to break', 'to type', 'to mix up', 'to build', 'to fight', 'to fetch', 'to make', 'to tie up', 'to issue', 'to shoot', 'to calculate', 'to play (a game)', 'since', 'from']	['verb']	
-叫	5.64	jiào	['to shout', 'to call', 'to order', 'to ask', 'to be called', 'by (indicates agent in the passive mood)']	['verb', 'intransitive verb']	
-錢	5.64	Qián	['coin', 'money', 'CL:筆|笔[bĭ]', 'unit of weight, one tenth of a tael 兩|两[liăng]']	['noun']	
-獲得	5.63	huò dé	['to obtain', 'to receive', 'to get']	['noun']	
-那些	5.63	nà xiē	['those']	['pronoun', 'demonstrative pronoun']	
-啊	5.63	ā	['interjection of surprise', 'Ah!', 'Oh!', 'interjection expressing doubt or requiring answer', 'Eh?', 'what?', 'interjection of surprise or doubt', 'Eh?', 'My!', "what's up?", 'interjection or grunt of agreement', 'uhm', 'Ah, OK', 'expression of recognition', "Oh, it's you!", 'modal particle ending sentence, showing affirmation, approval, or consent']	['modal particle']	
-正	5.63	zhēng	['first month of the lunar year', 'straight', 'upright', 'proper', 'main', 'principal', 'to correct', 'to rectify', 'exactly', 'just (at that time)', 'right (in that place)', '(math.) positive']	['adverb']	
-然後	5.62	rán hòu	['after', 'then (afterwards)', 'after that', 'afterwards']	['pronoun', 'demonstrative pronoun']	
-大家	5.62	dà jiā	['everyone', 'influential family', 'great expert']	['pronoun', 'personal pronoun']	
-另	5.6	lìng	['other', 'another', 'separate', 'separately']	['pronoun', 'demonstrative pronoun']	
-一起	5.6	yī qĭ	['in the same place', 'together', 'with', 'altogether (in total)']	['numeral']	
-當然	5.6	dāng rán	['only natural', 'as it should be', 'certainly', 'of course', 'without doubt']	['noun']	
-一直	5.59	yī zhí	['straight (in a straight line)', 'continuously', 'always', 'from the beginning of ... up to ...', 'all along']	['adverb']	
-如何	5.58	rú hé	['how', 'what way', 'what']	['pronoun', 'interrogative pronoun', 'predicate interrogative pronoun']	
-站	5.58	zhàn	['station', 'to stand', 'to halt', 'to stop', 'branch of a company or organization', 'website']	['verb', 'intransitive verb']	
-回	5.58	huí	['to circle', 'to go back', 'to turn around', 'to answer', 'to return', 'to revolve', 'Hui ethnic group (Chinese Muslims)', 'time', 'classifier for acts of a play', 'section or chapter (of a classic book)']	['verb']	
-作	5.58	zuō	['worker', 'workshop', '(slang) troublesome', 'high-maintenance (person)', 'to do', 'to grow', 'to write or compose', 'to pretend', 'to regard as', 'to feel', 'writings or works']	['verb']	
-喜歡	5.57	xĭ huan	['to like', 'to be fond of']	['verb']	
-準備	5.57	zhŭn bèi	['preparation', 'to prepare', 'to intend', 'to be about to', 'reserve (fund)']	['noun']	
-計劃	5.56	jì huà	['plan', 'project', 'program', 'to plan', 'to map out', 'CL:個|个[gè],項|项[xiàng]']	['noun']	
-以後	5.56	yĭ hòu	['after', 'later', 'afterwards', 'following', 'later on', 'in the future']	['preposition']	
-行	5.56	háng	['row', 'line', 'commercial firm', 'line of business', 'profession', "to rank (first, second etc) among one's siblings (by age)", '(in data tables) row', '(Tw) column', 'to walk', 'to go', 'to travel', 'a visit', 'temporary', 'makeshift', 'current', 'in circulation', 'to do', 'to perform', 'capable', 'competent', 'effective', 'all right', 'OK!', 'will do', 'behavior', 'conduct', 'Taiwan pr. [xìng] for the behavior-conduct sense']	['verb', 'intransitive verb']	
-完全	5.56	wán quán	['complete', 'whole', 'totally', 'entirely']	['adjective']	
-二	5.56	èr	['two', '2', '(Beijing dialect) stupid']	['numeral']	
-外	5.56	wài	['outside', 'in addition', 'foreign', 'external']	['noun of locality']	
-那個	5.55	nà ge	['that one', 'that thing', 'that (as opposed to this)', '(used before a verb or adjective for emphasis)', "(used to humorously or indirectly refer to sth embarrassing, funny etc, or when one can't think of the right word)", '(used in speech as a filler, similar to "umm", "you know" etc)', '(euph.) menstruation', 'sex', 'also pr. [nèi ge]']	['pronoun', 'demonstrative pronoun', 'predicate demonstrative pronoun']	
-告訴	5.55	gào sù	['to press charges', 'to file a complaint', 'to tell', 'to inform', 'to let know']	['verb']	
-每	5.54	mĕi	['each', 'every']	['pronoun', 'demonstrative pronoun']	
-進入	5.53	jìn rù	['to enter', 'to join', 'to go into']	['noun']	
-有些	5.52	yŏu xiē	['some', 'somewhat']	['pronoun', 'demonstrative pronoun']	
-有人	5.52	yŏu rén	['someone', 'people', 'anyone', 'there is someone there', 'occupied (as in restroom)']	['pronoun']	
-不要	5.51	bù yào	["don't!", 'must not']	['adverb']	
-一次	5.49	yī cì	['first', 'first time', 'once', '(math.) linear (of degree one)']	['numeral']	
-拿	5.49	ná	['to hold', 'to seize', 'to catch', 'to apprehend', 'to take', '(used in the same way as 把[bă]: to mark the following noun as a direct object)']	['verb']	
-米	5.49	Mĭ	['rice', 'CL:粒[lì]', 'meter (classifier)']	['noun']	
-先	5.49	xiān	['early', 'prior', 'former', 'in advance', 'first']	['adverb']	
-張	5.48	Zhāng	['to open up', 'to spread', 'sheet of paper', 'classifier for flat objects, sheet', 'classifier for votes']	['noun']	
-副	5.48	fù	['secondary', 'auxiliary', 'deputy', 'assistant', 'vice-', 'abbr. for 副詞|副词 adverb', 'classifier for pairs, sets of things & facial expressions']	['distinguishing word']	
-路	5.48	Lù	['road', 'CL:條|条[tiáo]', 'journey', 'route', 'line (bus etc)', 'sort', 'kind']	['noun']	
-快	5.47	kuài	['rapid', 'quick', 'speed', 'rate', 'soon', 'almost', 'to make haste', 'clever', 'sharp (of knives or wits)', 'forthright', 'plainspoken', 'gratified', 'pleased', 'pleasant']	['adjective']	
-如此	5.46	rú cĭ	['in this way', 'so']	['pronoun', 'demonstrative pronoun', 'predicate demonstrative pronoun']	
-小時	5.46	xiăo shí	['hour', 'CL:個|个[gè]']	['adjective']	
-經過	5.46	jīng guò	['to pass', 'to go through', 'process', 'course', 'CL:個|个[gè]']	['noun']	
-故事	5.45	gù shì	['old practice', 'CL:個|个[gè]', 'narrative', 'story', 'tale']	['noun']	
-別	5.45	Bié	['to leave', 'to depart', 'to separate', 'to distinguish', 'to classify', 'other', 'another', "don't ...!", 'to pin', 'to stick (sth) in']	['noun']	
-其實	5.44	qí shí	['actually', 'in fact', 'really']	['pronoun', 'demonstrative pronoun']	
-它們	5.44	tā men	['they (for inanimate objects)']	['pronoun', 'personal pronoun']	
-些	5.44	xiē	['classifier indicating a small amount or small number greater than 1: some, a few, several']	['classifier']	
-一點	5.44	yī diăn	['a bit', 'a little', 'one dot', 'one point']	['numeral']	
-整個	5.43	zhĕng gè	['whole', 'entire', 'total']	['numeral']	
-老	5.43	lăo	['old (of people)', 'venerable (person)', 'experienced', 'of long standing', 'always', 'all the time', 'of the past', 'very', 'outdated', '(of meat etc) tough']	['adjective']	
-干	5.43	gān	['to concern', 'to interfere', 'shield', 'stem']	['verb']	
-後來	5.43	hòu lái	['afterwards', 'later']	['noun', 'personal name', 'Chinese surname']	
-先生	5.43	Xiān sheng	['Mister (Mr.)', 'teacher', 'husband', 'doctor (dialect)', 'CL:位[wèi]']	['noun']	
-幹	5.43	gàn	['tree trunk', 'main part of sth', 'to manage', 'to work', 'to do', 'capable', 'cadre', 'to kill (slang)', 'to fuck (vulgar)']	['noun']	
-乾	5.43	Qián	['one of the Eight Trigrams 八卦[bā guà], symbolizing heaven', 'male principle', '☰', 'ancient Chinese compass point: 315° (northwest)', 'dry', 'clean', 'in vain', 'dried food', 'foster', 'adoptive', 'to ignore']	['noun', 'noun morpheme']	
-手	5.42	shŏu	['hand', '(formal) to hold', 'person engaged in certain types of work', 'person skilled in certain types of work', 'personal(ly)', 'convenient', 'classifier for skill', 'CL:雙|双[shuāng],隻|只[zhī]']	['noun']	
-根本	5.42	gēn bĕn	['fundamental', 'basic', 'root', 'simply', 'absolutely (not)', '(not) at all', 'CL:個|个[gè]']	['noun']	
-下來	5.41	xià lai	['to come down', '(completed action marker)', '(after verb of motion, indicates motion down and towards us, also fig.)', '(indicates continuation from the past towards us)', 'to be harvested (of crops)', 'to be over (of a period of time)', 'to go among the masses (said of leaders)']	['verb', 'directional verb']	
-那裡	5.41	nà li	['there', 'that place']	['pronoun', 'demonstrative pronoun', 'predicate demonstrative pronoun']	
-辦法	5.41	bàn fă	['means', 'method', 'way (of doing sth)', 'CL:條|条[tiáo],個|个[gè]']	['noun']	
-正在	5.4	zhèng zài	['just at (that time)', 'right in (that place)', 'right in the middle of (doing sth)']	['adverb']	
-可是	5.39	kĕ shì	['but', 'however', '(used for emphasis) indeed']	['conjunction']	
-回來	5.38	huí lai	['to return', 'to come back']	['verb']	
-女人	5.37	nǚ rén	['woman', 'wife']	['noun']	
-放	5.37	fàng	['to put', 'to place', 'to release', 'to free', 'to let go', 'to let out', 'to set off (fireworks)']	['verb']	
-水	5.36	Shuĭ	['water', 'river', 'liquid', 'beverage', 'additional charges or income', '(of clothes) classifier for number of washes']	['noun']	
-子	5.36	zĭ	['son', 'child', 'seed', 'egg', 'small thing', '1st earthly branch: 11 p.m.-1 a.m., midnight, 11th solar month (7th December to 5th January), year of the Rat', 'Viscount, fourth of five orders of nobility 五等爵位[wŭ dĕng jué wèi]', 'ancient Chinese compass point: 0° (north)', '(noun suffix)']	['noun', 'noun morpheme']	
-自然	5.35	zì rán	['nature', 'natural', 'naturally']	['noun']	
-感到	5.35	găn dào	['to feel', 'to sense', 'to have the feeling that', 'to think that', 'to move', 'to affect']	['verb']	
-多少	5.35	duō shăo	['number', 'amount', 'somewhat', 'how much?', 'how many?', '(phone number, student ID etc) what number?']	['pronoun', 'interrogative pronoun']	
-找到	5.35	zhăo dào	['to find']	['verb']	
-兒子	5.34	ér zi	['son']	['noun']	
-動	5.33	dòng	['(of sth) to move', 'to set in movement', 'to displace', 'to touch', 'to make use of', 'to stir (emotions)', 'to alter', 'abbr. for 動詞|动词[dòng cí], verb']	['noun']	
-她們	5.32	tā men	['they', 'them (for females)']	['pronoun', 'personal pronoun']	
-清楚	5.31	qīng chu	['clear', 'distinct', 'to understand thoroughly', 'to be clear about']	['adjective']	
-十分	5.31	shí fēn	['very', 'completely', 'utterly', 'extremely', 'absolutely', 'hundred percent', 'to divide into ten equal parts']	['adverb']	
-土地	5.31	tŭ dì	['land', 'soil', 'territory', 'CL:片[piàn],塊|块[kuài]', 'local god', 'genius loci']	['noun']	
-明白	5.31	míng bai	['clear', 'obvious', 'unequivocal', 'to understand', 'to realize']	['verb']	
-聲音	5.31	shēng yīn	['voice', 'sound', 'CL:個|个[gè]']	['noun']	
-簡單	5.31	jiăn dān	['simple', 'not complicated']	['noun']	
-生命	5.3	shēng mìng	['life (as the characteristic of living beings)', 'living being', 'creature', 'CL:個|个[gè],條|条[tiáo]']	['noun']	
-以前	5.3	yĭ qián	['before', 'formerly', 'previous', 'ago']	['noun of locality']	
-精神	5.3	jīng shén	['spirit', 'mind', 'consciousness', 'thought', 'mental', 'psychological', 'essence', 'gist', 'CL:個|个[gè]', 'vigor', 'vitality', 'drive', 'spiritual']	['noun']	
-那樣	5.3	nà yàng	['that kind', 'that sort']	['pronoun', 'demonstrative pronoun', 'predicate demonstrative pronoun']	
-別人	5.3	bié ren	['other people', 'others', 'other person']	['noun']	
-笑	5.29	xiào	['laugh', 'smile', 'CL:個|个[gè]']	['verb']	
-考慮	5.28	kăo lǜ	['to think over', 'to consider', 'consideration']	['verb']	
-似乎	5.28	sì hū	['apparently', 'to seem', 'to appear', 'as if', 'seemingly']	['adverb']	
-中央	5.28	zhōng yāng	['central', 'middle', 'center', 'central authorities (of a state)']	['noun']	
-坐	5.27	Zuò	['to sit', 'to take a seat', 'to take (a bus, airplane etc)', 'to bear fruit', 'variant of 座[zuò]']	['verb']	
-聲	5.27	shēng	['sound', 'voice', 'tone', 'noise', 'reputation', 'classifier for sounds']	['noun']	
-越	5.27	Yuè	['generic word for peoples or states of south China or south Asia at different historical periods', 'abbr. for Vietnam 越南', 'to exceed', 'to climb over', 'to surpass', 'the more... the more']	['adverb']	
-於是	5.26	yú shì	['thereupon', 'as a result', 'consequently', 'thus', 'hence']	['noun', 'personal name', 'Chinese surname']	
-共同	5.26	gòng tóng	['common', 'joint', 'jointly', 'together', 'collaborative']	['adverb']	
-總是	5.26	zŏng shì	['always']	['noun']	
-跑	5.26	páo	['(of an animal) to paw (the ground)', 'to run', 'to run away', 'to escape', 'to run around (on errands etc)', '(of a gas or liquid) to leak or evaporate', '(verb complement) away', 'off']	['verb']	
-農民	5.25	nóng mín	['peasant', 'farmer', 'CL:個|个[gè]']	['noun']	
-男人	5.25	nán rén	['a man', 'a male', 'men', 'CL:個|个[gè]']	['noun']	
-全部	5.25	quán bù	['whole', 'entire', 'complete']	['numeral']	
-容易	5.25	róng yì	['easy', 'likely', 'liable (to)']	['adjective']	
-金	5.25	Jīn	['Jurchen Jin dynasty (1115-1234)', 'gold', 'chemical element Au', 'generic term for lustrous and ductile metals', 'money', 'golden', 'highly respected', 'one of the eight categories of ancient musical instruments 八音[bā yīn]']	['noun', 'noun morpheme']	
-過來	5.25	guò lái	['to come over', 'to manage', 'to handle', 'to be able to take care of', 'see 過來|过来[guò lái]']	['noun']	
-以為	5.25	yĭ wéi	["to think (i.e. to take it to be true that ...) (Usually there is an implication that the notion is mistaken – except when expressing one's own current opinion.)"]	['preposition']	
-願意	5.25	yuàn yì	['to wish', 'to want', 'ready', 'willing (to do sth)']	['noun']	
-怎樣	5.24	zĕn yàng	['how', 'what kind']	['pronoun', 'interrogative pronoun', 'predicate interrogative pronoun']	
-女兒	5.24	nǚ ér	['daughter']	['distinguishing word']	
-曾經	5.23	céng jīng	['once', 'already', 'former', 'previously', 'ever', '(past tense marker used before verb or clause)']	['noun', 'personal name', 'Chinese surname']	
-名字	5.23	míng zi	['name (of a person or thing)', 'CL:個|个[gè]']	['noun']	
-倒	5.22	dăo	['to fall', 'to collapse', 'to lie horizontally', 'to overthrow', 'to fail', 'to go bankrupt', 'to change (trains or buses)', 'to move around', 'to resell at a profit', 'to place upside down', 'to invert', 'to pour', 'to throw out', 'to move backwards', 'however', 'actually', 'as a matter of fact', 'contrary to expectation']	['verb', 'intransitive verb']	
-說話	5.22	shuō huà	['to speak', 'to say', 'to talk', 'to gossip', 'to tell stories', 'talk', 'word']	['noun']	
-幫	5.22	bāng	['to help', 'to assist', 'to support', 'for sb (i.e. as a help)', 'hired (as worker)', 'side (of pail, boat etc)', 'outer layer', 'upper (of a shoe)', 'group', 'gang', 'clique', 'party', 'secret society']	['noun']	
-呀	5.21	ya	['(particle equivalent to 啊 after a vowel, expressing surprise or doubt)']	['modal particle']	
-剛	5.21	gāng	['hard', 'firm', 'strong', 'just', 'barely', 'exactly']	['noun']	
-一個個	5.21	yī gè gè	['each and every one']	['numeral']	
-穿	5.2	chuān	['to wear', 'to put on', 'to dress', 'to bore through', 'to pierce', 'to perforate', 'to penetrate', 'to pass through', 'to thread']	['verb']	
-往	5.2	wăng	['to go (in a direction)', 'to', 'towards', '(of a train) bound for', 'past', 'previous']	['preposition']	
-完	5.2	wán	['to finish', 'to be over', 'whole', 'complete', 'entire']	['verb', 'intransitive verb']	
-身上	5.2	shēn shang	['on the body', 'at hand', 'among']	['locative word']	
-晚上	5.19	wăn shang	['evening', 'night', 'CL:個|个[gè]', 'in the evening']	['time word']	
-哪	5.19	nă	['how', 'which', '(emphatic sentence-final particle, used instead of 啊[a] after a word ending in "n")', 'which? (interrogative, followed by classifier or numeral-classifier)']	['pronoun', 'interrogative pronoun']	
-經常	5.19	jīng cháng	['frequently', 'constantly', 'regularly', 'often', 'day-to-day', 'everyday', 'daily']	['noun']	
-實在	5.19	shí zài	['really', 'actually', 'indeed', 'true', 'real', 'honest', 'dependable', '(philosophy) reality']	['noun']	
-回到	5.19	huí dào	['to return to']	['verb']	
-年輕	5.18	nián qīng	['young']	['classifier', 'temporal classifier']	
-職業	5.18	zhí yè	['occupation', 'profession', 'vocation', 'professional']	['noun']	
-臉	5.18	liăn	['face', 'CL:張|张[zhāng],個|个[gè]']	['noun']	
-身體	5.18	shēn tĭ	['the body', "one's health", 'CL:具[jù],個|个[gè]', 'in person']	['noun', 'noun morpheme']	
-裡面	5.18	lĭ miàn	['inside', 'interior', 'also pr. [lĭ mian]']	['noun']	
-定	5.18	dìng	['to set', 'to fix', 'to determine', 'to decide', 'to order']	['verb']	
-聽到	5.17	tīng dào	['to hear']	['noun']	
-回答	5.17	huí dá	['to reply', 'to answer', 'the answer', 'CL:個|个[gè]']	['verb']	
-帶來	5.17	dài lái	['to bring', 'to bring about', 'to produce']	['noun']	
-常	5.17	Cháng	['always', 'ever', 'often', 'frequently', 'common', 'general', 'constant']	['adverb']	
-進一步	5.16	jìn yī bù	['one step further', 'to move forward a step', 'further onwards']	['noun']	
-突然	5.15	tū rán	['sudden', 'abrupt', 'unexpected']	['adjective']	
-女孩	5.15	nǚ hái	['girl', 'lass']	['noun']	
-高興	5.15	gāo xìng	['happy', 'glad', 'willing (to do sth)', 'in a cheerful mood']	['adjective']	
-只能	5.15	zhĭ néng	['can only', 'obliged to do sth', 'to have no other choice']	['adverb']	
-喝	5.14	hē	['to drink', 'variant of 嗬[hē]', 'to shout']	['verb', 'verb morpheme']	
-見到	5.14	jiàn dào	['to see']	['noun']	
-每天	5.14	mĕi tiān	['every day', 'everyday']	['pronoun']	
-來到	5.13	lái dào	['to come', 'to arrive']	['noun']	
-意思	5.13	yì si	['idea', 'opinion', 'meaning', 'wish', 'desire', 'interest', 'fun', 'token of appreciation, affection etc', 'CL:個|个[gè]', 'to give as a small token', 'to do sth as a gesture of goodwill etc']	['noun']	
-啦	5.12	lā	['(onom.) sound of singing, cheering etc', '(phonetic)', '(dialect) to chat', 'sentence-final particle, contraction of 了啊, indicating exclamation', 'particle placed after each item in a list of examples']	['modal particle']	
-眼睛	5.12	yăn jing	['eye', 'CL:隻|只[zhī],雙|双[shuāng]']	['noun']	
-幾個	5.11	jĭ ge	['a few', 'several', 'how many']	['noun']	
-這位	5.1	zhè wèi	['this (person)']	['noun']	
-份	5.1	fèn	['classifier for gifts, newspaper, magazine, papers, reports, contracts etc', 'variant of 分[fèn]']	['classifier']	
-位置	5.1	wèi zhi	['position', 'place', 'seat', 'CL:個|个[gè]']	['noun']	
-現實	5.09	xiàn shí	['reality', 'actuality', 'real', 'actual', 'realistic', 'pragmatic', 'materialistic', 'self-interested']	['noun']	
-七	5.09	qī	['seven', '7']	['numeral']	
-兄弟	5.09	xiōng dì	['brothers', 'younger brother', 'CL:個|个[gè]', 'I, me (humble term used by men in public speech)', 'brotherly', 'fraternal']	['noun']	
-靠	5.08	kào	['to lean against or on', 'to stand by the side of', 'to come near to', 'to depend on', 'to trust', 'to fuck (vulgar)', 'traditional military costume drama where the performers wear armor (old)']	['verb']	
-面對	5.07	miàn duì	['to confront', 'to face']	['noun']	
-興趣	5.06	xìng qù	['interest (desire to know about sth)', 'interest (thing in which one is interested)', 'hobby', 'CL:個|个[gè]']	['noun']	
-回家	5.06	huí jiā	['to return home']	['verb']	
-一下	5.06	yī xià	['(used after a verb) give it a go', 'to do (sth for a bit to give it a try)', 'one time', 'once', 'in a while', 'all of a sudden', 'all at once']	['numeral']	
-心裡	5.06	xīn li	['chest', 'heart', 'mind']	['noun']	
-知	5.05	zhī	['to know', 'to be aware']	['verb']	
-否則	5.05	fŏu zé	['if not', 'otherwise', 'else', 'or else']	['verb', 'verb morpheme']	
-樣子	5.05	yàng zi	['appearance', 'manner', 'pattern', 'model']	['noun']	
-不管	5.05	bù guăn	['not to be concerned', 'regardless of', 'no matter']	['conjunction']	
-充滿	5.04	chōng măn	['full of', 'brimming with', 'very full', 'permeated']	['verb']	
-或許	5.04	huò xŭ	['perhaps', 'maybe']	['conjunction']	
-是不是	5.04	shì bù shì	["is or isn't", 'yes or no', 'whether or not']	['verb', 'verb 是']	
-飛	5.03	fēi	['to fly']	['noun']	
-氣	5.03	qì	['gas', 'air', 'smell', 'weather', 'to make angry', 'to annoy', 'to get angry', 'vital energy', 'qi']	['noun']	
-下午	5.01	xià wŭ	['afternoon', 'CL:個|个[gè]', 'p.m.']	['time word']	
-睡	5.01	shuì	['to sleep', 'to lie down']	['verb']	
-前往	5.01	qián wăng	['to leave for', 'to proceed towards', 'to go']	['verb']	
-怕	5.01	Pà	['to be afraid', 'to fear', 'to dread', 'to be unable to endure', 'perhaps']	['verb']	
-從來	5.01	cóng lái	['always', 'at all times', 'never (if used in negative sentence)']	['noun']	
-至今	5.0	zhì jīn	['so far', 'to this day', 'until now']	['adverb']	
-光	5.0	guāng	['light', 'ray', 'CL:道[dào]', 'bright', 'only', 'merely', 'to use up']	['noun']	
-衣服	5.0	yī fu	['clothes', 'CL:件[jiàn],套[tào]']	['noun']	
-聽說	5.0	tīng shuō	['to hear (sth said)', 'one hears (that)', 'hearsay', 'listening and speaking']	['noun']	
-上面	4.99	shàng miàn	['on top of', 'above-mentioned', 'also pr. [shàng mian]']	['noun of locality']	
-酒	4.99	jiŭ	['wine (esp. rice wine)', 'liquor', 'spirits', 'alcoholic beverage', 'CL:杯[bēi],瓶[píng],罐[guàn],桶[tŏng],缸[gāng]']	['noun']	
-腳	4.98	jiăo	['foot', 'leg (of an animal or an object)', 'base (of an object)', 'CL:雙|双[shuāng],隻|只[zhī]', 'classifier for kicks', 'variant of 角[jué]', 'role']	['noun']	
-黑	4.98	Hēi	['abbr. for Heilongjiang province 黑龍江|黑龙江[Hēi lóng jiāng]', 'black', 'dark', 'sinister', 'secret', 'shady', 'illegal', 'to hide (sth) away', 'to vilify', '(loanword) to hack (computing)']	['adjective']	
-身份	4.98	shēn fèn	['identity', 'status', 'capacity', 'dignity', 'position', 'rank']	['noun']	
-的話	4.98	de huà	['if (coming after a conditional clause)']	['particle', 'particle 的/底']	
-剛才	4.97	gāng cái	['just now', 'a moment ago']	['noun']	
-老闆	4.97	Lăo băn	['Robam (brand)', 'boss', 'business proprietor', 'CL:個|个[gè]']	['adjective']	
-面前	4.97	miàn qián	['in front of', 'facing', '(in the) presence (of)']	['noun of locality']	
-跳	4.97	tiào	['to jump', 'to hop', 'to skip over', 'to bounce', 'to palpitate']	['verb', 'intransitive verb']	
-不好	4.97	bù hăo	['no good']	['adverb']	
-馬上	4.96	mă shàng	['at once', 'right away', 'immediately', 'on horseback (i.e. by military force)']	['noun']	
-真是	4.96	zhēn shi	['indeed', 'truly', '(coll.) (used to express disapproval, annoyance etc about sth)']	['adverb']	
-龍	4.96	Lóng	['dragon', 'CL:條|条[tiáo]', 'imperial']	['noun']	
-剛剛	4.95	gāng gang	['just recently', 'just a moment ago']	['noun']	
-中間	4.95	zhōng jiān	['between', 'intermediate', 'mid', 'middle']	['distinguishing word']	
-回去	4.95	huí qu	['to return', 'to go back']	['verb']	
-一家	4.94	yī jiā	['the whole family', 'the same family', 'the family ... (when preceded by a family name)', 'group']	['numeral']	
-情緒	4.94	qíng xù	['mood', 'state of mind', 'moodiness', 'CL:種|种[zhŏng]']	['noun']	
-狗	4.94	gŏu	['dog', 'CL:隻|只[zhī],條|条[tiáo]']	['noun']	
-日子	4.94	rì zi	['day', 'a (calendar) date', "days of one's life"]	['noun']	
-朝	4.94	Cháo	['abbr. for 朝鮮|朝鲜[Cháo xiăn] Korea', 'imperial or royal court', 'government', 'dynasty', 'reign of a sovereign or emperor', 'court or assembly held by a sovereign or emperor', 'to make a pilgrimage to', 'facing', 'towards', 'morning']	['preposition']	
-滿	4.94	Măn	['Manchu ethnic group', 'to fill', 'full', 'filled', 'packed', 'fully', 'completely', 'quite', 'to reach the limit', 'to satisfy', 'satisfied', 'contented']	['noun']	
-後面	4.93	hòu miàn	['rear', 'back', 'behind', 'later', 'afterwards', 'also pr. [hòu mian]']	['noun', 'personal name', 'Chinese surname']	
-第一次	4.93	dì yī cì	['the first time', 'first', 'number one']	['numeral']	
-民間	4.92	mín jiān	['among the people', 'popular', 'folk', 'non-governmental', 'involving people rather than governments']	['noun', 'noun morpheme']	
-弄	4.92	lòng	['lane', 'alley', 'to do', 'to manage', 'to handle', 'to play with', 'to fool with', 'to mess with', 'to fix', 'to toy with']	['verb']	
-遇到	4.92	yù dào	['to meet', 'to run into', 'to come across']	['verb']	
-別的	4.91	bié de	['else', 'other']	['noun']	
-姑娘	4.9	gū niàng	['girl', 'young woman', 'young lady', 'daughter', 'paternal aunt (old)', 'CL:個|个[gè]']	['noun']	
-隨後	4.9	suí hòu	['soon after']	['noun']	
-下面	4.9	xià miàn	['below', 'under', 'next', 'the following', 'also pr. [xià mian]']	['noun of locality']	
-立刻	4.89	lì kè	['forthwith', 'immediate', 'prompt', 'promptly', 'straightway', 'thereupon', 'at once']	['adverb']	
-依然	4.89	yī rán	['still', 'as before']	['status word']	
-一旦	4.89	yī dàn	['in case (sth happens)', 'if', 'once (sth happens, then...)', 'when', 'in a short time', 'in one day']	['adverb']	
-一句	4.89	yī jù	['a line of verse', 'a sentence']	['numeral']	
-奇怪	4.89	qí guài	['strange', 'odd', 'to marvel', 'to be baffled']	['verb']	
-那時	4.89	nà shí	['then', 'at that time', 'in those days']	['pronoun', 'demonstrative pronoun', 'predicate demonstrative pronoun']	
-畢竟	4.88	bì jìng	['after all', 'all in all', 'when all is said and done', 'in the final analysis']	['noun']	
-要是	4.88	yào shi	['(coll.) if']	['verb']	
-常常	4.88	cháng cháng	['frequently', 'often']	['adverb']	
-就要	4.88	jiù yào	['will', 'shall', 'to be going to']	['adverb']	
-挺	4.88	tĭng	['straight', 'erect', 'to stick out (a part of the body)', 'to (physically) straighten up', 'to support', 'to withstand', 'outstanding', '(coll.) quite', 'very', 'classifier for machine guns']	['verb', 'intransitive verb']	
-皇帝	4.87	huáng dì	['emperor', 'CL:個|个[gè]']	['noun']	
-這時	4.87	zhè shí	['at this time', 'at this moment']	['noun']	
-輪	4.87	lún	['wheel', 'disk', 'ring', 'steamship', 'to take turns', 'to rotate', 'by turn', 'classifier for big round objects: disk, or recurring events: round, turn']	['noun']	
-哭	4.87	kū	['to cry', 'to weep']	['verb']	
-哥哥	4.86	gē ge	['older brother', 'CL:個|个[gè],位[wèi]']	['noun']	
-究竟	4.86	jiū jìng	['to go to the bottom of a matter', 'after all', 'when all is said and done', '(in an interrogative sentence) finally', 'outcome', 'result']	['adverb']	
-工廠	4.86	gōng chăng	['factory', 'CL:家[jiā],座[zuò]']	['noun']	
-當上	4.85	dāng shang	['to take up duty as', 'to assume a position', 'to assume', 'to take on (an office)']	['noun']	
-唱	4.85	chàng	['to sing', 'to call loudly', 'to chant']	['verb']	
-說道	4.85	shuō dào	['to state', 'to say (the quoted words)', 'to discuss', 'reason (behind sth)']	['noun']	
-鐘	4.85	zhōng	['clock', "o'clock", 'time as measured in hours and minutes', 'bell', 'CL:架[jià],座[zuò]']	['noun']	
-街道	4.85	jiē dào	['street', 'CL:條|条[tiáo]', 'subdistrict', 'residential district']	['noun']	
-變得	4.84	biàn de	['to become']	['noun']	
-竟然	4.84	jìng rán	['unexpectedly', "to one's surprise", 'in spite of everything', 'in that crazy way', 'actually', 'to go as far as to']	['adverb']	
-到處	4.83	dào chù	['everywhere']	['preposition']	
-出生	4.83	chū shēng	['to be born']	['verb', 'intransitive verb']	
-推	4.83	tuī	['to push', 'to cut', 'to refuse', 'to reject', 'to decline', 'to shirk (responsibility)', 'to put off', 'to delay', 'to push forward', 'to nominate', 'to elect', 'massage']	['verb']	
-看看	4.82	kàn kan	['to take a look at', 'to examine', 'to survey', '(coll.) pretty soon']	['verb']	
-著	4.82	zhāo	['(chess) move', 'trick', 'all right!', '(dialect) to add', 'to touch', 'to come in contact with', 'to feel', 'to be affected by', 'to catch fire', 'to burn', '(coll.) to fall asleep', '(after a verb) hitting the mark', 'succeeding in', 'aspect particle indicating action in progress', 'to wear (clothes)', 'to contact', 'to use', 'to apply', 'to make known', 'to show', 'to prove', 'to write', 'book', 'outstanding']	['verb', 'verb morpheme']	
-顏色	4.82	yán sè	['color', 'countenance', 'appearance', 'facial expression', 'pigment', 'dyestuff']	['noun']	
-好好	4.82	hăo hăo	['well', 'carefully', 'nicely', 'properly']	['adverb']	
-做出	4.82	zuò chū	['to put out', 'to issue']	['verb']	
-答應	4.82	dā ying	['to answer', 'to respond', 'to answer positively', 'to agree', 'to accept', 'to promise']	['verb']	
-火	4.82	Huŏ	['fire', 'urgent', 'ammunition', 'fiery or flaming', 'internal heat (Chinese medicine)', 'hot (popular)', 'classifier for military units (old)', 'Kangxi radical 86']	['noun']	
-嘴	4.82	zuĭ	['mouth', 'beak', 'nozzle', 'spout (of teapot etc)', 'CL:張|张[zhāng],個|个[gè]']	['noun']	
-大小	4.82	dà xiăo	['dimension', 'magnitude', 'size', 'measurement', 'large and small', 'at any rate', 'adults and children', 'consideration of seniority']	['adjective']	
-飯	4.82	fàn	['cooked rice', 'CL:碗[wăn]', 'meal', 'CL:頓|顿[dùn]', '(loanword) fan', 'devotee']	['noun']	
-人家	4.81	rén jiā	['household', 'dwelling', 'family', "sb else's house", 'household business', "house of woman's husband-to-be", 'CL:戶|户[hù],家[jiā]', 'other people', 'sb else', 'he, she or they', 'I, me (referring to oneself as "one" or "people")']	['noun']	
-左	4.81	Zuŏ	['left', 'the Left (politics)', 'east', 'unorthodox', 'queer', 'wrong', 'differing', 'opposite', 'variant of 佐[zuŏ]']	['adjective']	
-上來	4.81	shàng lái	['to come up', 'to approach', '(verb complement indicating success)']	['noun of locality']	
-外面	4.8	wài miàn	['outside (also pr. [wài mian] for this sense)', 'surface', 'exterior', 'external appearance']	['noun of locality']	
-空	4.8	kōng	['empty', 'air', 'sky', 'in vain', 'to empty', 'vacant', 'unoccupied', 'space', 'leisure', 'free time']	['verb']	
-綠色	4.79	lǜ sè	['green']	['noun']	
-背	4.78	bēi	['to be burdened', 'to carry on the back or shoulder', 'the back of a body or object', "to turn one's back", 'to hide something from', 'to learn by heart', 'to recite from memory', 'unlucky (slang)', 'hard of hearing']	['verb']	
-根	4.78	gēn	['root', 'basis', 'classifier for long slender objects, e.g. cigarettes, guitar strings', 'CL:條|条[tiáo]', 'radical (chemistry)']	['noun']	
-嘛	4.78	ma	['modal particle indicating that sth is obvious', 'particle indicating a pause for emphasis']	['modal particle']	
-卻是	4.78	què shì	['nevertheless', 'actually', 'the fact is ...']	['noun']	
-再說	4.77	zài shuō	['to say again', 'to put off a discussion until later', 'moreover', "what's more", 'besides']	['adverb']	
-那天	4.76	nà tiān	['that day', 'the other day']	['time word']	
-頭髮	4.76	tóu fa	['hair (on the head)']	['noun']	
-自從	4.76	zì cóng	['since (a time)', 'ever since']	['preposition']	
-每次	4.75	mĕi cì	['every time']	['pronoun']	
-不得不	4.75	bù dé bù	['have no choice or option but to', 'cannot but', 'have to', "can't help it", "can't avoid"]	['adverb']	
-方便	4.75	fāng biàn	['convenient', 'suitable', 'to facilitate', 'to make things easy', 'having money to spare', '(euphemism) to relieve oneself']	['verb']	
-菜	4.75	cài	['dish (type of food)', 'vegetable', 'cuisine', 'CL:盤|盘[pán],道[dào]', "(coll.) (one's) type", "(of one's skills etc) weak", 'poor']	['noun']	
-旁邊	4.75	páng biān	['lateral', 'side', 'to the side', 'beside']	['noun of locality']	
-不滿	4.74	bù măn	['resentful', 'discontented', 'dissatisfied']	['adverb']	
-激動	4.73	jī dòng	['to move emotionally', 'to stir up (emotions)', 'to excite']	['verb']	
-睡覺	4.73	shuì jiào	['to go to bed', 'to sleep']	['verb']	
-雞	4.73	jī	['fowl', 'chicken', 'CL:隻|只[zhī]', '(slang) prostitute']	['noun']	
-輕鬆	4.73	qīng sōng	['light', 'gentle', 'relaxed', 'effortless', 'uncomplicated', 'to relax', 'to take things less seriously']	['noun']	
-提醒	4.73	tí xĭng	['to remind', 'to call attention to', 'to warn of']	['verb']	
-搶	4.73	qiāng	['see 搶風|抢风[qiāng fēng]', 'to fight over', 'to rush', 'to scramble', 'to grab', 'to rob', 'to snatch']	['noun']	
-房屋	4.72	fáng wū	['house', 'building', 'CL:所[suŏ],套[tào]']	['noun']	
-差不多	4.72	chà bu duō	['almost', 'nearly', 'more or less', 'about the same', 'good enough', 'not bad']	['adjective', 'adjective phrase']	
-腿	4.72	tuĭ	['leg', 'CL:條|条[tiáo]']	['noun']	
-地上	4.71	dì shang	['on the ground', 'on the floor']	['locative word']	
-趕	4.71	găn	['to overtake', 'to catch up with', 'to hurry', 'to rush', 'to try to catch (the bus etc)', 'to drive (cattle etc) forward', 'to drive (sb) away', 'to avail oneself of (an opportunity)', 'until']	['noun']	
-牛	4.71	Niú	['ox', 'cow', 'bull', 'CL:條|条[tiáo],頭|头[tóu]', 'newton (abbr. for 牛頓|牛顿[niú dùn])', '(slang) awesome']	['noun']	
-眼前	4.7	yăn qián	["before one's eyes", 'now', 'at present']	['time word']	
-憑	4.7	píng	['to lean against', 'to rely on', 'on the basis of', 'no matter (how, what etc)', 'proof']	['noun']	
-陽光	4.69	yáng guāng	['sunshine', 'CL:線|线[xiàn]', 'transparent (open to public scrutiny)']	['noun']	
-老人	4.69	lăo rén	['old man or woman', 'the elderly', "one's aged parents or grandparents"]	['noun']	
-上去	4.69	shàng qù	['to go up']	['noun of locality']	
-一塊	4.69	yī kuài	['one block', 'one piece', 'one (unit of money)', 'together', 'in the same place', 'in company']	['numeral']	
-旁	4.68	páng	['beside', 'one side', 'other', 'side', 'self', 'the right-hand side of split Chinese character, often the phonetic']	['noun of locality']	
-慢慢	4.68	màn màn	['slowly']	['adverb']	
-收集	4.67	shōu jí	['to gather', 'to collect']	['verb']	
-當初	4.66	dāng chū	['at that time', 'originally']	['noun']	
-準確	4.66	zhŭn què	['accurate', 'exact', 'precise']	['noun']	
-道理	4.66	dào li	['reason', 'argument', 'sense', 'principle', 'basis', 'justification', 'CL:個|个[gè]']	['noun']	
-黑色	4.66	hēi sè	['black']	['noun']	
-罵	4.66	mà	['to scold', 'to abuse', 'to curse', 'CL:通[tòng],頓|顿[dùn]']	['noun']	
-大聲	4.66	dà shēng	['loud voice', 'in a loud voice', 'loudly']	['adjective']	
-乾淨	4.66	gān jìng	['clean', 'neat']	['noun', 'noun morpheme']	
-憤怒	4.65	fèn nù	['angry', 'indignant', 'wrath', 'ire']	['noun']	
-神秘	4.65	shén mì	['mysterious', 'mystery']	['adjective']	
-欲	4.65	yù	['to wish for', 'to desire', 'variant of 慾|欲[yù]']	['verb', 'verb morpheme']	
-撞	4.65	zhuàng	['to knock against', 'to bump into', 'to run into', 'to meet by accident']	['verb']	
-脫	4.65	tuō	['to shed', 'to take off', 'to escape', 'to get away from']	['noun']	
-商店	4.65	shāng diàn	['store', 'shop', 'CL:家[jiā],個|个[gè]']	['noun']	
-人群	4.65	rén qún	['crowd']	['noun']	
-輸	4.65	shū	['to lose', 'to transport', 'to donate', 'to enter (a password)']	['noun']	
-幾年	4.64	jĭ nián	['a few years', 'several years', 'how many years']	['noun']	
-白色	4.64	bái sè	['white', 'fig. reactionary', 'anti-communist']	['noun']	
-手裡	4.64	shŏu lĭ	['in hand', "(a situation is) in sb's hands"]	['noun']	
-那種	4.63	nà zhŏng	['that', 'that kind of', 'that sort of', 'that type of']	['pronoun', 'demonstrative pronoun', 'predicate demonstrative pronoun']	
-哪些	4.63	nă xiē	['which ones?', 'who?', 'what?']	['pronoun', 'interrogative pronoun']	
-看家	4.63	kān jiā	['to look after the house', '(of skill, ability) special', 'outstanding']	['verb']	
-念	4.63	niàn	['to read', 'to study (a subject)', 'to attend (a school)', 'to read aloud', 'to miss (sb)', 'idea', 'remembrance', "twenty (banker's anti-fraud numeral corresponding to 廿, 20)"]	['verb']	
-長大	4.63	zhăng dà	['to grow up']	['noun']	
-騎	4.63	jì	['(Tw) saddle horse', 'mounted soldier', 'to sit astride', 'to ride (a horse, bike etc)', 'classifier for saddle horses']	['noun']	
-夏天	4.62	xià tiān	['summer', 'CL:個|个[gè]']	['time word']	
-躺	4.62	tăng	['to recline', 'to lie down']	['verb']	
-那邊	4.62	nà bian	['over there', 'yonder']	['pronoun', 'demonstrative pronoun', 'predicate demonstrative pronoun']	
-偷	4.62	tōu	['to steal', 'to pilfer', 'to snatch', 'thief', 'stealthily']	['verb']	
-夥伴	4.62	huŏ bàn	['variant of 伙伴[huŏ bàn]']	['noun']	
-如同	4.61	rú tóng	['like', 'as']	['verb']	
-年紀	4.61	nián jì	['age', 'CL:把[bă],個|个[gè]']	['classifier', 'temporal classifier']	
-贏	4.61	yíng	['to beat', 'to win', 'to profit']	['noun']	
-似的	4.6	shì de	['seems as if', 'rather like', 'Taiwan pr. [sì de]']	['particle', 'particle 一样/一般/似的/般']	
-壓	4.6	yā	['to press', 'to push down', 'to keep under (control)', 'pressure', 'see 壓根兒|压根儿[yà gēn r5]']	['noun']	
-腦袋	4.6	năo dài	['head', 'skull', 'brains', 'mental capability', 'CL:顆|颗[kē],個|个[gè]']	['noun']	
-一會	4.6	yī huì	['a moment', 'a while', 'in a moment', 'also pr. [yī huĭ]']	['numeral']	
-門口	4.6	mén kŏu	['doorway', 'gate', 'CL:個|个[gè]']	['noun']	
-趕緊	4.59	găn jĭn	['hurriedly', 'without delay']	['noun']	
-雙手	4.59	shuāng shŏu	['both hands']	['noun']	
-跨	4.59	kuà	['to step across', 'to stride over', 'to straddle', 'to span']	['verb']	
-生意	4.59	shēng yì	['life force', 'vitality', 'business', 'CL:筆|笔[bĭ]']	['noun']	
-逼	4.59	bī	['to force (sb to do sth)', 'to compel', 'to press for', 'to extort', 'to press on towards', 'to press up to', 'to close in on', 'euphemistic variant of 屄[bī]']	['verb']	
-大人	4.59	dà ren	['adult', 'grownup', 'title of respect toward superiors']	['noun']	
-牌	4.59	pái	['mahjong tile', 'playing card', 'game pieces', 'signboard', 'plate', 'tablet', 'medal', 'CL:片[piàn],個|个[gè],塊|块[kuài]']	['noun']	
-幹什麼	4.59	gàn shén me	['what are you doing?', "what's he up to?"]	['noun']	
-爬	4.57	pá	['to crawl', 'to climb', 'to get up or sit up']	['verb']	
-躲	4.57	duŏ	['to hide', 'to dodge', 'to avoid']	['verb']	
-爺爺	4.56	yé ye	["(coll.) father's father", 'paternal grandfather', 'CL:個|个[gè]']	['noun']	
-硬	4.56	yìng	['hard', 'stiff', 'strong', 'firm', 'resolutely', 'doggedly', 'good (quality)', 'able (person)']	['adjective']	
-更為	4.54	gèng wéi	['even more']	['adverb']	
-輕輕	4.54	qīng qīng	['lightly', 'softly']	['noun']	
-騙	4.54	piàn	['to cheat', 'to swindle', 'to deceive', 'to get on (a horse etc) by swinging one leg over']	['noun']	
-剩	4.54	shèng	['to remain', 'to be left', 'to have as remainder']	['verb']	
-好事	4.54	hăo shì	['good action, deed, thing or work (also sarcastic, "a fine thing indeed")', 'charity', 'happy occasion', 'Daoist or Buddhist ceremony for the souls of the dead', 'to be meddlesome']	['noun']	
-一輩子	4.54	yī bèi zi	['(for) a lifetime']	['numeral']	
-踢	4.54	tī	['to kick', 'to play (e.g. soccer)', '(slang) butch (in a lesbian relationship)']	['verb']	
-大街	4.54	dà jiē	['street', 'main street', 'CL:條|条[tiáo]']	['noun']	
-帶有	4.53	dài yŏu	['to have', 'to involve']	['noun']	
-十月	4.53	Shí yuè	['October', 'tenth month (of the lunar year)']	['time word']	
-出門	4.53	chū mén	['to go out', 'to leave home', 'to go on a journey', 'away from home', '(of a woman) to get married']	['verb', 'directional verb']	
-老實	4.53	lăo shi	['honest', 'sincere', 'well-behaved', 'open and guileless', 'naive']	['adjective']	
-微笑	4.53	wēi xiào	['smile', 'CL:個|个[gè],絲|丝[sī]', 'to smile']	['verb', 'intransitive verb']	
-走進	4.52	zŏu jìn	['to enter']	['verb']	
-喊	4.52	hăn	['to yell', 'to shout', 'to call out for (a person)']	['verb']	
-精彩	4.52	jīng căi	['wonderful', 'marvelous', 'brilliant']	['adjective']	
-蛋	4.52	Dàn	['variant of 蜑[Dàn]', 'egg', 'CL:個|个[gè],打[dá]', 'oval-shaped thing']	['noun']	
-投降	4.51	tóu xiáng	['to surrender', 'surrender']	['verb']	
-亮	4.51	liàng	['bright', 'clear', 'resonant', 'to shine', 'to show', 'to reveal']	['verb', 'intransitive verb']	
-眼淚	4.5	yăn lèi	['tears', 'crying', 'CL:滴[dī]']	['noun']	
-傳來	4.49	chuán lái	['(of a sound) to come through', 'to be heard', '(of news) to arrive']	['noun']	
-招	4.49	zhāo	['to recruit', 'to provoke', 'to beckon', 'to incur', 'to infect', 'contagious', 'a move (chess)', 'a maneuver', 'device', 'trick', 'to confess']	['noun']	
-喜愛	4.49	xĭ ài	['to like', 'to love', 'to be fond of', 'favorite']	['verb']	
-名叫	4.48	míng jiào	['called', 'named']	['verb']	
-果然	4.48	guŏ rán	['really', 'sure enough', 'as expected', 'if indeed']	['adverb']	
-娘	4.48	niáng	['mother', 'young lady', '(coll.) effeminate']	['noun']	
-鹽	4.47	yán	['salt', 'CL:粒[lì]']	['noun']	
-上下	4.47	shàng xià	['up and down', 'top and bottom', 'old and new', 'length', 'about']	['noun of locality']	
-止	4.47	zhĭ	['to stop', 'to prohibit', 'until', 'only']	['verb']	
-從不	4.47	cóng bù	['never']	['noun']	
-拖	4.47	tuō	['to drag', 'to tow', 'to trail', 'to hang down', 'to mop (the floor)', 'to delay', 'to drag on']	['verb']	
-度過	4.46	dù guò	['to pass', 'to spend (time)', 'to survive', 'to get through']	['verb']	
-放下	4.46	fàng xià	['to lay down', 'to put down', 'to let go of', 'to relinquish', 'to set aside', 'to lower (the blinds etc)']	['verb']	
-不願	4.46	bù yuàn	['unwilling', 'unwillingness']	['adverb']	
-插	4.46	chā	['to insert', 'stick in', 'pierce', 'to take part in', 'to interfere', 'to interpose']	['verb']	
-村莊	4.45	cūn zhuāng	['village', 'hamlet', 'CL:座[zuò]']	['noun']	
-季節	4.45	jì jié	['time', 'season', 'period', 'CL:個|个[gè]']	['noun', 'personal name', 'Chinese surname']	
-等到	4.45	dĕng dào	['to wait until', 'by the time when (sth is ready etc)']	['verb']	
-娶	4.44	qŭ	['to take a wife', 'to marry (a woman)']	['verb']	
-坐下	4.44	zuò xia	['to sit down']	['verb', 'intransitive verb']	
-師傅	4.44	shī fu	['master', 'qualified worker', 'respectful form of address for older men', 'CL:個|个[gè],位[wèi],名[míng]']	['noun']	
-手指	4.43	shŏu zhĭ	['finger', 'CL:個|个[gè],隻|只[zhī]']	['noun']	
-講述	4.43	jiăng shù	['to talk about', 'to narrate', 'to give an account']	['noun']	
-早晨	4.43	zăo chén	['early morning', 'CL:個|个[gè]']	['time word']	
-平常	4.43	píng cháng	['ordinary', 'common', 'usually', 'ordinarily']	['adjective']	
-好奇	4.42	hào qí	['inquisitive', 'curious', 'inquisitiveness', 'curiosity']	['adjective']	
-沿	4.42	yán	['along', 'to follow (a line, tradition etc)', 'to carry on', 'to trim (a border with braid, tape etc)', 'border', 'edge']	['preposition']	
-有錢	4.41	yŏu qián	['well-off', 'wealthy']	['verb', 'verb 有']	
-挖	4.41	wā	['to dig', 'to excavate', 'to scoop out']	['verb']	
-身後	4.4	shēn hòu	['posthumous', "one's social background", 'behind the body']	['noun', 'noun morpheme']	
-唉	4.4	āi	["interjection or grunt of agreement or recognition (e.g. yes, it's me!)", 'to sigh', 'alas', 'oh dear']	['interjection']	
-蔬菜	4.4	shū cài	['vegetables', 'CL:種|种[zhŏng]']	['noun']	
-熱鬧	4.39	rè nao	['bustling with noise and excitement', 'lively']	['noun']	
-會長	4.39	huì zhăng	['president of a club, committee etc']	['noun']	
-過分	4.39	guò fèn	['excessive', 'undue', 'overly']	['noun']	
-不時	4.38	bù shí	['from time to time', 'now and then', 'occasionally', 'frequently']	['adverb']	
-清晰	4.38	qīng xī	['clear', 'distinct']	['adjective']	
-擦	4.38	cā	['to wipe', 'to erase', 'rubbing (brush stroke in painting)', 'to clean', 'to polish']	['verb']	
-時常	4.37	shí cháng	['often', 'frequently']	['noun']	
-桌子	4.37	zhuō zi	['table', 'desk', 'CL:張|张[zhāng],套[tào]']	['noun']	
-扯	4.37	chĕ	['to pull', 'to tear', '(of cloth, thread etc) to buy', 'to chat', 'to gossip', '(coll.) (Tw) ridiculous', 'hokey']	['verb']	
-中午	4.36	zhōng wŭ	['noon', 'midday', 'CL:個|个[gè]']	['time word']	
-一頭	4.36	yī tóu	['one head', 'a head full of sth', 'one end (of a stick)', 'one side', 'headlong', 'directly', 'rapidly', 'simultaneously']	['numeral']	
-歌詞	4.36	gē cí	['song lyric', 'lyrics']	['noun']	
-走出	4.36	zŏu chū	['to leave (a room etc)', 'to go out through (a door etc)']	['verb']	
-從小	4.36	cóng xiăo	['from childhood', 'from a young age']	['noun']	
-鑽	4.36	zuān	['to drill', 'to bore', 'to get into', "to make one's way into", 'to enter (a hole)', "to thread one's way through", 'to study intensively', 'to dig into', 'to curry favor for personal gain', 'an auger', 'diamond']	['noun']	
-醒來	4.36	xĭng lái	['to waken']	['verb']	
-點頭	4.36	diăn tóu	['to nod']	['noun']	
-八月	4.36	Bā yuè	['August', 'eighth month (of the lunar year)']	['time word']	
-情景	4.35	qíng jĭng	['scene', 'spectacle', 'circumstances', 'situation']	['noun']	
-露出	4.35	lù chū	['to expose', 'to show', 'also pr. [lòu chū]']	['verb']	
-窮人	4.35	qióng rén	['poor people', 'the poor']	['noun']	
-對面	4.35	duì miàn	['(sitting) opposite', 'across (the street)', 'directly in front', 'to be face to face']	['noun']	
-嘴裡	4.34	zuĭ lĭ	['mouth', 'in the mouth', "on one's lips", 'speech', 'words']	['noun']	
-這天	4.34	zhè tiān	['today', 'this day']	['noun']	
-可不	4.33	kĕ bu	['see 可不是[kĕ bu shì]']	['conjunction']	
-剛好	4.33	gāng hăo	['just', 'exactly', 'to happen to be']	['noun']	
-旗	4.33	qí	['banner', 'flag', '(in Qing times) Manchu (cf. 八旗[Bā qí])', 'administrative subdivision in inner Mongolia equivalent to 縣|县[xiàn] county', 'CL:面[miàn]']	['noun']	
-屁股	4.32	pì gu	['buttocks', 'bottom', 'butt', 'back part']	['noun']	
-腳步	4.32	jiăo bù	['footstep', 'step']	['noun']	
-酸	4.32	suān	['sour', 'tart', 'sick at heart', 'grieved', 'sore', 'aching', 'pedantic', 'impractical', 'to make sarcastic remarks about sb', 'an acid']	['noun']	
-哎	4.32	āi	['hey!', '(interjection used to attract attention or to express surprise or disapprobation)']	['interjection']	
-看上去	4.32	kàn shang qu	['it would appear', 'it seems (that)']	['verb']	
-衣	4.32	yī	['clothes', 'CL:件[jiàn]', 'Kangxi radical 145', 'to dress', 'to wear', 'to put on (clothes)']	['noun', 'noun morpheme']	
-爹	4.31	diē	['dad']	['noun']	
-右手	4.31	yòu shŏu	['right hand', 'right-hand side']	['noun']	
-乾脆	4.31	gān cuì	['straightforward', 'clear-cut', 'blunt (e.g. statement)', 'you might as well', 'simply']	['noun', 'noun morpheme']	
-濕	4.31	shī	['moist', 'wet']	['noun']	
-緊緊	4.31	jĭn jĭn	['closely', 'tightly']	['noun']	
-撐	4.3	chēng	['to support', 'to prop up', 'to push or move with a pole', 'to maintain', 'to open or unfurl', 'to fill to bursting point', 'brace', 'stay', 'support']	['noun']	
-抬	4.3	tái	['to lift', 'to raise', '(of two or more persons) to carry']	['verb']	
-生動	4.3	shēng dòng	['vivid', 'lively']	['verb']	
-底下	4.3	dĭ xia	['the location below sth', 'afterwards']	['noun of locality']	
-椅子	4.3	yĭ zi	['chair', 'CL:把[bă],套[tào]']	['noun']	
-角落	4.3	jiăo luò	['nook', 'corner']	['noun']	
-滑	4.3	Huá	['to slip', 'to slide', 'smooth', 'slippery', 'cunning']	['verb']	
-扶	4.3	fú	['to support with the hand', 'to help sb up', 'to support oneself by holding onto something', 'to help']	['verb']	
-棉花	4.29	mián hua	['cotton']	['noun']	
-和尚	4.29	hé shang	['Buddhist monk']	['noun']	
-整天	4.29	zhĕng tiān	['all day long', 'whole day']	['adverb']	
-歎	4.29	tàn	['variant of 嘆|叹[tàn]']	['noun']	
-肚子	4.29	dù zi	['belly', 'abdomen', 'stomach', 'CL:個|个[gè]']	['noun']	
-近來	4.29	jìn lái	['recently', 'lately']	['adjective']	
-其間	4.28	qí jiān	['in between', 'within that interval', 'in the meantime']	['pronoun', 'demonstrative pronoun']	
-猶如	4.28	yóu rú	['similar to', 'appearing to be']	['noun']	
-髒	4.28	zāng	['dirty', 'filthy']	['noun']	
-抹	4.28	mā	['to wipe', 'to smear', 'to wipe', 'to erase', 'classifier for wisps of cloud, light-beams etc', 'to plaster', 'to go around', 'to skirt']	['verb']	
-力氣	4.28	lì qi	['strength', 'CL:把[bă]']	['noun']	
-左邊	4.28	zuŏ bian	['left', 'the left side', 'to the left of']	['adjective']	
-臉色	4.28	liăn sè	['complexion', 'look']	['noun']	
-噢	4.27	ō	['Oh!']	['modal particle']	
-走路	4.27	zŏu lù	['to walk', 'to go on foot']	['verb', 'intransitive verb']	
-在意	4.27	zài yì	['to care about', 'to mind']	['preposition']	
-心想	4.26	xīn xiăng	['to think to oneself', 'to think', 'to assume']	['verb']	
-白天	4.26	bái tiān	['daytime', 'during the day', 'day', 'CL:個|个[gè]']	['time word']	
-從沒	4.26	cóng méi	['never (in the past)', 'never did']	['noun']	
-摔	4.25	shuāi	['to throw down', 'to fall', 'to drop and break']	['verb']	
-掀起	4.25	xiān qĭ	['to lift', 'to raise in height', 'to begin', 'upsurge', 'to set off (a campaign)']	['verb']	
-賭	4.25	dŭ	['to bet', 'to gamble']	['noun']	
-起身	4.24	qĭ shēn	['to get up', 'to leave', 'to set forth']	['verb', 'intransitive verb']	
-口袋	4.24	kŏu dài	['pocket', 'bag', 'sack', 'CL:個|个[gè]']	['noun']	
-抬起	4.23	tái qĭ	['to lift up']	['verb']	
-女人家	4.23	nǚ rén jia	['women (in general)']	['noun']	
-幾次	4.23	jĭ cì	['several times']	['noun']	
-聊	4.22	liáo	['to chat', 'to depend upon (literary)', 'temporarily', 'just', 'slightly']	['verb']	
-踩	4.22	căi	['to step on', 'to tread', 'to stamp', 'to press a pedal', 'to pedal (a bike)', '(online) to downvote']	['verb']	
-醜	4.22	chŏu	['shameful', 'ugly', 'disgraceful']	['noun']	
-整整	4.21	zhĕng zhĕng	['whole', 'full']	['adverb']	
-哭泣	4.21	kū qì	['to weep']	['verb', 'intransitive verb']	
-笑容	4.21	xiào róng	['smile', 'smiling expression', 'CL:副[fù]']	['noun']	
-走過	4.21	zŏu guò	['to walk past', 'to pass by']	['verb']	
-妻	4.21	qī	['wife', 'to marry off (a daughter)']	['noun', 'noun morpheme']	
-老子	4.21	Lăo zĭ	['Laozi or Lao-tze (c. 500 BC), Chinese philosopher, the founder of Taoism', 'the sacred book of Daoism, 道德經|道德经 by Laozi', 'father', 'daddy', '"I, your father" (in anger, or out of contempt)', 'I (used arrogantly or jocularly)']	['noun', 'personal name']	
-妓女	4.21	jì nǚ	['prostitute', 'hooker']	['noun']	
-嘴唇	4.21	zuĭ chún	['lip', 'CL:片[piàn]']	['noun']	
-來往	4.21	lái wăng	['to come and go', 'to have dealings with', 'to be in relation with']	['noun']	
-左手	4.2	zuŏ shŏu	['left hand', 'left-hand side']	['noun']	
-生病	4.2	shēng bìng	['to fall ill']	['verb', 'intransitive verb']	
-釘	4.2	dīng	['nail', 'to follow closely', 'to keep at sb (to do sth)', 'variant of 盯[dīng]', 'to join things together by fixing them in place at one or more points', 'to nail', 'to pin', 'to staple', 'to sew on']	['noun']	
-牆壁	4.2	qiáng bì	['wall']	['noun']	
-一身	4.19	yī shēn	['whole body', 'from head to toe', 'single person', 'a suit of clothes']	['numeral']	
-鏡子	4.19	jìng zi	['mirror', 'CL:面[miàn],個|个[gè]']	['noun']	
-坑	4.19	kēng	['hole', 'pit', 'tunnel', 'to defraud']	['noun']	
-水面	4.18	shuĭ miàn	['water surface']	['noun']	
-老爺	4.18	lăo ye	['(respectful) lord', 'master', '(coll.) maternal grandfather']	['adjective']	
-近前	4.18	jìn qián	['to come close', 'to get near to', 'front']	['verb']	
-當場	4.18	dāng chăng	['at the scene', 'on the spot']	['noun']	
-遠處	4.17	yuăn chù	['distant place']	['noun']	
-湊	4.17	còu	['to gather together, pool or collect', 'to happen by chance', 'to move close to', 'to exploit an opportunity']	['noun']	
-凶	4.17	xiōng	['vicious', 'fierce', 'ominous', 'inauspicious', 'famine', 'variant of 兇|凶[xiōng]']	['adjective']	
-捧	4.17	pĕng	['to clasp', 'to cup the hands', 'to hold up with both hands', 'to offer (esp. in cupped hands)', 'to praise', 'to flatter']	['verb']	
-村子	4.16	cūn zi	['village']	['noun']	
-離去	4.16	lí qù	['to leave', 'to exit']	['noun']	
-呵	4.16	ā	['variant of 啊[ā]', 'expel breath', 'my goodness']	['modal particle']	
-難怪	4.16	nán guài	["(it's) no wonder (that...)", "(it's) not surprising (that)"]	['noun']	
-低頭	4.15	dī tóu	['to bow the head', 'to yield', 'to give in']	['adjective']	
-悲哀	4.14	bēi āi	['grieved', 'sorrowful']	['adjective', 'noun-adjective']	
-掙	4.14	zhēng	['see 掙扎|挣扎[zhēng zhá]', 'to struggle to get free', 'to strive to acquire', 'to make (money)']	['noun']	
-跌	4.14	diē	['to fall', 'to tumble', 'to trip', '(of prices etc) to drop', 'Taiwan pr. [dié]']	['verb']	
-瘦	4.14	shòu	['thin', 'to lose weight', '(of clothing) tight', '(of meat) lean', '(of land) unproductive']	['adjective']	
-幹活	4.13	gàn huó	['to work', 'to be employed']	['noun']	
-祖母	4.13	zŭ mŭ	["father's mother", 'paternal grandmother']	['noun']	
-彷彿	4.13	făng fú	['to seem', 'as if', 'alike', 'similar']	['noun']	
-一下子	4.13	yī xià zi	['in a short while', 'all at once', 'all of a sudden']	['numeral', 'numeral-plus-classifier compound']	
-一聲	4.12	yī shēng	['first tone in Mandarin (high, level tone)']	['numeral']	
-肩膀	4.12	jiān băng	['shoulder']	['noun']	
-豬肉	4.12	zhū ròu	['pork']	['noun']	
-偷偷	4.11	tōu tōu	['stealthily', 'secretly', 'covertly', 'furtively', 'on the sly']	['adverb']	
-珍	4.11	zhēn	['precious thing', 'treasure', 'culinary delicacy', 'rare', 'valuable', 'to value highly']	['adjective', 'adjective morpheme']	
-跪	4.11	guì	['to kneel']	['verb']	
-嘴巴	4.11	zuĭ ba	['mouth', 'CL:張|张[zhāng]', 'slap in the face', 'CL:個|个[gè]']	['noun']	
-光芒	4.1	guāng máng	['rays of light', 'brilliant rays', 'radiance']	['noun']	
-尾巴	4.1	wĕi ba	['tail', 'colloquial pr. [yĭ ba]']	['noun']	
-賭博	4.1	dŭ bó	['to gamble']	['noun']	
-停下	4.1	tíng xià	['to stop']	['verb']	
-蔣介石	4.1	Jiăng Jiè shí	['Chiang Kai-shek (1887-1975), military leader, head of the Nationalist government in China 1928-1949 and the government in exile on Taiwan 1950-1975']	['noun']	
-縫	4.1	féng	['to sew', 'to stitch', 'seam', 'crack', 'narrow slit', 'CL:道[dào]']	['noun']	
-鞋子	4.09	xié zi	['shoe']	['noun']	
-風光	4.09	fēng guāng	['scene', 'view', 'sight', 'landscape', 'to be well-regarded', 'to be well-off', 'grand (dialect)', 'impressive (dialect)']	['noun']	
-嫌	4.08	xián	['to dislike', 'suspicion', 'resentment', 'enmity', 'abbr. for 嫌犯[xián fàn], criminal suspect']	['verb']	
-雇	4.08	gù	['to employ', 'to hire', 'to rent']	['verb']	
-天天	4.08	tiān tiān	['every day']	['noun']	
-傍晚	4.07	bàng wăn	['in the evening', 'when night falls', 'towards evening', 'at night fall', 'at dusk']	['time word']	
-外出	4.07	wài chū	['to go out', 'to go away (on a trip etc)']	['verb', 'intransitive verb']	
-從來不	4.07	cóng lái bù	['never']	['noun']	
-挨	4.07	āi	['in order', 'in sequence', 'close to', 'adjacent to', 'to suffer', 'to endure', 'to pull through (hard times)', 'to delay', 'to stall', 'to play for time', 'to dawdle']	['verb']	
-胳膊	4.05	gē bo	['arm', 'CL:隻|只[zhī],條|条[tiáo],雙|双[shuāng]']	['noun']	
-點子	4.05	diăn zi	['spot', 'point', 'dot', 'speck', 'drop (of liquid)', 'droplet', 'point (of argument)', 'idea', 'crux', 'indication', 'pointer']	['noun']	
-接連	4.05	jiē lián	['on end', 'in a row', 'in succession']	['verb']	
-門檻	4.04	mén kăn	['doorstep', 'sill', 'threshold', 'fig. knack or trick (esp. scheme to get sth cheaper)']	['noun']	
-口音	4.04	kŏu yīn	['oral speech sounds (linguistics)', 'voice', 'accent']	['noun']	
-鹹	4.03	xián	['salted', 'salty', 'stingy', 'miserly']	['noun']	
-堵	4.03	dŭ	['to block up (a road, pipe etc)', 'to stop up (a hole)', '(fig.) (of a person) choked up with anxiety or stress', 'wall (literary)', '(classifier for walls)']	['verb']	
-一口	4.02	yī kŏu	['readily', 'flatly (deny, admit and so on)', 'a mouthful', 'a bite']	['numeral']	
-蹲	4.02	dūn	['to crouch', 'to squat', 'to stay (somewhere)']	['verb']	
-難看	4.02	nán kàn	['ugly', 'unsightly']	['noun']	
-哄	4.02	hōng	['roar of laughter (onom.)', 'hubbub', 'to roar (as a crowd)', 'to deceive', 'to coax', 'to amuse (a child)']	['verb']	
-大雨	4.02	dà yŭ	['heavy rain', 'CL:場|场[cháng]']	['noun']	
-一眼	4.01	yī yăn	['a glance', 'a quick look', 'a glimpse']	['numeral']	
-低下	4.01	dī xià	['low status', 'lowly', "to lower (one's head)"]	['adjective']	
-河水	4.01	hé shuĭ	['river water']	['noun']	
-胸口	4.01	xiōng kŏu	['pit of the stomach']	['noun']	
-一旁	4.01	yī páng	['aside', 'to the side of']	['noun of locality']	
-廢話	4.0	fèi huà	['nonsense', 'rubbish', 'superfluous words', "You don't say!", 'No kidding! (gently sarcastic)']	['noun']	
-過時	4.0	guò shí	['old-fashioned', 'out of date', 'to be later than the time stipulated or agreed upon']	['noun']	
-聲響	4.0	shēng xiăng	['sound', 'noise']	['noun']	
-咳嗽	4.0	ké sou	['to cough', 'CL:陣|阵[zhèn]']	['verb', 'intransitive verb']	
-路過	3.99	lù guò	['to pass by or through']	['noun']	
-孕婦	3.98	yùn fù	['pregnant woman']	['verb', 'verb morpheme']	
-河邊	3.97	hé biān	['river bank']	['noun']	
-聽話	3.97	tīng huà	['to do what one is told', 'obedient']	['noun']	
-擋住	3.96	dăng zhù	['to obstruct']	['noun']	
-得意	3.96	dé yì	['proud of oneself', 'pleased with oneself', 'complacent']	['adjective']	
-搖晃	3.96	yáo huàng	['to rock', 'to shake', 'to sway']	['noun']	
-毛巾	3.95	máo jīn	['towel', 'CL:條|条[tiáo]']	['noun']	
-少爺	3.95	shào ye	['son of the boss', 'young master of the house', 'your son (honorific)']	['adjective']	
-和龍	3.95	Hé lóng	['Helong county level city in Yanbian Korean autonomous prefecture 延邊朝鮮族自治州|延边朝鲜族自治州, Jilin']	['conjunction', 'coordinating conjunction']	
-額頭	3.95	é tóu	['forehead']	['noun']	
-瓜	3.94	guā	['melon', 'gourd', 'squash']	['noun']	
-饅頭	3.94	mán tou	['steamed roll', 'steamed bun', 'steamed bread', 'CL:個|个[gè]']	['noun']	
-櫃檯	3.94	guì tái	['sales counter', 'front desk', 'bar', '(of markets, medicines etc) OTC (over-the-counter)']	['noun']	
-半個	3.94	bàn ge	['half of sth']	['numeral']	
-鴨子	3.93	yā zi	['duck', 'male prostitute (slang)']	['noun']	
-女婿	3.93	nǚ xu	["daughter's husband", 'son-in-law']	['noun']	
-折騰	3.93	zhē teng	['to toss from side to side (e.g. sleeplessly)', 'to repeat sth over and over again', 'to torment sb', 'to play crazy', 'to squander (time, money)']	['classifier']	
-盤子	3.93	pán zi	['tray', 'plate', 'dish', 'CL:個|个[gè]']	['noun']	
-擲	3.93	zhì	['to toss', 'to throw dice', 'Taiwan pr. [zhí]']	['noun']	
-走開	3.93	zŏu kāi	['to leave', 'to walk away', 'to beat it', 'to move aside']	['verb']	
-牲畜	3.92	shēng chù	['domesticated animals', 'livestock']	['noun']	
-做生意	3.92	zuò shēng yì	['to do business']	['verb']	
-竄	3.92	cuàn	['to flee', 'to scuttle', 'to exile or banish', 'to amend or edit']	['noun']	
-進城	3.92	jìn chéng	['to go to town', 'to enter a big city (to live or work)']	['noun']	
-城門	3.92	chéng mén	['city gate']	['noun']	
-棵	3.91	kē	['classifier for trees, cabbages, plants etc']	['classifier']	
-打發	3.91	dă fa	['to dispatch sb to do sth', 'to make sb leave', 'to pass (the time)', '(old) to make arrangements', '(old) to bestow (alms etc)']	['verb']	
-手腳	3.91	shŏu jiăo	['hand and foot', 'movement of limbs', 'action', 'trick', 'step in a procedure (CL: 道[dào])']	['noun']	
-自古	3.9	zì gŭ	['(since) ancient times', '(from) time immemorial']	['adverb']	
-請安	3.9	qĭng ān	['to pay respects', 'to wish good health', 'in Qing times, a specific form of salutation (see also 打千[dă qiān])']	['noun']	
-夥計	3.9	huŏ ji	['variant of 伙計|伙计[huŏ ji]']	['noun']	
-偏偏	3.89	piān piān	['(indicates that sth turns out just the opposite of what one would wish) unfortunately', 'as it happened', '(indicates that sth is the opposite of what would be normal or reasonable) stubbornly', 'contrarily', 'against reason', '(indicates that sb or a group is singled out) precisely', 'only', 'of all people']	['adverb']	
-深感	3.88	shēn găn	['to feel deeply']	['verb']	
-絲綢	3.88	sī chóu	['silk cloth', 'silk']	['noun']	
-蒼蠅	3.88	cāng ying	['housefly', 'CL:隻|只[zhī]']	['noun']	
-頻頻	3.88	pín pín	['repeatedly', 'again and again', 'continuously', 'constantly']	['noun']	
-喘	3.88	chuăn	['to gasp', 'to pant', 'asthma']	['verb']	
-手氣	3.88	shŏu qì	['luck (in gambling)']	['noun']	
-背包	3.87	bēi bāo	['knapsack', 'rucksack', 'infantry pack', 'field pack', 'blanket roll', 'CL:個|个[gè]']	['noun']	
-屎	3.87	shĭ	['stool', 'feces', 'ear wax', 'nasal mucus']	['noun']	
-神色	3.86	shén sè	['expression', 'look']	['noun']	
-強壯	3.86	qiáng zhuàng	['strong', 'sturdy', 'robust']	['noun']	
-青蛙	3.86	qīng wā	['frog', 'CL:隻|只[zhī]', '(slang) ugly guy']	['noun']	
-兩旁	3.86	liăng páng	['both sides', 'either side']	['noun']	
-嘿嘿	3.86	hēi hēi	['(onom.) he he', 'mischievous laughter']	['onomatopoeia']	
-正文	3.84	zhèng wén	['main text (as opposed to footnotes)', 'main body (of a book)']	['noun', 'personal name']	
-走近	3.84	zŏu jìn	['to approach', 'to draw near to']	['verb']	
-田地	3.84	tián dì	['field', 'farmland', 'cropland', 'plight', 'extent']	['noun']	
-闊	3.84	kuò	['rich', 'wide', 'broad']	['noun']	
-愣	3.84	lèng	['to look distracted', 'to stare blankly', 'distracted', 'blank', '(coll.) unexpectedly', 'rash', 'rashly']	['verb', 'intransitive verb']	
-炎熱	3.83	yán rè	['blistering hot', 'sizzling hot (weather)']	['noun', 'noun morpheme']	
-螞蟻	3.83	mă yĭ	['ant']	['noun']	
-做人	3.83	zuò rén	['to conduct oneself', 'to behave with integrity']	['verb']	
-有著	3.82	yŏu zhe	['to have', 'to possess']	['verb', 'verb 有']	
-眉頭	3.82	méi tóu	['brows']	['noun']	
-光滑	3.81	guāng huá	['glossy', 'sleek', 'smooth']	['adjective']	
-勝負	3.81	shèng fù	['victory or defeat', 'the outcome of a battle']	['noun']	
-潑	3.8	pō	['to splash', 'to spill', 'rough and coarse', 'brutish']	['noun']	
-旺盛	3.8	wàng shèng	['vigorous', 'exuberant']	['adjective']	
-泥土	3.8	ní tŭ	['earth', 'soil', 'mud', 'clay']	['noun']	
-輸給	3.8	shū gĕi	['to lose to (sb)', 'to be outdone by']	['noun']	
-吉利	3.79	Jí lì	['Geely, Chinese car make', 'auspicious', 'lucky', 'propitious']	['adjective']	
-田野	3.78	tián yĕ	['field', 'open land', 'CL:片[piàn]']	['noun', 'personal name']	
-塵土	3.78	chén tŭ	['dust']	['noun']	
-接著	3.78	jiē zhe	['to catch and hold on', 'to continue', 'to go on to do sth', 'to follow', 'to carry on', 'then', 'after that', 'subsequently', 'to proceed', 'to ensue', 'in turn', "in one's turn"]	['verb']	
-燈籠	3.78	dēng lóng	['lantern']	['noun']	
-扛	3.78	gāng	['to raise aloft with both hands', '(of two or more people) to carry sth together', "to carry on one's shoulder", '(fig.) to take on (a burden, duty etc)']	['verb']	
-商會	3.78	shāng huì	['chamber of commerce']	['verb', 'verb morpheme']	
-喝醉	3.78	hē zuì	['to get drunk']	['verb', 'verb morpheme']	
-咧	3.77	liē	['see 咧咧[liē liē]', "to draw back the corners of one's mouth", 'modal particle expressing exclamation']	['verb']	
-怒氣	3.77	nù qì	['anger']	['verb', 'verb morpheme']	
-充斥	3.76	chōng chì	['to be full of', 'to flood', 'to congest']	['verb']	
-車輪	3.76	chē lún	['wheel']	['noun']	
-疲倦	3.76	pí juàn	['to tire', 'tired']	['adjective']	
-地道	3.76	dì dào	['tunnel', 'causeway', 'authentic', 'genuine', 'proper']	['adjective']	
-麻雀	3.75	má què	['sparrow', '(dialect) mahjong']	['noun']	
-遊蕩	3.75	yóu dàng	['to wander', 'to roam about', 'to loaf about', 'to be idle']	['noun']	
-照射	3.75	zhào shè	['to shine on', 'to light up', 'to irradiate']	['verb']	
-池塘	3.75	chí táng	['pool', 'pond']	['noun']	
-熄滅	3.75	xī miè	['to stop burning', 'to go out (of fire)', 'to die out', 'extinguished']	['verb']	
-樹葉	3.75	shù yè	['tree leaves']	['noun']	
-油漆	3.75	yóu qī	['oil paints', 'lacquer', 'to paint', 'CL:層|层[céng]']	['noun']	
-遊玩	3.74	yóu wán	['to amuse oneself', 'to have fun', 'to go sightseeing', 'to take a stroll']	['noun']	
-有錢人	3.74	yŏu qián rén	['rich person', 'the rich']	['verb', 'verb 有']	
-響亮	3.73	xiăng liàng	['loud and clear', 'resounding']	['noun']	
-沉睡	3.73	chén shuì	['to be fast asleep', '(fig.) to lie dormant', 'to lie undiscovered']	['verb', 'intransitive verb']	
-桌面	3.73	zhuō miàn	['desktop', 'tabletop']	['noun']	
-糞	3.72	fèn	['manure', 'dung']	['noun']	
-站住	3.72	zhàn zhù	['to stand']	['verb']	
-胡鬧	3.72	hú nào	['to act willfully and make a scene', 'to make trouble']	['noun', 'personal name', 'Chinese surname']	
-贏家	3.72	yíng jiā	['winner']	['noun']	
-著手	3.72	zhuó shŏu	["to put one's hand to it", 'to start out on a task', 'to set out']	['verb', 'verb morpheme']	
-皮帶	3.71	pí dài	['strap', 'leather belt', 'CL:條|条[tiáo],根[gēn]']	['noun']	
-缸	3.71	gāng	['jar', 'vat', 'classifier for loads of laundry', 'CL:口[kŏu]']	['noun']	
-風聲	3.71	fēng shēng	['sound of the wind', 'rumor', 'talk', 'news', 'reputation']	['noun']	
-鄉間	3.7	xiāng jiān	['in the country', 'rural', 'pastoral']	['noun']	
-握住	3.7	wò zhù	['to grip', 'to hold']	['verb']	
-妓院	3.7	jì yuàn	['brothel', 'whorehouse']	['noun']	
-早安	3.7	zăo ān	['Good morning!']	['verb', 'intransitive verb']	
-大腿	3.69	dà tuĭ	['thigh']	['noun']	
-天色	3.69	tiān sè	['color of the sky', 'time of day, as indicated by the color of the sky', 'weather']	['noun']	
-世面	3.69	shì miàn	['aspects of society', 'the world']	['noun']	
-告辭	3.68	gào cí	['to say goodbye', "to take one's leave"]	['verb']	
-夕陽	3.67	xī yáng	['sunset', 'the setting sun']	['time word', 'time morpheme']	
-午後	3.67	wŭ hòu	['afternoon']	['time word', 'time morpheme']	
-岳父	3.67	yuè fù	["wife's father, father-in-law"]	['noun']	
-波浪	3.66	bō làng	['wave']	['noun']	
-皺紋	3.66	zhòu wén	['wrinkle', 'CL:道[dào]']	['noun']	
-釘子	3.66	dīng zi	['nail', 'snag', 'saboteur']	['noun']	
-嗓音	3.65	săng yīn	['voice']	['noun']	
-麻將	3.65	má jiàng	['mahjong', 'CL:副[fù]']	['noun']	
-栽	3.65	zāi	['to grow', 'to plant', 'to insert', 'to force on sb', 'to fall head first']	['verb']	
-哭聲	3.64	kū shēng	['sound of weeping']	['verb']	
-頭巾	3.64	tóu jīn	['cloth head covering worn by men in ancient times', 'headscarf (typically worn by women)', 'kerchief', 'turban']	['noun']	
-馬桶	3.64	mă tŏng	['chamber pot', 'wooden pan used as toilet', 'toilet bowl']	['noun']	
-家境	3.64	jiā jìng	['family financial situation', 'family circumstances']	['noun']	
-短褲	3.63	duăn kù	['short pants', 'shorts']	['adjective']	
-煙囪	3.63	yān cōng	['chimney']	['noun']	
-擠滿	3.63	jĭ măn	['crowded to bursting point', 'filled to overflowing', 'jam-packed']	['noun']	
-叫醒	3.62	jiào xĭng	['to awaken', 'to wake sb up', 'to rouse']	['verb']	
-草叢	3.61	căo cóng	['underbrush']	['noun']	
-身手	3.61	shēn shŏu	['skill', 'talent', 'agility']	['noun']	
-賭注	3.61	dŭ zhù	['stake (in a gamble)', '(what is at) stake']	['noun']	
-滾滾	3.6	Gŭn gŭn	['nickname for a panda', 'to surge on', 'to roll on']	['noun']	
-莊稼	3.6	zhuāng jia	['farm crop', 'CL:種|种[zhŏng]']	['noun']	
-掙脫	3.6	zhèng tuō	['to throw off', 'to struggle free of', 'Taiwan pr. [zhēng tuō]']	['noun']	
-打量	3.6	dă liàng	['to size sb up', 'to look sb up and down', 'to take the measure of', 'to suppose', 'to reckon']	['verb']	
-差一點	3.59	chà yī diăn	['see 差點|差点[chà diăn]']	['adjective']	
-彎腰	3.59	wān yāo	['to stoop']	['noun']	
-算計	3.59	suàn ji	['to reckon', 'to calculate', 'to plan', 'to expect', 'to scheme']	['verb']	
-歌謠	3.57	gē yáo	['folksong', 'ballad', 'nursery rhyme']	['noun']	
-拖鞋	3.57	tuō xié	['slippers', 'sandals', 'flip-flops', 'CL:雙|双[shuāng],隻|只[zhī]']	['noun']	
-筆直	3.57	bĭ zhí	['perfectly straight', 'straight as a ramrod', 'bolt upright']	['noun']	
-勾當	3.56	gòu dàng	['shady business']	['verb']	
-赤裸	3.56	chì luŏ	['naked', 'bare']	['adjective']	
-慌張	3.56	huāng zhāng	['confused', 'flustered']	['adjective']	
-引子	3.56	yĭn zi	['introduction', 'primer', 'opening words']	['noun']	
-半月	3.56	bàn yuè	['half-moon', 'fortnight']	['numeral']	
-免不了	3.56	miăn bù liăo	['unavoidable', "can't be avoided"]	['verb']	
-搶先	3.56	qiăng xiān	['to rush (to do sth urgent)', 'to try to be the first', 'to forestall']	['noun']	
-床邊	3.55	chuáng biān	['bedside']	['noun']	
-祖宗	3.55	zŭ zōng	['ancestor', 'forebear']	['noun']	
-項圈	3.55	xiàng quān	['necklace']	['noun']	
-認輸	3.55	rèn shū	['to concede', 'to admit defeat']	['noun']	
-臉蛋	3.54	liăn dàn	['cheek', 'face']	['noun']	
-牆角	3.53	qiáng jiăo	['corner (junction of two walls)']	['noun']	
-編著	3.52	biān zhù	['to compile', 'to write']	['noun']	
-把頭	3.52	bă tóu	['labor contractor', 'gangmaster']	['preposition', 'preposition 把']	
-整夜	3.52	zhĕng yè	['the whole night', 'all through the night']	['adverb']	
-青樓	3.52	qīng lóu	['(literary) brothel', 'pleasure quarters']	['adjective']	
-起先	3.52	qĭ xiān	['at first', 'in the beginning']	['adverb']	
-滯	3.51	zhì	['sluggish']	['noun']	
-活著	3.5	huó zhe	['alive']	['noun']	
-田產	3.5	tián chăn	['estate', 'lands']	['noun', 'personal name', 'Chinese surname']	
-跑堂	3.5	păo táng	['waiter (old)']	['verb']	
-怔	3.5	zhēng	['to stare blankly', 'startled', 'stumped for words', 'to stare blankly']	['verb']	
-點數	3.5	diăn shù	['to count and check', 'to tally', 'points (collected in some bonus scheme etc)']	['noun']	
-激昂	3.49	jī áng	['impassioned', 'worked up']	['adjective']	
-喊叫	3.48	hăn jiào	['to cry out', 'to shout']	['verb']	
-照看	3.48	zhào kàn	['to look after', 'to attend to', 'to have in care']	['verb']	
-汗水	3.48	hàn shuĭ	['sweat', 'perspiration']	['noun']	
-樹幹	3.48	shù gàn	['tree trunk']	['noun']	
-古板	3.48	gŭ băn	['outmoded', 'old-fashioned', 'inflexible']	['adjective']	
-大錢	3.48	dà qián	['high denomination of banknotes or coins', 'lots of money', 'a big sum (e.g. a bribe)']	['adjective']	
-巴掌	3.48	bā zhăng	['palm of the hand', 'classifier: slap']	['noun']	
-茶水	3.47	chá shuĭ	['tea prepared in large quantity using inexpensive tea leaves']	['noun']	
-水壺	3.47	shuĭ hú	['kettle', 'canteen', 'watering can']	['noun']	
-捲起	3.47	juăn qĭ	['to roll up', 'to curl up', '(of dust etc) to swirl up']	['noun']	
-半晌	3.47	bàn shăng	['half of the day', 'a long time', 'quite a while']	['numeral']	
-骰子	3.47	tóu zi	['dice']	['noun']	
-心疼	3.47	xīn téng	['to love dearly', 'to feel sorry for sb', 'to regret', 'to grudge', 'to be distressed']	['verb']	
-田間	3.46	tián jiān	['field', 'farm', 'farming area', 'village']	['noun', 'personal name', 'Chinese surname']	
-犁	3.46	lí	['plow']	['noun']	
-訓斥	3.45	xùn chì	['to reprimand', 'to rebuke', 'to berate', 'stern criticism']	['noun']	
-銀元	3.45	yín yuán	['flat silver (former coinage)', 'also written 銀圓|银圆', 'silver dollar']	['noun']	
-牌九	3.45	pái jiŭ	['pai gow (gambling game played with dominoes)']	['noun']	
-二來	3.45	èr lái	['secondly, ...']	['numeral']	
-衣衫	3.44	yī shān	['clothing', 'unlined garment']	['noun']	
-貓眼	3.44	māo yăn	['peephole', 'chrysoberyl']	['noun']	
-稀奇	3.43	xī qí	['rare', 'strange']	['adjective']	
-扇子	3.42	shàn zi	['fan', 'CL:把[bă]']	['noun']	
-臭味	3.42	chòu wèi	['bad smell', 'foul odor']	['noun']	
-唷	3.42	yō	['(interjection expressing surprise) Oh!', 'My!', 'final particle expressing exhortation, admiration etc']	['noun']	
-敲打	3.42	qiāo dă	['to beat sb', 'to beat (a drum)']	['verb']	
-抖動	3.41	dŏu dòng	['to tremble']	['verb', 'intransitive verb']	
-吆喝	3.41	yāo he	['to shout', 'to bawl', 'to yell (to urge on an animal)', "to hawk (one's wares)", 'to denounce loudly', 'to shout slogans']	['verb']	
-逃竄	3.41	táo cuàn	['to run away', 'to flee in disarray']	['verb']	
-拍手	3.41	pāi shŏu	["to clap one's hands"]	['verb', 'intransitive verb']	
-農忙	3.4	nóng máng	['busy farming season']	['noun']	
-水邊	3.4	shuĭ biān	['edge of the water', 'waterside', 'shore (of sea, lake or river)']	['noun']	
-頂撞	3.4	dĭng zhuàng	['to contradict (elders or superiors)']	['noun']	
-爪子	3.39	zhuă zi	["(animal's) claw"]	['noun']	
-糟蹋	3.38	zāo tà	['to waste', 'to defile', 'to abuse', 'to insult', 'to defile', 'to trample on', 'to wreck', 'also pr. [zāo ta]']	['verb']	
-葷	3.37	hūn	['strong-smelling vegetable (garlic etc)', 'non-vegetarian food (meat, fish etc)', 'vulgar', 'obscene']	['noun']	
-茂盛	3.37	mào shèng	['lush']	['adjective']	
-打鼓	3.37	dă gŭ	['to beat a drum', 'to play a drum', '(fig.) to feel nervous']	['verb']	
-存心	3.37	cún xīn	['deliberately']	['adverb']	
-摘下	3.36	zhāi xià	['to take off', "to remove (one's hat, a door from its hinges etc)", 'to pick (a piece of fruit from a tree etc)', '(sports) to pick off (a rebound etc)']	['verb']	
-苦根	3.36	kŭ gēn	['underlying cause of poverty']	['adjective']	
-香火	3.36	xiāng huŏ	['incense burning in front of a temple', 'burning joss sticks']	['noun']	
-撒尿	3.36	sā niào	['to pass water', 'to piss', 'to urinate', 'to wee wee']	['verb', 'intransitive verb']	
-前世	3.36	qián shì	['previous generations', 'previous incarnation (Buddhism)']	['time word']	
-捂	3.36	wŭ	['to enclose', "to cover with the hand (one's eyes, nose or ears)", 'to cover up (an affair)', 'contrary', 'to contradict']	['verb']	
-拍打	3.35	pāi da	['to pat', 'to slap', "(of a bird) to flap (one's wings)"]	['verb']	
-泥巴	3.35	ní bā	['mud']	['noun']	
-偷聽	3.35	tōu tīng	['to eavesdrop', 'to monitor (secretly)']	['verb']	
-心腸	3.35	xīn cháng	['heart', 'intention', "one's inclination", 'state of mind', 'to have the heart for sth', 'mood']	['noun']	
-兒媳	3.34	ér xí	['daughter-in-law']	['noun']	
-耗子	3.34	hào zi	['(dialect) mouse', 'rat']	['noun']	
-扯住	3.34	chĕ zhù	['to grasp firmly']	['verb']	
-開脫	3.34	kāi tuō	['to exculpate', 'to absolve', 'to exonerate']	['noun']	
-舊日	3.33	jiù rì	['former times', 'olden days']	['noun']	
-清點	3.33	qīng diăn	['to check', 'to make inventory']	['adjective']	
-化緣	3.32	huà yuán	['(of a monk) to beg']	['verb']	
-鬼混	3.32	guĭ hùn	['to hang around', 'to fool around', 'to live aimlessly']	['verb', 'intransitive verb']	
-吃喝	3.32	chī hē	['to eat and drink', 'food and drink']	['verb']	
-失聲	3.31	shī shēng	["to lose one's voice", '(to cry out) involuntarily']	['verb']	
-偷懶	3.31	tōu lăn	['to goof off', 'to be lazy']	['verb']	
-布鞋	3.31	bù xié	['cloth shoes', 'CL:雙|双[shuāng],隻|只[zhī]']	['noun']	
-逛街	3.31	guàng jiē	['to take a walk', 'to window-shop', 'to stroll down the street']	['verb']	
-閉著	3.31	bì zhe	['closed']	['noun']	
-洩氣	3.3	xiè qì	['to leak (gas)', 'to be discouraged', 'to despair', '(disparaging) pathetic', "to vent one's anger", '(of a tire) to be flat']	['noun']	
-叼	3.3	diāo	["to hold with one's mouth (as a smoker with a cigarette or a dog with a bone)"]	['verb']	
-屢見不鮮	3.29	lǚ jiàn bù xiān	['a common occurrence (idiom)']	['noun']	
-擺弄	3.29	băi nòng	['to move back and forth', 'to fiddle with']	['noun']	
-兜售	3.29	dōu shòu	['to hawk', 'to peddle']	['verb']	
-嫌棄	3.29	xián qì	['to avoid sb (out of dislike)', "to turn one's back on sb", 'to ignore']	['verb']	
-賭徒	3.29	dŭ tú	['gambler']	['noun']	
-洗牌	3.29	xĭ pái	['to shuffle cards']	['verb']	
-大肚子	3.29	dà dù zi	['pregnant', 'potbelly', 'big eater']	['noun']	
-佇立	3.28	zhù lì	['to stand for a long time']	['noun']	
-兩句	3.28	liăng jù	['(say) a few words']	['noun']	
-小道	3.26	xiăo dào	['bypath', 'trail', 'bribery as a means of achieving a goal', 'minor arts (Confucian reference to agriculture, medicine, divination, and other professions unworthy of a gentleman)']	['noun']	
-開導	3.26	kāi dăo	['to talk sb round', 'to straighten sth out', 'to enlighten']	['noun']	
-亮光	3.26	liàng guāng	['light', 'beam of light', 'gleam of light', 'light reflected from an object']	['noun']	
-草帽	3.25	căo mào	['straw hat']	['noun']	
-野地	3.25	yĕ dì	['wilderness']	['noun']	
-輸掉	3.25	shū diào	['to lose']	['noun']	
-青草	3.24	qīng căo	['grass']	['noun']	
-私塾	3.24	sī shú	['private school (in former times)']	['noun']	
-摸牌	3.24	mō pái	['to draw a tile (at mahjong)', 'to play mahjong']	['verb']	
-手心	3.24	shŏu xīn	["palm (of one's hand)", "control (extended meaning from having something in the palm of one's hand)"]	['noun']	
-穿著	3.23	chuān zhuó	['attire', 'clothes', 'dress']	['verb']	
-拜佛	3.23	bài Fó	['to worship Buddha']	['verb', 'intransitive verb']	
-苦味	3.22	kŭ wèi	['bitter taste', 'bitterness']	['noun']	
-草鞋	3.22	căo xié	['straw sandals']	['noun']	
-村舍	3.21	cūn shè	['cottage']	['noun']	
-壓住	3.21	yā zhù	['to press down', 'to crush down', 'to restrain (anger)', 'to keep down (voice)']	['noun']	
-鋤頭	3.21	chú tou	['hoe', 'CL:把[bă]']	['noun']	
-叫喚	3.21	jiào huan	['to cry out', 'to bark out a sound']	['verb', 'intransitive verb']	
-敗落	3.21	bài luò	['(of status or wealth) to decline', '(of buildings etc) to become dilapidated', 'run-down', '(of plants) to wilt']	['noun']	
-學時	3.21	xué shí	['class hour', 'period']	['noun']	
-有生以來	3.2	yŏu shēng yĭ lái	['since birth', "for one's whole life"]	['verb', 'verb 有']	
-黝黑	3.2	yŏu hēi	['dark', 'black', 'suntanned']	['status word']	
-哆嗦	3.2	duō suo	['to tremble', 'to shiver', 'uncontrolled shaking of the body']	['verb', 'intransitive verb']	
-一聲不吭	3.19	yī shēng bù kēng	['to not say a word']	['numeral']	
-拉屎	3.18	lā shĭ	['to defecate', 'to shit', 'to crap']	['verb']	
-茶碗	3.17	chá wăn	['teacup']	['noun']	
-透亮	3.17	tòu liàng	['bright', 'shining', 'translucent', 'crystal clear']	['verb', 'intransitive verb']	
-光耀	3.17	guāng yào	['dazzling', 'brilliant']	['noun']	
-亂糟糟	3.17	luàn zāo zāo	['chaotic', 'topsy turvy', 'a complete mess']	['noun']	
-債主	3.16	zhài zhŭ	['creditor']	['noun']	
-賊亮	3.16	zéi liàng	['bright', 'shiny', 'dazzling', 'glaring']	['noun']	
-起勁	3.15	qĭ jìn	['vigorously', 'energetically', 'enthusiastically']	['verb', 'directional verb']	
-風騷	3.15	fēng sāo	['literary excellence', 'flirtatious behavior']	['noun']	
-腰板	3.15	yāo băn	['waist and back', 'fig. upright and still healthy']	['noun']	
-賭局	3.15	dŭ jú	['game of chance', 'gambling party', 'gambling joint']	['noun']	
-酸曲	3.14	suān qŭ	['love song']	['noun']	
-游動	3.14	yóu dòng	['to move about', 'to go from place to place', 'roving', 'mobile']	['verb']	
-沙啞	3.14	shā yă	['hoarse', 'rough']	['noun', 'personal name', 'Chinese surname']	
-讓位	3.14	ràng wèi	['to abdicate', 'to yield']	['noun']	
-揚長而去	3.13	yáng cháng ér qù	['to swagger off', 'to walk off (or drive off etc) without a second thought for those left behind']	['noun']	
-不孝	3.13	bù xiào	['unfilial']	['adjective']	
-轎子	3.13	jiào zi	['sedan chair', 'palanquin', 'litter']	['noun']	
-嫖	3.12	piáo	['to visit a prostitute']	['verb']	
-無恙	3.12	wú yàng	['in good health']	['noun']	
-揖	3.12	yī	['to greet by raising clasped hands']	['verb', 'verb morpheme']	
-手電	3.11	shŏu diàn	['flashlight', 'torch']	['noun']	
-滿腹	3.1	măn fù	['filled with', 'preoccupied with']	['noun']	
-闖蕩	3.1	chuăng dàng	["to leave home to make one's way in the world", 'to leave the life one knows to seek success']	['noun']	
-滿不在乎	3.09	măn bù zài hu	['not in the least concerned (idiom)', 'reckless', "couldn't give a damn about it", 'unperturbed', "couldn't care less", 'harum scarum']	['noun']	
-帳目	3.09	zhàng mù	['account']	['noun']	
-逃之夭夭	3.08	táo zhī yāo yāo	["to escape without trace (idiom); to make one's getaway (from the scene of a crime)", 'to show a clean pair of heels']	['verb', 'verb phrase']	
-翻動	3.08	fān dòng	['to flip over', 'to turn (a page)', 'to scroll (an electronic document)', 'to stir (food in a pot etc)', 'to move things about', 'to rummage']	['verb']	
-舒坦	3.08	shū tan	['comfortable', 'at ease']	['adjective']	
-檢點	3.07	jiăn diăn	['to examine', 'to check', 'to keep a lookout', 'cautious', 'restrained (in speech or mannerisms)']	['noun']	
-推說	3.07	tuī shuō	['to plead', 'to claim as an excuse']	['verb']	
-慢吞吞	3.06	màn tūn tūn	['very slow', 'exasperatingly slow']	['status word']	
-褲襠	3.06	kù dāng	['crotch of trousers']	['noun']	
-安分	3.05	ān fèn	["content with one's lot", "knowing one's place"]	['adjective']	
-派頭	3.05	pài tóu	['manner', 'style', 'panache']	['multiword expression']	
-賞心悅目	3.04	shăng xīn yuè mù	['warms the heart and delights the eye (idiom)', 'pleasing', 'delightful']	['noun']	
-散漫	3.03	săn màn	['undisciplined', 'unorganized']	['adjective']	
-脊背	3.03	jĭ bèi	['back (of a human or other vertebrate)']	['noun']	
-長衫	3.03	cháng shān	['long gown', 'cheongsam', "traditional Asian dress for men or (in Hong Kong) women's qipao"]	['noun']	
-雷公	3.03	Léi gōng	['Lei Gong or Duke of Thunder, the God of Thunder in Chinese mythology']	['noun']	
-羞怯	3.02	xiū qiè	['shy', 'timid']	['adjective']	
-織布	3.02	zhī bù	['woven cloth', 'to weave cloth']	['noun']	
-好端端	3.02	hăo duān duān	['perfectly all right', 'without rhyme or reason']	['status word']	
-暗地	3.02	àn dì	['secretly', 'inwardly']	['adjective']	
-凸起	3.02	tū qĭ	['convex', 'protruding', 'to protrude', 'to bulge', 'to buckle upwards']	['verb', 'intransitive verb']	
-孤身	3.02	gū shēn	['alone', 'lonely']	['noun']	
-各不相同	3.01	gè bù xiāng tóng	['to have nothing in common with each other (idiom)']	['pronoun', 'demonstrative pronoun']	
-亮出	3.01	liàng chū	['to suddenly reveal', "to flash (one's ID, a banknote etc)"]	['verb', 'intransitive verb']	
-樹梢	3.0	shù shāo	['the tip of a tree', 'treetop']	['noun']	
-悄聲	3.0	qiăo shēng	['quietly', 'in a low voice']	['noun']	
-說白了	3.0	shuō bái le	['to speak frankly']	['noun']	
-哄笑	3.0	hōng xiào	['to roar with laughter', 'hoots of laughter', 'guffaw']	['verb', 'noun-verb']	
-彩旗	2.99	căi qí	['colored flag']	['noun']	
-鹹菜	2.95	xián cài	['salted vegetables', 'pickles']	['noun']	
-揪住	2.95	jiū zhù	['to grab']	['verb']	
-呵欠	2.94	hē qiàn	['yawn']	['noun']	
-褲管	2.91	kù guăn	['trouser leg']	['noun']	
-黑桃	2.91	hēi táo	['spade ♠ (in card games)']	['noun']	
-唰	2.88	shuā	['(onom.) swishing', 'rustling']	['noun']	
-報曉	2.87	bào xiăo	['to herald the break of day']	['noun']	
-沒趣	2.87	méi qù	['embarrassing', 'dull', 'unsatisfactory']	['noun']	
-賢惠	2.77	xián huì	['variant of 賢慧|贤慧[xián huì]']	['noun']	
-鬧騰	2.77	nào teng	['to disturb', 'to create confusion', 'to make a din']	['noun']	
-犯愁	2.75	fàn chóu	['to worry', 'to be anxious']	['verb', 'intransitive verb']	
-丈人	2.72	zhàng rén	["wife's father (father-in-law)", 'old man']	['noun']	
-青筋	2.71	qīng jīn	['veins', 'blue veins']	['noun']	
-袖管	2.71	xiù guăn	['sleeve']	['noun']	
-浪蕩	2.68	làng dàng	['to loiter', 'to hang around', 'dissolute', 'licentious']	['noun']	
-哭喪	2.68	kū sāng	['to wail at a funeral', 'formal wailing while offering sacrifice to the departed']	['verb']	
-嗚嗚	2.67	wū wū	['(interj) boo hoo']	['noun']	
-懷胎	2.66	huái tāi	['to become pregnant', 'to carry a child in the womb']	['noun']	
-路途遙遠	2.59	lù tú yáo yuăn	['distant', 'far-flung']	['noun']	
-千字文	2.58	Qiān zì wén	['Thousand Character Classic, 6th century poem used as a traditional reading primer']	['numeral']	
-竊竊	2.57	qiè qiè	['privately', 'secretly', 'unobtrusively']	['noun']	
-蒸騰	2.57	zhēng téng	['(of a vapor etc) to rise', 'to hang in the air']	['verb']	
-粗啞	2.56	cū yă	['husky', 'hoarse', 'raucous']	['adjective']	
-嚇一跳	2.55	xià yī tiào	['startled', 'to frighten', "scared out of one's skin"]	['noun']	
-動彈不得	2.52	dòng tan bu dé	['to be unable to move a single step']	['noun']	
-耕田	2.5	gēng tián	['to cultivate soil', 'to till fields']	['verb', 'intransitive verb']	
-孽子	2.49	niè zĭ	['unfilial son', 'unworthy son', 'illegitimate son', "concubine's son"]	['adjective', 'adjective morpheme']	
-饞嘴	2.47	chán zuĭ	['gluttonous', 'glutton']	['noun']	
-嘻嘻	2.44	xī xī	['hee hee', 'happy']	['onomatopoeia']	
-肥碩	2.43	féi shuò	['fleshy (fruit)', 'plump', 'large and firm-fleshed (limbs, body)', 'stout']	['noun']	
-不可救藥	2.41	bù kĕ jiù yào	['incurable', 'incorrigible', 'beyond cure', 'hopeless']	['verb']	
-天剛亮	2.41	tiān gāng liàng	['daybreak']	['classifier', 'temporal classifier']	
-扶犁	2.4	fú lí	["to put one's hand to the plow"]	['noun', 'personal name', 'Chinese given name']	
-樹蔭	2.39	shù yìn	['shade of a tree']	['noun']	
-嘩嘩	2.39	huā huā	['sound of gurgling water']	['noun']	
-笑盈盈	2.37	xiào yíng yíng	['smilingly', 'to be all smiles']	['status word']	
-狗吠	2.36	gŏu fèi	['bark', 'CL:聲|声[shēng]', 'to bark']	['noun']	
-慢悠悠	2.32	màn yōu yōu	['unhurried']	['status word']	
-撩起	2.31	liāo qĭ	['to raise', 'to lift up (curtains, clothing etc)']	['verb']	
-有氣無力	2.3	yŏu qì wú lì	['weakly and without strength (idiom); dispirited']	['verb', 'verb 有']	
-敗家子	2.29	bài jiā zĭ	['spendthrift', 'wastrel', 'prodigal']	['noun']	
-鶚	2.28	è	['(bird species of China) western osprey (Pandion haliaetus)']	['noun']	
-收復失地	2.2	shōu fù shī dì	['to recover lost territory']	['verb']	
-搔癢	2.16	sāo yăng	['to scratch (an itch)', 'to tickle']	['verb']	
-撓癢癢	2.11	náo yăng yang	['to tickle']	['noun']	
-舀水	2.1	yăo shuĭ	['to ladle water', 'to scoop up water']	['verb']	
-真心實意	2.08	zhēn xīn shí yì	['genuine and sincere (idiom)', 'wholehearted']	['noun']	
-二流子	2.08	èr liú zi	['loafer', 'idler', 'bum']	['noun']	
-瞇	2.07	mī	["to narrow one's eyes", 'to squint', '(dialect) to take a nap']	['noun']	
-嫖妓	2.03	piáo jì	['to visit a prostitute']	['verb']	
-松花蛋	2.03	sōng huā dàn	['thousand-year egg', 'preserved egg']	['noun']	
-茶垢	1.98	chá gòu	['tea stain (on the inside of a tea pot, tea cup etc)']	['noun']	
-黿	1.95	yuán	['sea turtle']	['noun']	
-打盹	1.95	dă dŭn	['to doze off']	['verb', 'intransitive verb']	
-佃戶	1.94	diàn hù	['tenant farmer']	['verb']	
-打呵欠	1.93	dă hē qiàn	['to yawn']	['verb']	
-沉不住氣	1.92	chén bù zhù qì	["to lose one's cool", 'to get impatient', 'unable to remain calm']	['verb']	
-青天白日	1.89	qīng tiān bái rì	['in broad daylight', 'in the middle of the day', 'KMT emblem, a white sun on a blue background']	['noun']	
-田埂	1.76	tián gĕng	['embankment or foothpath between paddy fields']	['noun']	
-賒帳	1.75	shē zhàng	['see 賒賬|赊账[shē zhàng]']	['noun']	
-泥鰍	1.74	ní qiu	['loach', 'mud fish', 'CL:條|条[tiáo]']	['noun']	
-談情說愛	1.72	tán qíng shuō ài	['to murmur endearments (idiom)', 'to get into a romantic relationship']	['noun']	
-自鳴得意	1.65	zì míng dé yì	['to think highly of oneself']	['preposition']	
-軟硬不吃	1.65	ruăn yìng bù chī	['unmoved by force or persuasion']	['noun']	
-轉彎抹角	1.6	zhuăn wān mò jiăo	['see 拐彎抹角|拐弯抹角[guăi wān mò jiăo]']	['noun']	
-腳丫子	1.56	jiăo yā zi	['(coll.) foot']	['noun']	
-信口開河	1.53	xìn kŏu kāi hé	['to speak without thinking (idiom)', 'to blurt sth out']	['adverb']	
-紋絲不動	1.29	wén sī bù dòng	['to not move a single jot (idiom)']	['noun']	
-乇	1.26	tuō	['archaic variant of 托[tuō]', '"blade of grass" component in Chinese characters']	['classifier']	
-左思右想	1.19	zuŏ sī yòu xiăng	["to turn over in one's mind (idiom); to think through from different angles", 'to ponder']	['noun', 'personal name']	
-十有八九	1.15	shí yŏu bā jiŭ	['most likely', 'mostly (in 8 or 9 cases out of 10)', 'vast majority']	['noun', 'noun phrase']	
-細聲細氣	1.12	xì shēng xì qì	['in a fine voice (idiom); softly spoken']	['noun']	
-偷雞摸狗	1.06	tōu jī mō gŏu	['to imitate the dog and steal chicken (idiom)', 'to pilfer', 'to dally with women', 'to have affairs']	['verb']	
-花花綠綠	1.06	huā huā lǜ lǜ	['brightly colored', 'gaudy']	['noun', 'personal name']	
-支支吾吾	0.98	zhī zhī wú wú	['to hem and haw', 'to stall', 'to stammer', 'to mumble', 'to falter']	['status word']	
-昏昏沉沉	0.98	hūn hūn chén chén	['dizzy']	['status word']	
-眉開眼笑	0.93	méi kāi yăn xiào	['brows raised in delight, eyes laughing (idiom); beaming with joy', 'all smiles']	['noun']	
-吃喝嫖賭	0.89	chī hē piáo dŭ	['to go dining, wining, whoring and gambling', 'to lead a life of dissipation']	['verb']	
-南腔北調	0.88	nán qiāng bĕi diào	['a regional accent']	['distinguishing word']	
-逆來順受	0.82	nì lái shùn shòu	['to resign oneself to adversity (idiom); to grin and bear it', 'to submit meekly to insults, maltreatment, humiliation etc']	['verb', 'verb morpheme']	
-鼻青眼腫	0.58	bí qīng yăn zhŏng	['a black eye (idiom); serious injury to the face', 'fig. a setback', 'a defeat']	['noun', 'noun morpheme']	
-罵罵咧咧	0.42	mà ma liē liē	['to swear while talking', 'to be foul-mouthed']	['noun']	
+向	5.99	xiàng	towards; to face; to turn towards; direction; to support; to side with; shortly before; formerly; always; all along; (suffix) suitable for ...; oriented to ...; 	preposition; 	
+兩	5.99	liăng	two; both; some; a few; tael, unit of weight equal to 50 grams (modern) or 1⁄16 of a catty 斤[jīn] (old); 	noun; 	
+們	5.96	men	plural marker for pronouns, and nouns referring to individuals; 	noun; 	
+卻	5.96	què	but; yet; however; while; to go back; to decline; to retreat; nevertheless; even though; 	noun; 	
+該	5.96	gāi	should; ought to; probably; must be; to deserve; to owe; to be sb's turn to do sth; that; the above-mentioned; 	noun; 	
+已	5.95	yĭ	already; to stop; then; afterwards; 	adverb; 	
+前	5.95	qián	front; forward; ahead; first; top (followed by a number); future; ago; before; BC (e.g. 前293年); former; formerly; 	noun of locality; 	
+再	5.94	zài	again; once more; re-; second; another; then (after sth, and not until then); no matter how ... (followed by an adjective or verb, and then (usually) 也[yĕ] or 都[dōu] for emphasis); 	adverb; 	
+當	5.94	dāng	to be; to act as; manage; withstand; when; during; ought; should; match equally; equal; same; obstruct; just at (a time or place); on the spot; right; just at; at or in the very same...; suitable; adequate; fitting; proper; to replace; to regard as; to think; to pawn; (coll.) to fail (a student); 	noun; 	
+時候	5.92	shí hou	time; length of time; moment; period; 	noun; 	
+才	5.91	cái	ability; talent; sb of a certain type; a capable individual; only; only then; just now; 	adverb; 	
+長	5.9	cháng	length; long; forever; always; constantly; chief; head; elder; to grow; to develop; to increase; to enhance; 	noun; 	
+起來	5.89	qĭ lai	to stand up; to get up; also pr. [qĭ lái]; (after a verb) indicating the beginning and continuation of an action or a state; indicating an upward movement (e.g. after 站[zhàn]); indicating completion; (after a perception verb, e.g. 看[kàn]) expressing preliminary judgment; also pr. [qĭ lai]; 	verb; directional verb; 	
+事	5.89	shì	matter; thing; item; work; affair; CL:件[jiàn],樁|桩[zhuāng],回[huí]; 	noun; 	
+不能	5.89	bù néng	cannot; must not; should not; 	adverb; 	
+地方	5.87	dì fāng	region; regional (away from the central administration); local; area; place; space; room; territory; CL:處|处[chù],個|个[gè],塊|块[kuài]; 	noun; 	
+小	5.87	xiăo	small; tiny; few; young; 	adjective; 	
+走	5.86	zŏu	to walk; to go; to run; to move (of vehicle); to visit; to leave; to go away; to die (euph.); from; through; away (in compound verbs, such as 撤走[chè zŏu]); to change (shape, form, meaning); 	verb; 	
+三	5.86	sān	three; 3; 	numeral; 	
+應該	5.84	yīng gāi	ought to; should; must; 	noun; 	
+聽	5.82	tīng	to listen; to hear; to obey; a can (loanword from English "tin"); classifier for canned beverages; (literary pronunciation, still advocated in Taiwan) to rule; to sentence; to allow; 	noun; 	
+使	5.81	shĭ	to make; to cause; to enable; to use; to employ; to send; to instruct sb to do sth; envoy; messenger; 	verb; 	
+日本	5.81	rì bĕn	Japan; 	noun; toponym; transcribed toponym; 	
+天	5.81	tiān	day; sky; heaven; 	noun; 	
+還有	5.8	hái yŏu	furthermore; in addition; still; also; 	noun; 	
+出現	5.8	chū xiàn	to appear; to arise; to emerge; to show up; 	verb; directional verb; 	
+這裡	5.8	zhè lĭ	here; 	noun; 	
+起	5.79	qĭ	to rise; to raise; to get up; to set out; to start; to appear; to launch; to initiate (action); to draft; to establish; to get (from a depot or counter); verb suffix, to start; starting from (a time, place, price etc); classifier for occurrences or unpredictable events: case, instance; classifier for groups: batch, group; 	verb; directional verb; 	
+一樣	5.79	yī yàng	same; like; equal to; the same as; just like; 	numeral; 	
+所有	5.79	suŏ yŏu	all; to have; to possess; to own; 	distinguishing word; 	
+如	5.79	rú	as; as if; such as; 	verb; 	
+呢	5.79	ne	particle indicating that a previously asked question is to be applied to the preceding word ("What about ...?", "And ...?"); particle for inquiring about location ("Where is ...?"); particle signaling a pause, to emphasize the preceding words and allow the listener time to take them on board ("ok?", "are you with me?"); (at the end of a declarative sentence) particle indicating continuation of a state or action; particle indicating strong affirmation; woolen material; 	modal particle; 	
+覺得	5.79	jué de	to think; to feel; 	noun; 	
+不會	5.78	bù huì	improbable; unlikely; will not (act, happen etc); not able; not having learned to do sth; (coll.) (Tw) don't mention it; not at all; 	adverb; 	
+家	5.78	jiā	home; family; (polite) my (sister, uncle etc); classifier for families or businesses; refers to the philosophical schools of pre-Han China; noun suffix for a specialist in some activity, such as a musician or revolutionary, corresponding to English -ist, -er, -ary or -ian; CL:個|个[gè]; 	noun; 	
+像	5.77	xiàng	to resemble; to be like; to look as if; such as; appearance; image; portrait; image under a mapping (math.); 	verb; 	
+問	5.77	wèn	to ask; 	noun; 	
+跟	5.77	gēn	heel; to follow closely; to go with; (of a woman) to marry sb; with; compared with; to; towards; and (joining two nouns); 	preposition; 	
+怎麼	5.77	zĕn me	how?; what?; why?; 	pronoun; interrogative pronoun; predicate interrogative pronoun; 	
+還是	5.77	hái shi	or; still; nevertheless; had better; 	noun; 	
+比	5.76	bĭ	Belgium; Belgian; abbr. for 比利時|比利时[Bĭ lì shí]; euphemistic variant of 屄[bī]; (particle used for comparison and "-er than"); to compare; to contrast; to gesture (with hands); ratio; to associate with; to be near; 	preposition; 	
+不過	5.76	bù guò	only; merely; no more than; but; however; anyway (to get back to a previous topic); cannot be more (after adjectival); 	adverb; 	
+帶	5.75	dài	band; belt; girdle; ribbon; tire; area; zone; region; CL:條|条[tiáo]; to wear; to carry; to take along; to bear (i.e. to have); to lead; to bring; to look after; to raise; 	noun; 	
+道	5.75	dào	road; path; CL:條|条[tiáo],股[gŭ]; principle; truth; morality; reason; skill; method; Dao (of Daoism); to say; to speak; to talk; classifier for long thin things (rivers, cracks etc), barriers (walls, doors etc), questions (in an exam etc), commands, courses in a meal, steps in a process; (old) circuit (administrative division); 	noun; 	
+請	5.75	qĭng	to ask; to invite; please (do sth); to treat (to a meal etc); to request; 	noun; 	
+只是	5.74	zhĭ shì	merely; simply; only; but; 	adverb; 	
+出來	5.73	chū lái	to come out; to appear; to arise; (after a verb, indicates coming out, completion of an action, or ability to discern or detect); 	verb; directional verb; 	
+吧	5.72	bā	bar (loanword) (serving drinks, or providing Internet access etc); to puff (on a pipe etc); (onom.) bang; abbr. for 貼吧|贴吧[tiē bā]; (modal particle indicating suggestion or surmise); ...right?; ...OK?; ...I presume.; (onom.) smack!; 	modal particle; 	
+當時	5.72	dāng shí	then; at that time; while; at once; right away; 	noun; 	
+那麼	5.72	nà me	like that; in that way; or so; so; so very much; about; in that case; 	pronoun; demonstrative pronoun; predicate demonstrative pronoun; 	
+孩子	5.71	hái zi	child; 	noun; 	
+誰	5.71	shéi	who; also pr. [shuí]; 	noun; 	
+便	5.71	biàn	plain; informal; suitable; convenient; opportune; to urinate or defecate; equivalent to 就[jiù]: then; in that case; even if; soon afterwards; see 便宜|便宜[pián yi]; 	adverb; 	
+最後	5.7	zuì hòu	final; last; finally; ultimate; 	adverb; 	
+之後	5.7	zhī hòu	afterwards; following; later; after; 	pronoun; demonstrative pronoun; 	
+見	5.69	jiàn	to see; to meet; to appear (to be sth); to interview; to appear; also written 現|现[xiàn]; 	noun; 	
+你們	5.69	nĭ men	you (plural); 	pronoun; personal pronoun; 	
+因	5.67	yīn	cause; reason; because; 	preposition; 	
+這麼	5.66	zhè me	so much; this much; how much?; this way; like this; 	noun; 	
+過去	5.66	guò qù	(in the) past; former; previous; to go over; to pass by; (verb suffix); 	noun; 	
+特別	5.66	tè bié	especially; special; particular; unusual; 	adjective; adjective morpheme; 	
+吃	5.64	chī	to eat; to consume; to eat at (a cafeteria etc); to eradicate; to destroy; to absorb; to suffer; to stammer (Taiwan pr. for this sense is [jí]); 	verb; 	
+打	5.64	dá	dozen (loanword); to beat; to strike; to hit; to break; to type; to mix up; to build; to fight; to fetch; to make; to tie up; to issue; to shoot; to calculate; to play (a game); since; from; 	verb; 	
+叫	5.64	jiào	to shout; to call; to order; to ask; to be called; by (indicates agent in the passive mood); 	verb; intransitive verb; 	
+錢	5.64	qián	coin; money; CL:筆|笔[bĭ]; unit of weight, one tenth of a tael 兩|两[liăng]; 	noun; 	
+獲得	5.63	huò dé	to obtain; to receive; to get; 	noun; 	
+那些	5.63	nà xiē	those; 	pronoun; demonstrative pronoun; 	
+啊	5.63	ā	interjection of surprise; Ah!; Oh!; interjection expressing doubt or requiring answer; Eh?; what?; interjection of surprise or doubt; Eh?; My!; what's up?; interjection or grunt of agreement; uhm; Ah, OK; expression of recognition; Oh, it's you!; modal particle ending sentence, showing affirmation, approval, or consent; 	modal particle; 	
+正	5.63	zhēng	first month of the lunar year; straight; upright; proper; main; principal; to correct; to rectify; exactly; just (at that time); right (in that place); (math.) positive; 	adverb; 	
+然後	5.62	rán hòu	after; then (afterwards); after that; afterwards; 	pronoun; demonstrative pronoun; 	
+大家	5.62	dà jiā	everyone; influential family; great expert; 	pronoun; personal pronoun; 	
+另	5.6	lìng	other; another; separate; separately; 	pronoun; demonstrative pronoun; 	
+一起	5.6	yī qĭ	in the same place; together; with; altogether (in total); 	numeral; 	
+當然	5.6	dāng rán	only natural; as it should be; certainly; of course; without doubt; 	noun; 	
+一直	5.59	yī zhí	straight (in a straight line); continuously; always; from the beginning of ... up to ...; all along; 	adverb; 	
+如何	5.58	rú hé	how; what way; what; 	pronoun; interrogative pronoun; predicate interrogative pronoun; 	
+站	5.58	zhàn	station; to stand; to halt; to stop; branch of a company or organization; website; 	verb; intransitive verb; 	
+回	5.58	huí	to circle; to go back; to turn around; to answer; to return; to revolve; Hui ethnic group (Chinese Muslims); time; classifier for acts of a play; section or chapter (of a classic book); 	verb; 	
+作	5.58	zuō	worker; workshop; (slang) troublesome; high-maintenance (person); to do; to grow; to write or compose; to pretend; to regard as; to feel; writings or works; 	verb; 	
+喜歡	5.57	xĭ huan	to like; to be fond of; 	verb; 	
+準備	5.57	zhŭn bèi	preparation; to prepare; to intend; to be about to; reserve (fund); 	noun; 	
+計劃	5.56	jì huà	plan; project; program; to plan; to map out; CL:個|个[gè],項|项[xiàng]; 	noun; 	
+以後	5.56	yĭ hòu	after; later; afterwards; following; later on; in the future; 	preposition; 	
+行	5.56	háng	row; line; commercial firm; line of business; profession; to rank (first, second etc) among one's siblings (by age); (in data tables) row; (Tw) column; to walk; to go; to travel; a visit; temporary; makeshift; current; in circulation; to do; to perform; capable; competent; effective; all right; OK!; will do; behavior; conduct; Taiwan pr. [xìng] for the behavior-conduct sense; 	verb; intransitive verb; 	
+完全	5.56	wán quán	complete; whole; totally; entirely; 	adjective; 	
+二	5.56	èr	two; 2; (Beijing dialect) stupid; 	numeral; 	
+外	5.56	wài	outside; in addition; foreign; external; 	noun of locality; 	
+那個	5.55	nà ge	that one; that thing; that (as opposed to this); (used before a verb or adjective for emphasis); (used to humorously or indirectly refer to sth embarrassing, funny etc, or when one can't think of the right word); (used in speech as a filler, similar to "umm", "you know" etc); (euph.) menstruation; sex; also pr. [nèi ge]; 	pronoun; demonstrative pronoun; predicate demonstrative pronoun; 	
+告訴	5.55	gào sù	to press charges; to file a complaint; to tell; to inform; to let know; 	verb; 	
+每	5.54	mĕi	each; every; 	pronoun; demonstrative pronoun; 	
+進入	5.53	jìn rù	to enter; to join; to go into; 	noun; 	
+有些	5.52	yŏu xiē	some; somewhat; 	pronoun; demonstrative pronoun; 	
+有人	5.52	yŏu rén	someone; people; anyone; there is someone there; occupied (as in restroom); 	pronoun; 	
+不要	5.51	bù yào	don't!; must not; 	adverb; 	
+一次	5.49	yī cì	first; first time; once; (math.) linear (of degree one); 	numeral; 	
+拿	5.49	ná	to hold; to seize; to catch; to apprehend; to take; (used in the same way as 把[bă]: to mark the following noun as a direct object); 	verb; 	
+米	5.49	mĭ	rice; CL:粒[lì]; meter (classifier); 	noun; 	
+先	5.49	xiān	early; prior; former; in advance; first; 	adverb; 	
+張	5.48	zhāng	to open up; to spread; sheet of paper; classifier for flat objects, sheet; classifier for votes; 	noun; 	
+副	5.48	fù	secondary; auxiliary; deputy; assistant; vice-; abbr. for 副詞|副词 adverb; classifier for pairs, sets of things & facial expressions; 	distinguishing word; 	
+路	5.48	lù	road; CL:條|条[tiáo]; journey; route; line (bus etc); sort; kind; 	noun; 	
+快	5.47	kuài	rapid; quick; speed; rate; soon; almost; to make haste; clever; sharp (of knives or wits); forthright; plainspoken; gratified; pleased; pleasant; 	adjective; 	
+如此	5.46	rú cĭ	in this way; so; 	pronoun; demonstrative pronoun; predicate demonstrative pronoun; 	
+小時	5.46	xiăo shí	hour; CL:個|个[gè]; 	adjective; 	
+經過	5.46	jīng guò	to pass; to go through; process; course; CL:個|个[gè]; 	noun; 	
+故事	5.45	gù shì	old practice; CL:個|个[gè]; narrative; story; tale; 	noun; 	
+別	5.45	bié	to leave; to depart; to separate; to distinguish; to classify; other; another; don't ...!; to pin; to stick (sth) in; 	noun; 	
+其實	5.44	qí shí	actually; in fact; really; 	pronoun; demonstrative pronoun; 	
+它們	5.44	tā men	they (for inanimate objects); 	pronoun; personal pronoun; 	
+些	5.44	xiē	classifier indicating a small amount or small number greater than 1: some, a few, several; 	classifier; 	
+一點	5.44	yī diăn	a bit; a little; one dot; one point; 	numeral; 	
+整個	5.43	zhĕng gè	whole; entire; total; 	numeral; 	
+老	5.43	lăo	old (of people); venerable (person); experienced; of long standing; always; all the time; of the past; very; outdated; (of meat etc) tough; 	adjective; 	
+干	5.43	gān	to concern; to interfere; shield; stem; 	verb; 	
+後來	5.43	hòu lái	afterwards; later; 	noun; personal name; Chinese surname; 	
+先生	5.43	xiān sheng	Mister (Mr.); teacher; husband; doctor (dialect); CL:位[wèi]; 	noun; 	
+幹	5.43	gàn	tree trunk; main part of sth; to manage; to work; to do; capable; cadre; to kill (slang); to fuck (vulgar); 	noun; 	
+乾	5.43	qián	one of the Eight Trigrams 八卦[bā guà], symbolizing heaven; male principle; ☰; ancient Chinese compass point: 315° (northwest); dry; clean; in vain; dried food; foster; adoptive; to ignore; 	noun; noun morpheme; 	
+手	5.42	shŏu	hand; (formal) to hold; person engaged in certain types of work; person skilled in certain types of work; personal(ly); convenient; classifier for skill; CL:雙|双[shuāng],隻|只[zhī]; 	noun; 	
+根本	5.42	gēn bĕn	fundamental; basic; root; simply; absolutely (not); (not) at all; CL:個|个[gè]; 	noun; 	
+下來	5.41	xià lai	to come down; (completed action marker); (after verb of motion, indicates motion down and towards us, also fig.); (indicates continuation from the past towards us); to be harvested (of crops); to be over (of a period of time); to go among the masses (said of leaders); 	verb; directional verb; 	
+那裡	5.41	nà li	there; that place; 	pronoun; demonstrative pronoun; predicate demonstrative pronoun; 	
+辦法	5.41	bàn fă	means; method; way (of doing sth); CL:條|条[tiáo],個|个[gè]; 	noun; 	
+正在	5.4	zhèng zài	just at (that time); right in (that place); right in the middle of (doing sth); 	adverb; 	
+可是	5.39	kĕ shì	but; however; (used for emphasis) indeed; 	conjunction; 	
+回來	5.38	huí lai	to return; to come back; 	verb; 	
+女人	5.37	nǚ rén	woman; wife; 	noun; 	
+放	5.37	fàng	to put; to place; to release; to free; to let go; to let out; to set off (fireworks); 	verb; 	
+水	5.36	shuĭ	water; river; liquid; beverage; additional charges or income; (of clothes) classifier for number of washes; 	noun; 	
+子	5.36	zĭ	son; child; seed; egg; small thing; 1st earthly branch: 11 p.m.-1 a.m., midnight, 11th solar month (7th December to 5th January), year of the Rat; Viscount, fourth of five orders of nobility 五等爵位[wŭ dĕng jué wèi]; ancient Chinese compass point: 0° (north); (noun suffix); 	noun; noun morpheme; 	
+自然	5.35	zì rán	nature; natural; naturally; 	noun; 	
+感到	5.35	găn dào	to feel; to sense; to have the feeling that; to think that; to move; to affect; 	verb; 	
+多少	5.35	duō shăo	number; amount; somewhat; how much?; how many?; (phone number, student ID etc) what number?; 	pronoun; interrogative pronoun; 	
+找到	5.35	zhăo dào	to find; 	verb; 	
+兒子	5.34	ér zi	son; 	noun; 	
+動	5.33	dòng	(of sth) to move; to set in movement; to displace; to touch; to make use of; to stir (emotions); to alter; abbr. for 動詞|动词[dòng cí], verb; 	noun; 	
+她們	5.32	tā men	they; them (for females); 	pronoun; personal pronoun; 	
+清楚	5.31	qīng chu	clear; distinct; to understand thoroughly; to be clear about; 	adjective; 	
+十分	5.31	shí fēn	very; completely; utterly; extremely; absolutely; hundred percent; to divide into ten equal parts; 	adverb; 	
+土地	5.31	tŭ dì	land; soil; territory; CL:片[piàn],塊|块[kuài]; local god; genius loci; 	noun; 	
+明白	5.31	míng bai	clear; obvious; unequivocal; to understand; to realize; 	verb; 	
+聲音	5.31	shēng yīn	voice; sound; CL:個|个[gè]; 	noun; 	
+簡單	5.31	jiăn dān	simple; not complicated; 	noun; 	
+生命	5.3	shēng mìng	life (as the characteristic of living beings); living being; creature; CL:個|个[gè],條|条[tiáo]; 	noun; 	
+以前	5.3	yĭ qián	before; formerly; previous; ago; 	noun of locality; 	
+精神	5.3	jīng shén	spirit; mind; consciousness; thought; mental; psychological; essence; gist; CL:個|个[gè]; vigor; vitality; drive; spiritual; 	noun; 	
+那樣	5.3	nà yàng	that kind; that sort; 	pronoun; demonstrative pronoun; predicate demonstrative pronoun; 	
+別人	5.3	bié ren	other people; others; other person; 	noun; 	
+笑	5.29	xiào	laugh; smile; CL:個|个[gè]; 	verb; 	
+考慮	5.28	kăo lǜ	to think over; to consider; consideration; 	verb; 	
+似乎	5.28	sì hū	apparently; to seem; to appear; as if; seemingly; 	adverb; 	
+中央	5.28	zhōng yāng	central; middle; center; central authorities (of a state); 	noun; 	
+坐	5.27	zuò	to sit; to take a seat; to take (a bus, airplane etc); to bear fruit; variant of 座[zuò]; 	verb; 	
+聲	5.27	shēng	sound; voice; tone; noise; reputation; classifier for sounds; 	noun; 	
+越	5.27	yuè	generic word for peoples or states of south China or south Asia at different historical periods; abbr. for Vietnam 越南; to exceed; to climb over; to surpass; the more... the more; 	adverb; 	
+於是	5.26	yú shì	thereupon; as a result; consequently; thus; hence; 	noun; personal name; Chinese surname; 	
+共同	5.26	gòng tóng	common; joint; jointly; together; collaborative; 	adverb; 	
+總是	5.26	zŏng shì	always; 	noun; 	
+跑	5.26	páo	(of an animal) to paw (the ground); to run; to run away; to escape; to run around (on errands etc); (of a gas or liquid) to leak or evaporate; (verb complement) away; off; 	verb; 	
+農民	5.25	nóng mín	peasant; farmer; CL:個|个[gè]; 	noun; 	
+男人	5.25	nán rén	a man; a male; men; CL:個|个[gè]; 	noun; 	
+全部	5.25	quán bù	whole; entire; complete; 	numeral; 	
+容易	5.25	róng yì	easy; likely; liable (to); 	adjective; 	
+金	5.25	jīn	Jurchen Jin dynasty (1115-1234); gold; chemical element Au; generic term for lustrous and ductile metals; money; golden; highly respected; one of the eight categories of ancient musical instruments 八音[bā yīn]; 	noun; noun morpheme; 	
+過來	5.25	guò lái	to come over; to manage; to handle; to be able to take care of; see 過來|过来[guò lái]; 	noun; 	
+以為	5.25	yĭ wéi	to think (i.e. to take it to be true that ...) (Usually there is an implication that the notion is mistaken – except when expressing one's own current opinion.); 	preposition; 	
+願意	5.25	yuàn yì	to wish; to want; ready; willing (to do sth); 	noun; 	
+怎樣	5.24	zĕn yàng	how; what kind; 	pronoun; interrogative pronoun; predicate interrogative pronoun; 	
+女兒	5.24	nǚ ér	daughter; 	distinguishing word; 	
+曾經	5.23	céng jīng	once; already; former; previously; ever; (past tense marker used before verb or clause); 	noun; personal name; Chinese surname; 	
+名字	5.23	míng zi	name (of a person or thing); CL:個|个[gè]; 	noun; 	
+倒	5.22	dăo	to fall; to collapse; to lie horizontally; to overthrow; to fail; to go bankrupt; to change (trains or buses); to move around; to resell at a profit; to place upside down; to invert; to pour; to throw out; to move backwards; however; actually; as a matter of fact; contrary to expectation; 	verb; intransitive verb; 	
+說話	5.22	shuō huà	to speak; to say; to talk; to gossip; to tell stories; talk; word; 	noun; 	
+幫	5.22	bāng	to help; to assist; to support; for sb (i.e. as a help); hired (as worker); side (of pail, boat etc); outer layer; upper (of a shoe); group; gang; clique; party; secret society; 	noun; 	
+呀	5.21	ya	(particle equivalent to 啊 after a vowel, expressing surprise or doubt); 	modal particle; 	
+剛	5.21	gāng	hard; firm; strong; just; barely; exactly; 	noun; 	
+一個個	5.21	yī gè gè	each and every one; 	numeral; 	
+穿	5.2	chuān	to wear; to put on; to dress; to bore through; to pierce; to perforate; to penetrate; to pass through; to thread; 	verb; 	
+往	5.2	wăng	to go (in a direction); to; towards; (of a train) bound for; past; previous; 	preposition; 	
+完	5.2	wán	to finish; to be over; whole; complete; entire; 	verb; intransitive verb; 	
+身上	5.2	shēn shang	on the body; at hand; among; 	locative word; 	
+晚上	5.19	wăn shang	evening; night; CL:個|个[gè]; in the evening; 	time word; 	
+哪	5.19	nă	how; which; (emphatic sentence-final particle, used instead of 啊[a] after a word ending in "n"); which? (interrogative, followed by classifier or numeral-classifier); 	pronoun; interrogative pronoun; 	
+經常	5.19	jīng cháng	frequently; constantly; regularly; often; day-to-day; everyday; daily; 	noun; 	
+實在	5.19	shí zài	really; actually; indeed; true; real; honest; dependable; (philosophy) reality; 	noun; 	
+回到	5.19	huí dào	to return to; 	verb; 	
+年輕	5.18	nián qīng	young; 	classifier; temporal classifier; 	
+職業	5.18	zhí yè	occupation; profession; vocation; professional; 	noun; 	
+臉	5.18	liăn	face; CL:張|张[zhāng],個|个[gè]; 	noun; 	
+身體	5.18	shēn tĭ	the body; one's health; CL:具[jù],個|个[gè]; in person; 	noun; noun morpheme; 	
+裡面	5.18	lĭ miàn	inside; interior; also pr. [lĭ mian]; 	noun; 	
+定	5.18	dìng	to set; to fix; to determine; to decide; to order; 	verb; 	
+聽到	5.17	tīng dào	to hear; 	noun; 	
+回答	5.17	huí dá	to reply; to answer; the answer; CL:個|个[gè]; 	verb; 	
+帶來	5.17	dài lái	to bring; to bring about; to produce; 	noun; 	
+常	5.17	cháng	always; ever; often; frequently; common; general; constant; 	adverb; 	
+進一步	5.16	jìn yī bù	one step further; to move forward a step; further onwards; 	noun; 	
+突然	5.15	tū rán	sudden; abrupt; unexpected; 	adjective; 	
+女孩	5.15	nǚ hái	girl; lass; 	noun; 	
+高興	5.15	gāo xìng	happy; glad; willing (to do sth); in a cheerful mood; 	adjective; 	
+只能	5.15	zhĭ néng	can only; obliged to do sth; to have no other choice; 	adverb; 	
+喝	5.14	hē	to drink; variant of 嗬[hē]; to shout; 	verb; verb morpheme; 	
+見到	5.14	jiàn dào	to see; 	noun; 	
+每天	5.14	mĕi tiān	every day; everyday; 	pronoun; 	
+來到	5.13	lái dào	to come; to arrive; 	noun; 	
+意思	5.13	yì si	idea; opinion; meaning; wish; desire; interest; fun; token of appreciation, affection etc; CL:個|个[gè]; to give as a small token; to do sth as a gesture of goodwill etc; 	noun; 	
+啦	5.12	lā	(onom.) sound of singing, cheering etc; (phonetic); (dialect) to chat; sentence-final particle, contraction of 了啊, indicating exclamation; particle placed after each item in a list of examples; 	modal particle; 	
+眼睛	5.12	yăn jing	eye; CL:隻|只[zhī],雙|双[shuāng]; 	noun; 	
+幾個	5.11	jĭ ge	a few; several; how many; 	noun; 	
+這位	5.1	zhè wèi	this (person); 	noun; 	
+份	5.1	fèn	classifier for gifts, newspaper, magazine, papers, reports, contracts etc; variant of 分[fèn]; 	classifier; 	
+位置	5.1	wèi zhi	position; place; seat; CL:個|个[gè]; 	noun; 	
+現實	5.09	xiàn shí	reality; actuality; real; actual; realistic; pragmatic; materialistic; self-interested; 	noun; 	
+七	5.09	qī	seven; 7; 	numeral; 	
+兄弟	5.09	xiōng dì	brothers; younger brother; CL:個|个[gè]; I, me (humble term used by men in public speech); brotherly; fraternal; 	noun; 	
+靠	5.08	kào	to lean against or on; to stand by the side of; to come near to; to depend on; to trust; to fuck (vulgar); traditional military costume drama where the performers wear armor (old); 	verb; 	
+面對	5.07	miàn duì	to confront; to face; 	noun; 	
+興趣	5.06	xìng qù	interest (desire to know about sth); interest (thing in which one is interested); hobby; CL:個|个[gè]; 	noun; 	
+回家	5.06	huí jiā	to return home; 	verb; 	
+一下	5.06	yī xià	(used after a verb) give it a go; to do (sth for a bit to give it a try); one time; once; in a while; all of a sudden; all at once; 	numeral; 	
+心裡	5.06	xīn li	chest; heart; mind; 	noun; 	
+知	5.05	zhī	to know; to be aware; 	verb; 	
+否則	5.05	fŏu zé	if not; otherwise; else; or else; 	verb; verb morpheme; 	
+樣子	5.05	yàng zi	appearance; manner; pattern; model; 	noun; 	
+不管	5.05	bù guăn	not to be concerned; regardless of; no matter; 	conjunction; 	
+充滿	5.04	chōng măn	full of; brimming with; very full; permeated; 	verb; 	
+或許	5.04	huò xŭ	perhaps; maybe; 	conjunction; 	
+是不是	5.04	shì bù shì	is or isn't; yes or no; whether or not; 	verb; verb 是; 	
+飛	5.03	fēi	to fly; 	noun; 	
+氣	5.03	qì	gas; air; smell; weather; to make angry; to annoy; to get angry; vital energy; qi; 	noun; 	
+下午	5.01	xià wŭ	afternoon; CL:個|个[gè]; p.m.; 	time word; 	
+睡	5.01	shuì	to sleep; to lie down; 	verb; 	
+前往	5.01	qián wăng	to leave for; to proceed towards; to go; 	verb; 	
+怕	5.01	pà	to be afraid; to fear; to dread; to be unable to endure; perhaps; 	verb; 	
+從來	5.01	cóng lái	always; at all times; never (if used in negative sentence); 	noun; 	
+至今	5.0	zhì jīn	so far; to this day; until now; 	adverb; 	
+光	5.0	guāng	light; ray; CL:道[dào]; bright; only; merely; to use up; 	noun; 	
+衣服	5.0	yī fu	clothes; CL:件[jiàn],套[tào]; 	noun; 	
+聽說	5.0	tīng shuō	to hear (sth said); one hears (that); hearsay; listening and speaking; 	noun; 	
+上面	4.99	shàng miàn	on top of; above-mentioned; also pr. [shàng mian]; 	noun of locality; 	
+酒	4.99	jiŭ	wine (esp. rice wine); liquor; spirits; alcoholic beverage; CL:杯[bēi],瓶[píng],罐[guàn],桶[tŏng],缸[gāng]; 	noun; 	
+腳	4.98	jiăo	foot; leg (of an animal or an object); base (of an object); CL:雙|双[shuāng],隻|只[zhī]; classifier for kicks; variant of 角[jué]; role; 	noun; 	
+黑	4.98	hēi	abbr. for Heilongjiang province 黑龍江|黑龙江[Hēi lóng jiāng]; black; dark; sinister; secret; shady; illegal; to hide (sth) away; to vilify; (loanword) to hack (computing); 	adjective; 	
+身份	4.98	shēn fèn	identity; status; capacity; dignity; position; rank; 	noun; 	
+的話	4.98	de huà	if (coming after a conditional clause); 	particle; particle 的/底; 	
+剛才	4.97	gāng cái	just now; a moment ago; 	noun; 	
+老闆	4.97	lăo băn	Robam (brand); boss; business proprietor; CL:個|个[gè]; 	adjective; 	
+面前	4.97	miàn qián	in front of; facing; (in the) presence (of); 	noun of locality; 	
+跳	4.97	tiào	to jump; to hop; to skip over; to bounce; to palpitate; 	verb; intransitive verb; 	
+不好	4.97	bù hăo	no good; 	adverb; 	
+馬上	4.96	mă shàng	at once; right away; immediately; on horseback (i.e. by military force); 	noun; 	
+真是	4.96	zhēn shi	indeed; truly; (coll.) (used to express disapproval, annoyance etc about sth); 	adverb; 	
+龍	4.96	lóng	dragon; CL:條|条[tiáo]; imperial; 	noun; 	
+剛剛	4.95	gāng gang	just recently; just a moment ago; 	noun; 	
+中間	4.95	zhōng jiān	between; intermediate; mid; middle; 	distinguishing word; 	
+回去	4.95	huí qu	to return; to go back; 	verb; 	
+一家	4.94	yī jiā	the whole family; the same family; the family ... (when preceded by a family name); group; 	numeral; 	
+情緒	4.94	qíng xù	mood; state of mind; moodiness; CL:種|种[zhŏng]; 	noun; 	
+狗	4.94	gŏu	dog; CL:隻|只[zhī],條|条[tiáo]; 	noun; 	
+日子	4.94	rì zi	day; a (calendar) date; days of one's life; 	noun; 	
+朝	4.94	cháo	abbr. for 朝鮮|朝鲜[Cháo xiăn] Korea; imperial or royal court; government; dynasty; reign of a sovereign or emperor; court or assembly held by a sovereign or emperor; to make a pilgrimage to; facing; towards; morning; 	preposition; 	
+滿	4.94	măn	Manchu ethnic group; to fill; full; filled; packed; fully; completely; quite; to reach the limit; to satisfy; satisfied; contented; 	noun; 	
+後面	4.93	hòu miàn	rear; back; behind; later; afterwards; also pr. [hòu mian]; 	noun; personal name; Chinese surname; 	
+第一次	4.93	dì yī cì	the first time; first; number one; 	numeral; 	
+民間	4.92	mín jiān	among the people; popular; folk; non-governmental; involving people rather than governments; 	noun; noun morpheme; 	
+弄	4.92	lòng	lane; alley; to do; to manage; to handle; to play with; to fool with; to mess with; to fix; to toy with; 	verb; 	
+遇到	4.92	yù dào	to meet; to run into; to come across; 	verb; 	
+別的	4.91	bié de	else; other; 	noun; 	
+姑娘	4.9	gū niàng	girl; young woman; young lady; daughter; paternal aunt (old); CL:個|个[gè]; 	noun; 	
+隨後	4.9	suí hòu	soon after; 	noun; 	
+下面	4.9	xià miàn	below; under; next; the following; also pr. [xià mian]; 	noun of locality; 	
+立刻	4.89	lì kè	forthwith; immediate; prompt; promptly; straightway; thereupon; at once; 	adverb; 	
+依然	4.89	yī rán	still; as before; 	status word; 	
+一旦	4.89	yī dàn	in case (sth happens); if; once (sth happens, then...); when; in a short time; in one day; 	adverb; 	
+一句	4.89	yī jù	a line of verse; a sentence; 	numeral; 	
+奇怪	4.89	qí guài	strange; odd; to marvel; to be baffled; 	verb; 	
+那時	4.89	nà shí	then; at that time; in those days; 	pronoun; demonstrative pronoun; predicate demonstrative pronoun; 	
+畢竟	4.88	bì jìng	after all; all in all; when all is said and done; in the final analysis; 	noun; 	
+要是	4.88	yào shi	(coll.) if; 	verb; 	
+常常	4.88	cháng cháng	frequently; often; 	adverb; 	
+就要	4.88	jiù yào	will; shall; to be going to; 	adverb; 	
+挺	4.88	tĭng	straight; erect; to stick out (a part of the body); to (physically) straighten up; to support; to withstand; outstanding; (coll.) quite; very; classifier for machine guns; 	verb; intransitive verb; 	
+皇帝	4.87	huáng dì	emperor; CL:個|个[gè]; 	noun; 	
+這時	4.87	zhè shí	at this time; at this moment; 	noun; 	
+輪	4.87	lún	wheel; disk; ring; steamship; to take turns; to rotate; by turn; classifier for big round objects: disk, or recurring events: round, turn; 	noun; 	
+哭	4.87	kū	to cry; to weep; 	verb; 	
+哥哥	4.86	gē ge	older brother; CL:個|个[gè],位[wèi]; 	noun; 	
+究竟	4.86	jiū jìng	to go to the bottom of a matter; after all; when all is said and done; (in an interrogative sentence) finally; outcome; result; 	adverb; 	
+工廠	4.86	gōng chăng	factory; CL:家[jiā],座[zuò]; 	noun; 	
+當上	4.85	dāng shang	to take up duty as; to assume a position; to assume; to take on (an office); 	noun; 	
+唱	4.85	chàng	to sing; to call loudly; to chant; 	verb; 	
+說道	4.85	shuō dào	to state; to say (the quoted words); to discuss; reason (behind sth); 	noun; 	
+鐘	4.85	zhōng	clock; o'clock; time as measured in hours and minutes; bell; CL:架[jià],座[zuò]; 	noun; 	
+街道	4.85	jiē dào	street; CL:條|条[tiáo]; subdistrict; residential district; 	noun; 	
+變得	4.84	biàn de	to become; 	noun; 	
+竟然	4.84	jìng rán	unexpectedly; to one's surprise; in spite of everything; in that crazy way; actually; to go as far as to; 	adverb; 	
+到處	4.83	dào chù	everywhere; 	preposition; 	
+出生	4.83	chū shēng	to be born; 	verb; intransitive verb; 	
+推	4.83	tuī	to push; to cut; to refuse; to reject; to decline; to shirk (responsibility); to put off; to delay; to push forward; to nominate; to elect; massage; 	verb; 	
+看看	4.82	kàn kan	to take a look at; to examine; to survey; (coll.) pretty soon; 	verb; 	
+著	4.82	zhāo	(chess) move; trick; all right!; (dialect) to add; to touch; to come in contact with; to feel; to be affected by; to catch fire; to burn; (coll.) to fall asleep; (after a verb) hitting the mark; succeeding in; aspect particle indicating action in progress; to wear (clothes); to contact; to use; to apply; to make known; to show; to prove; to write; book; outstanding; 	verb; verb morpheme; 	
+顏色	4.82	yán sè	color; countenance; appearance; facial expression; pigment; dyestuff; 	noun; 	
+好好	4.82	hăo hăo	well; carefully; nicely; properly; 	adverb; 	
+做出	4.82	zuò chū	to put out; to issue; 	verb; 	
+答應	4.82	dā ying	to answer; to respond; to answer positively; to agree; to accept; to promise; 	verb; 	
+火	4.82	huŏ	fire; urgent; ammunition; fiery or flaming; internal heat (Chinese medicine); hot (popular); classifier for military units (old); Kangxi radical 86; 	noun; 	
+嘴	4.82	zuĭ	mouth; beak; nozzle; spout (of teapot etc); CL:張|张[zhāng],個|个[gè]; 	noun; 	
+大小	4.82	dà xiăo	dimension; magnitude; size; measurement; large and small; at any rate; adults and children; consideration of seniority; 	adjective; 	
+飯	4.82	fàn	cooked rice; CL:碗[wăn]; meal; CL:頓|顿[dùn]; (loanword) fan; devotee; 	noun; 	
+人家	4.81	rén jiā	household; dwelling; family; sb else's house; household business; house of woman's husband-to-be; CL:戶|户[hù],家[jiā]; other people; sb else; he, she or they; I, me (referring to oneself as "one" or "people"); 	noun; 	
+左	4.81	zuŏ	left; the Left (politics); east; unorthodox; queer; wrong; differing; opposite; variant of 佐[zuŏ]; 	adjective; 	
+上來	4.81	shàng lái	to come up; to approach; (verb complement indicating success); 	noun of locality; 	
+外面	4.8	wài miàn	outside (also pr. [wài mian] for this sense); surface; exterior; external appearance; 	noun of locality; 	
+空	4.8	kōng	empty; air; sky; in vain; to empty; vacant; unoccupied; space; leisure; free time; 	verb; 	
+綠色	4.79	lǜ sè	green; 	noun; 	
+背	4.78	bēi	to be burdened; to carry on the back or shoulder; the back of a body or object; to turn one's back; to hide something from; to learn by heart; to recite from memory; unlucky (slang); hard of hearing; 	verb; 	
+根	4.78	gēn	root; basis; classifier for long slender objects, e.g. cigarettes, guitar strings; CL:條|条[tiáo]; radical (chemistry); 	noun; 	
+嘛	4.78	ma	modal particle indicating that sth is obvious; particle indicating a pause for emphasis; 	modal particle; 	
+卻是	4.78	què shì	nevertheless; actually; the fact is ...; 	noun; 	
+再說	4.77	zài shuō	to say again; to put off a discussion until later; moreover; what's more; besides; 	adverb; 	
+那天	4.76	nà tiān	that day; the other day; 	time word; 	
+頭髮	4.76	tóu fa	hair (on the head); 	noun; 	
+自從	4.76	zì cóng	since (a time); ever since; 	preposition; 	
+每次	4.75	mĕi cì	every time; 	pronoun; 	
+不得不	4.75	bù dé bù	have no choice or option but to; cannot but; have to; can't help it; can't avoid; 	adverb; 	
+方便	4.75	fāng biàn	convenient; suitable; to facilitate; to make things easy; having money to spare; (euphemism) to relieve oneself; 	verb; 	
+菜	4.75	cài	dish (type of food); vegetable; cuisine; CL:盤|盘[pán],道[dào]; (coll.) (one's) type; (of one's skills etc) weak; poor; 	noun; 	
+旁邊	4.75	páng biān	lateral; side; to the side; beside; 	noun of locality; 	
+不滿	4.74	bù măn	resentful; discontented; dissatisfied; 	adverb; 	
+激動	4.73	jī dòng	to move emotionally; to stir up (emotions); to excite; 	verb; 	
+睡覺	4.73	shuì jiào	to go to bed; to sleep; 	verb; 	
+雞	4.73	jī	fowl; chicken; CL:隻|只[zhī]; (slang) prostitute; 	noun; 	
+輕鬆	4.73	qīng sōng	light; gentle; relaxed; effortless; uncomplicated; to relax; to take things less seriously; 	noun; 	
+提醒	4.73	tí xĭng	to remind; to call attention to; to warn of; 	verb; 	
+搶	4.73	qiāng	see 搶風|抢风[qiāng fēng]; to fight over; to rush; to scramble; to grab; to rob; to snatch; 	noun; 	
+房屋	4.72	fáng wū	house; building; CL:所[suŏ],套[tào]; 	noun; 	
+差不多	4.72	chà bu duō	almost; nearly; more or less; about the same; good enough; not bad; 	adjective; adjective phrase; 	
+腿	4.72	tuĭ	leg; CL:條|条[tiáo]; 	noun; 	
+地上	4.71	dì shang	on the ground; on the floor; 	locative word; 	
+趕	4.71	găn	to overtake; to catch up with; to hurry; to rush; to try to catch (the bus etc); to drive (cattle etc) forward; to drive (sb) away; to avail oneself of (an opportunity); until; 	noun; 	
+牛	4.71	niú	ox; cow; bull; CL:條|条[tiáo],頭|头[tóu]; newton (abbr. for 牛頓|牛顿[niú dùn]); (slang) awesome; 	noun; 	
+眼前	4.7	yăn qián	before one's eyes; now; at present; 	time word; 	
+憑	4.7	píng	to lean against; to rely on; on the basis of; no matter (how, what etc); proof; 	noun; 	
+陽光	4.69	yáng guāng	sunshine; CL:線|线[xiàn]; transparent (open to public scrutiny); 	noun; 	
+老人	4.69	lăo rén	old man or woman; the elderly; one's aged parents or grandparents; 	noun; 	
+上去	4.69	shàng qù	to go up; 	noun of locality; 	
+一塊	4.69	yī kuài	one block; one piece; one (unit of money); together; in the same place; in company; 	numeral; 	
+旁	4.68	páng	beside; one side; other; side; self; the right-hand side of split Chinese character, often the phonetic; 	noun of locality; 	
+慢慢	4.68	màn màn	slowly; 	adverb; 	
+收集	4.67	shōu jí	to gather; to collect; 	verb; 	
+當初	4.66	dāng chū	at that time; originally; 	noun; 	
+準確	4.66	zhŭn què	accurate; exact; precise; 	noun; 	
+道理	4.66	dào li	reason; argument; sense; principle; basis; justification; CL:個|个[gè]; 	noun; 	
+黑色	4.66	hēi sè	black; 	noun; 	
+罵	4.66	mà	to scold; to abuse; to curse; CL:通[tòng],頓|顿[dùn]; 	noun; 	
+大聲	4.66	dà shēng	loud voice; in a loud voice; loudly; 	adjective; 	
+乾淨	4.66	gān jìng	clean; neat; 	noun; noun morpheme; 	
+憤怒	4.65	fèn nù	angry; indignant; wrath; ire; 	noun; 	
+神秘	4.65	shén mì	mysterious; mystery; 	adjective; 	
+欲	4.65	yù	to wish for; to desire; variant of 慾|欲[yù]; 	verb; verb morpheme; 	
+撞	4.65	zhuàng	to knock against; to bump into; to run into; to meet by accident; 	verb; 	
+脫	4.65	tuō	to shed; to take off; to escape; to get away from; 	noun; 	
+商店	4.65	shāng diàn	store; shop; CL:家[jiā],個|个[gè]; 	noun; 	
+人群	4.65	rén qún	crowd; 	noun; 	
+輸	4.65	shū	to lose; to transport; to donate; to enter (a password); 	noun; 	
+幾年	4.64	jĭ nián	a few years; several years; how many years; 	noun; 	
+白色	4.64	bái sè	white; fig. reactionary; anti-communist; 	noun; 	
+手裡	4.64	shŏu lĭ	in hand; (a situation is) in sb's hands; 	noun; 	
+那種	4.63	nà zhŏng	that; that kind of; that sort of; that type of; 	pronoun; demonstrative pronoun; predicate demonstrative pronoun; 	
+哪些	4.63	nă xiē	which ones?; who?; what?; 	pronoun; interrogative pronoun; 	
+看家	4.63	kān jiā	to look after the house; (of skill, ability) special; outstanding; 	verb; 	
+念	4.63	niàn	to read; to study (a subject); to attend (a school); to read aloud; to miss (sb); idea; remembrance; twenty (banker's anti-fraud numeral corresponding to 廿, 20); 	verb; 	
+長大	4.63	zhăng dà	to grow up; 	noun; 	
+騎	4.63	jì	(Tw) saddle horse; mounted soldier; to sit astride; to ride (a horse, bike etc); classifier for saddle horses; 	noun; 	
+夏天	4.62	xià tiān	summer; CL:個|个[gè]; 	time word; 	
+躺	4.62	tăng	to recline; to lie down; 	verb; 	
+那邊	4.62	nà bian	over there; yonder; 	pronoun; demonstrative pronoun; predicate demonstrative pronoun; 	
+偷	4.62	tōu	to steal; to pilfer; to snatch; thief; stealthily; 	verb; 	
+夥伴	4.62	huŏ bàn	variant of 伙伴[huŏ bàn]; 	noun; 	
+如同	4.61	rú tóng	like; as; 	verb; 	
+年紀	4.61	nián jì	age; CL:把[bă],個|个[gè]; 	classifier; temporal classifier; 	
+贏	4.61	yíng	to beat; to win; to profit; 	noun; 	
+似的	4.6	shì de	seems as if; rather like; Taiwan pr. [sì de]; 	particle; particle 一样/一般/似的/般; 	
+壓	4.6	yā	to press; to push down; to keep under (control); pressure; see 壓根兒|压根儿[yà gēn r5]; 	noun; 	
+腦袋	4.6	năo dài	head; skull; brains; mental capability; CL:顆|颗[kē],個|个[gè]; 	noun; 	
+一會	4.6	yī huì	a moment; a while; in a moment; also pr. [yī huĭ]; 	numeral; 	
+門口	4.6	mén kŏu	doorway; gate; CL:個|个[gè]; 	noun; 	
+趕緊	4.59	găn jĭn	hurriedly; without delay; 	noun; 	
+雙手	4.59	shuāng shŏu	both hands; 	noun; 	
+跨	4.59	kuà	to step across; to stride over; to straddle; to span; 	verb; 	
+生意	4.59	shēng yì	life force; vitality; business; CL:筆|笔[bĭ]; 	noun; 	
+逼	4.59	bī	to force (sb to do sth); to compel; to press for; to extort; to press on towards; to press up to; to close in on; euphemistic variant of 屄[bī]; 	verb; 	
+大人	4.59	dà ren	adult; grownup; title of respect toward superiors; 	noun; 	
+牌	4.59	pái	mahjong tile; playing card; game pieces; signboard; plate; tablet; medal; CL:片[piàn],個|个[gè],塊|块[kuài]; 	noun; 	
+幹什麼	4.59	gàn shén me	what are you doing?; what's he up to?; 	noun; 	
+爬	4.57	pá	to crawl; to climb; to get up or sit up; 	verb; 	
+躲	4.57	duŏ	to hide; to dodge; to avoid; 	verb; 	
+爺爺	4.56	yé ye	(coll.) father's father; paternal grandfather; CL:個|个[gè]; 	noun; 	
+硬	4.56	yìng	hard; stiff; strong; firm; resolutely; doggedly; good (quality); able (person); 	adjective; 	
+更為	4.54	gèng wéi	even more; 	adverb; 	
+輕輕	4.54	qīng qīng	lightly; softly; 	noun; 	
+騙	4.54	piàn	to cheat; to swindle; to deceive; to get on (a horse etc) by swinging one leg over; 	noun; 	
+剩	4.54	shèng	to remain; to be left; to have as remainder; 	verb; 	
+好事	4.54	hăo shì	good action, deed, thing or work (also sarcastic, "a fine thing indeed"); charity; happy occasion; Daoist or Buddhist ceremony for the souls of the dead; to be meddlesome; 	noun; 	
+一輩子	4.54	yī bèi zi	(for) a lifetime; 	numeral; 	
+踢	4.54	tī	to kick; to play (e.g. soccer); (slang) butch (in a lesbian relationship); 	verb; 	
+大街	4.54	dà jiē	street; main street; CL:條|条[tiáo]; 	noun; 	
+帶有	4.53	dài yŏu	to have; to involve; 	noun; 	
+十月	4.53	shí yuè	October; tenth month (of the lunar year); 	time word; 	
+出門	4.53	chū mén	to go out; to leave home; to go on a journey; away from home; (of a woman) to get married; 	verb; directional verb; 	
+老實	4.53	lăo shi	honest; sincere; well-behaved; open and guileless; naive; 	adjective; 	
+微笑	4.53	wēi xiào	smile; CL:個|个[gè],絲|丝[sī]; to smile; 	verb; intransitive verb; 	
+走進	4.52	zŏu jìn	to enter; 	verb; 	
+喊	4.52	hăn	to yell; to shout; to call out for (a person); 	verb; 	
+精彩	4.52	jīng căi	wonderful; marvelous; brilliant; 	adjective; 	
+蛋	4.52	dàn	variant of 蜑[Dàn]; egg; CL:個|个[gè],打[dá]; oval-shaped thing; 	noun; 	
+投降	4.51	tóu xiáng	to surrender; surrender; 	verb; 	
+亮	4.51	liàng	bright; clear; resonant; to shine; to show; to reveal; 	verb; intransitive verb; 	
+眼淚	4.5	yăn lèi	tears; crying; CL:滴[dī]; 	noun; 	
+傳來	4.49	chuán lái	(of a sound) to come through; to be heard; (of news) to arrive; 	noun; 	
+招	4.49	zhāo	to recruit; to provoke; to beckon; to incur; to infect; contagious; a move (chess); a maneuver; device; trick; to confess; 	noun; 	
+喜愛	4.49	xĭ ài	to like; to love; to be fond of; favorite; 	verb; 	
+名叫	4.48	míng jiào	called; named; 	verb; 	
+果然	4.48	guŏ rán	really; sure enough; as expected; if indeed; 	adverb; 	
+娘	4.48	niáng	mother; young lady; (coll.) effeminate; 	noun; 	
+鹽	4.47	yán	salt; CL:粒[lì]; 	noun; 	
+上下	4.47	shàng xià	up and down; top and bottom; old and new; length; about; 	noun of locality; 	
+止	4.47	zhĭ	to stop; to prohibit; until; only; 	verb; 	
+從不	4.47	cóng bù	never; 	noun; 	
+拖	4.47	tuō	to drag; to tow; to trail; to hang down; to mop (the floor); to delay; to drag on; 	verb; 	
+度過	4.46	dù guò	to pass; to spend (time); to survive; to get through; 	verb; 	
+放下	4.46	fàng xià	to lay down; to put down; to let go of; to relinquish; to set aside; to lower (the blinds etc); 	verb; 	
+不願	4.46	bù yuàn	unwilling; unwillingness; 	adverb; 	
+插	4.46	chā	to insert; stick in; pierce; to take part in; to interfere; to interpose; 	verb; 	
+村莊	4.45	cūn zhuāng	village; hamlet; CL:座[zuò]; 	noun; 	
+季節	4.45	jì jié	time; season; period; CL:個|个[gè]; 	noun; personal name; Chinese surname; 	
+等到	4.45	dĕng dào	to wait until; by the time when (sth is ready etc); 	verb; 	
+娶	4.44	qŭ	to take a wife; to marry (a woman); 	verb; 	
+坐下	4.44	zuò xia	to sit down; 	verb; intransitive verb; 	
+師傅	4.44	shī fu	master; qualified worker; respectful form of address for older men; CL:個|个[gè],位[wèi],名[míng]; 	noun; 	
+手指	4.43	shŏu zhĭ	finger; CL:個|个[gè],隻|只[zhī]; 	noun; 	
+講述	4.43	jiăng shù	to talk about; to narrate; to give an account; 	noun; 	
+早晨	4.43	zăo chén	early morning; CL:個|个[gè]; 	time word; 	
+平常	4.43	píng cháng	ordinary; common; usually; ordinarily; 	adjective; 	
+好奇	4.42	hào qí	inquisitive; curious; inquisitiveness; curiosity; 	adjective; 	
+沿	4.42	yán	along; to follow (a line, tradition etc); to carry on; to trim (a border with braid, tape etc); border; edge; 	preposition; 	
+有錢	4.41	yŏu qián	well-off; wealthy; 	verb; verb 有; 	
+挖	4.41	wā	to dig; to excavate; to scoop out; 	verb; 	
+身後	4.4	shēn hòu	posthumous; one's social background; behind the body; 	noun; noun morpheme; 	
+唉	4.4	āi	interjection or grunt of agreement or recognition (e.g. yes, it's me!); to sigh; alas; oh dear; 	interjection; 	
+蔬菜	4.4	shū cài	vegetables; CL:種|种[zhŏng]; 	noun; 	
+熱鬧	4.39	rè nao	bustling with noise and excitement; lively; 	noun; 	
+會長	4.39	huì zhăng	president of a club, committee etc; 	noun; 	
+過分	4.39	guò fèn	excessive; undue; overly; 	noun; 	
+不時	4.38	bù shí	from time to time; now and then; occasionally; frequently; 	adverb; 	
+清晰	4.38	qīng xī	clear; distinct; 	adjective; 	
+擦	4.38	cā	to wipe; to erase; rubbing (brush stroke in painting); to clean; to polish; 	verb; 	
+時常	4.37	shí cháng	often; frequently; 	noun; 	
+桌子	4.37	zhuō zi	table; desk; CL:張|张[zhāng],套[tào]; 	noun; 	
+扯	4.37	chĕ	to pull; to tear; (of cloth, thread etc) to buy; to chat; to gossip; (coll.) (Tw) ridiculous; hokey; 	verb; 	
+中午	4.36	zhōng wŭ	noon; midday; CL:個|个[gè]; 	time word; 	
+一頭	4.36	yī tóu	one head; a head full of sth; one end (of a stick); one side; headlong; directly; rapidly; simultaneously; 	numeral; 	
+歌詞	4.36	gē cí	song lyric; lyrics; 	noun; 	
+走出	4.36	zŏu chū	to leave (a room etc); to go out through (a door etc); 	verb; 	
+從小	4.36	cóng xiăo	from childhood; from a young age; 	noun; 	
+鑽	4.36	zuān	to drill; to bore; to get into; to make one's way into; to enter (a hole); to thread one's way through; to study intensively; to dig into; to curry favor for personal gain; an auger; diamond; 	noun; 	
+醒來	4.36	xĭng lái	to waken; 	verb; 	
+點頭	4.36	diăn tóu	to nod; 	noun; 	
+八月	4.36	bā yuè	August; eighth month (of the lunar year); 	time word; 	
+情景	4.35	qíng jĭng	scene; spectacle; circumstances; situation; 	noun; 	
+露出	4.35	lù chū	to expose; to show; also pr. [lòu chū]; 	verb; 	
+窮人	4.35	qióng rén	poor people; the poor; 	noun; 	
+對面	4.35	duì miàn	(sitting) opposite; across (the street); directly in front; to be face to face; 	noun; 	
+嘴裡	4.34	zuĭ lĭ	mouth; in the mouth; on one's lips; speech; words; 	noun; 	
+這天	4.34	zhè tiān	today; this day; 	noun; 	
+可不	4.33	kĕ bu	see 可不是[kĕ bu shì]; 	conjunction; 	
+剛好	4.33	gāng hăo	just; exactly; to happen to be; 	noun; 	
+旗	4.33	qí	banner; flag; (in Qing times) Manchu (cf. 八旗[Bā qí]); administrative subdivision in inner Mongolia equivalent to 縣|县[xiàn] county; CL:面[miàn]; 	noun; 	
+屁股	4.32	pì gu	buttocks; bottom; butt; back part; 	noun; 	
+腳步	4.32	jiăo bù	footstep; step; 	noun; 	
+酸	4.32	suān	sour; tart; sick at heart; grieved; sore; aching; pedantic; impractical; to make sarcastic remarks about sb; an acid; 	noun; 	
+哎	4.32	āi	hey!; (interjection used to attract attention or to express surprise or disapprobation); 	interjection; 	
+看上去	4.32	kàn shang qu	it would appear; it seems (that); 	verb; 	
+衣	4.32	yī	clothes; CL:件[jiàn]; Kangxi radical 145; to dress; to wear; to put on (clothes); 	noun; noun morpheme; 	
+爹	4.31	diē	dad; 	noun; 	
+右手	4.31	yòu shŏu	right hand; right-hand side; 	noun; 	
+乾脆	4.31	gān cuì	straightforward; clear-cut; blunt (e.g. statement); you might as well; simply; 	noun; noun morpheme; 	
+濕	4.31	shī	moist; wet; 	noun; 	
+緊緊	4.31	jĭn jĭn	closely; tightly; 	noun; 	
+撐	4.3	chēng	to support; to prop up; to push or move with a pole; to maintain; to open or unfurl; to fill to bursting point; brace; stay; support; 	noun; 	
+抬	4.3	tái	to lift; to raise; (of two or more persons) to carry; 	verb; 	
+生動	4.3	shēng dòng	vivid; lively; 	verb; 	
+底下	4.3	dĭ xia	the location below sth; afterwards; 	noun of locality; 	
+椅子	4.3	yĭ zi	chair; CL:把[bă],套[tào]; 	noun; 	
+角落	4.3	jiăo luò	nook; corner; 	noun; 	
+滑	4.3	huá	to slip; to slide; smooth; slippery; cunning; 	verb; 	
+扶	4.3	fú	to support with the hand; to help sb up; to support oneself by holding onto something; to help; 	verb; 	
+棉花	4.29	mián hua	cotton; 	noun; 	
+和尚	4.29	hé shang	Buddhist monk; 	noun; 	
+整天	4.29	zhĕng tiān	all day long; whole day; 	adverb; 	
+歎	4.29	tàn	variant of 嘆|叹[tàn]; 	noun; 	
+肚子	4.29	dù zi	belly; abdomen; stomach; CL:個|个[gè]; 	noun; 	
+近來	4.29	jìn lái	recently; lately; 	adjective; 	
+其間	4.28	qí jiān	in between; within that interval; in the meantime; 	pronoun; demonstrative pronoun; 	
+猶如	4.28	yóu rú	similar to; appearing to be; 	noun; 	
+髒	4.28	zāng	dirty; filthy; 	noun; 	
+抹	4.28	mā	to wipe; to smear; to wipe; to erase; classifier for wisps of cloud, light-beams etc; to plaster; to go around; to skirt; 	verb; 	
+力氣	4.28	lì qi	strength; CL:把[bă]; 	noun; 	
+左邊	4.28	zuŏ bian	left; the left side; to the left of; 	adjective; 	
+臉色	4.28	liăn sè	complexion; look; 	noun; 	
+噢	4.27	ō	Oh!; 	modal particle; 	
+走路	4.27	zŏu lù	to walk; to go on foot; 	verb; intransitive verb; 	
+在意	4.27	zài yì	to care about; to mind; 	preposition; 	
+心想	4.26	xīn xiăng	to think to oneself; to think; to assume; 	verb; 	
+白天	4.26	bái tiān	daytime; during the day; day; CL:個|个[gè]; 	time word; 	
+從沒	4.26	cóng méi	never (in the past); never did; 	noun; 	
+摔	4.25	shuāi	to throw down; to fall; to drop and break; 	verb; 	
+掀起	4.25	xiān qĭ	to lift; to raise in height; to begin; upsurge; to set off (a campaign); 	verb; 	
+賭	4.25	dŭ	to bet; to gamble; 	noun; 	
+起身	4.24	qĭ shēn	to get up; to leave; to set forth; 	verb; intransitive verb; 	
+口袋	4.24	kŏu dài	pocket; bag; sack; CL:個|个[gè]; 	noun; 	
+抬起	4.23	tái qĭ	to lift up; 	verb; 	
+女人家	4.23	nǚ rén jia	women (in general); 	noun; 	
+幾次	4.23	jĭ cì	several times; 	noun; 	
+聊	4.22	liáo	to chat; to depend upon (literary); temporarily; just; slightly; 	verb; 	
+踩	4.22	căi	to step on; to tread; to stamp; to press a pedal; to pedal (a bike); (online) to downvote; 	verb; 	
+醜	4.22	chŏu	shameful; ugly; disgraceful; 	noun; 	
+整整	4.21	zhĕng zhĕng	whole; full; 	adverb; 	
+哭泣	4.21	kū qì	to weep; 	verb; intransitive verb; 	
+笑容	4.21	xiào róng	smile; smiling expression; CL:副[fù]; 	noun; 	
+走過	4.21	zŏu guò	to walk past; to pass by; 	verb; 	
+妻	4.21	qī	wife; to marry off (a daughter); 	noun; noun morpheme; 	
+老子	4.21	lăo zĭ	Laozi or Lao-tze (c. 500 BC), Chinese philosopher, the founder of Taoism; the sacred book of Daoism, 道德經|道德经 by Laozi; father; daddy; "I, your father" (in anger, or out of contempt); I (used arrogantly or jocularly); 	noun; personal name; 	
+妓女	4.21	jì nǚ	prostitute; hooker; 	noun; 	
+嘴唇	4.21	zuĭ chún	lip; CL:片[piàn]; 	noun; 	
+來往	4.21	lái wăng	to come and go; to have dealings with; to be in relation with; 	noun; 	
+左手	4.2	zuŏ shŏu	left hand; left-hand side; 	noun; 	
+生病	4.2	shēng bìng	to fall ill; 	verb; intransitive verb; 	
+釘	4.2	dīng	nail; to follow closely; to keep at sb (to do sth); variant of 盯[dīng]; to join things together by fixing them in place at one or more points; to nail; to pin; to staple; to sew on; 	noun; 	
+牆壁	4.2	qiáng bì	wall; 	noun; 	
+一身	4.19	yī shēn	whole body; from head to toe; single person; a suit of clothes; 	numeral; 	
+鏡子	4.19	jìng zi	mirror; CL:面[miàn],個|个[gè]; 	noun; 	
+坑	4.19	kēng	hole; pit; tunnel; to defraud; 	noun; 	
+水面	4.18	shuĭ miàn	water surface; 	noun; 	
+老爺	4.18	lăo ye	(respectful) lord; master; (coll.) maternal grandfather; 	adjective; 	
+近前	4.18	jìn qián	to come close; to get near to; front; 	verb; 	
+當場	4.18	dāng chăng	at the scene; on the spot; 	noun; 	
+遠處	4.17	yuăn chù	distant place; 	noun; 	
+湊	4.17	còu	to gather together, pool or collect; to happen by chance; to move close to; to exploit an opportunity; 	noun; 	
+凶	4.17	xiōng	vicious; fierce; ominous; inauspicious; famine; variant of 兇|凶[xiōng]; 	adjective; 	
+捧	4.17	pĕng	to clasp; to cup the hands; to hold up with both hands; to offer (esp. in cupped hands); to praise; to flatter; 	verb; 	
+村子	4.16	cūn zi	village; 	noun; 	
+離去	4.16	lí qù	to leave; to exit; 	noun; 	
+呵	4.16	ā	variant of 啊[ā]; expel breath; my goodness; 	modal particle; 	
+難怪	4.16	nán guài	(it's) no wonder (that...); (it's) not surprising (that); 	noun; 	
+低頭	4.15	dī tóu	to bow the head; to yield; to give in; 	adjective; 	
+悲哀	4.14	bēi āi	grieved; sorrowful; 	adjective; noun-adjective; 	
+掙	4.14	zhēng	see 掙扎|挣扎[zhēng zhá]; to struggle to get free; to strive to acquire; to make (money); 	noun; 	
+跌	4.14	diē	to fall; to tumble; to trip; (of prices etc) to drop; Taiwan pr. [dié]; 	verb; 	
+瘦	4.14	shòu	thin; to lose weight; (of clothing) tight; (of meat) lean; (of land) unproductive; 	adjective; 	
+幹活	4.13	gàn huó	to work; to be employed; 	noun; 	
+祖母	4.13	zŭ mŭ	father's mother; paternal grandmother; 	noun; 	
+彷彿	4.13	făng fú	to seem; as if; alike; similar; 	noun; 	
+一下子	4.13	yī xià zi	in a short while; all at once; all of a sudden; 	numeral; numeral-plus-classifier compound; 	
+一聲	4.12	yī shēng	first tone in Mandarin (high, level tone); 	numeral; 	
+肩膀	4.12	jiān băng	shoulder; 	noun; 	
+豬肉	4.12	zhū ròu	pork; 	noun; 	
+偷偷	4.11	tōu tōu	stealthily; secretly; covertly; furtively; on the sly; 	adverb; 	
+珍	4.11	zhēn	precious thing; treasure; culinary delicacy; rare; valuable; to value highly; 	adjective; adjective morpheme; 	
+跪	4.11	guì	to kneel; 	verb; 	
+嘴巴	4.11	zuĭ ba	mouth; CL:張|张[zhāng]; slap in the face; CL:個|个[gè]; 	noun; 	
+光芒	4.1	guāng máng	rays of light; brilliant rays; radiance; 	noun; 	
+尾巴	4.1	wĕi ba	tail; colloquial pr. [yĭ ba]; 	noun; 	
+賭博	4.1	dŭ bó	to gamble; 	noun; 	
+停下	4.1	tíng xià	to stop; 	verb; 	
+蔣介石	4.1	jiăng jiè shí	Chiang Kai-shek (1887-1975), military leader, head of the Nationalist government in China 1928-1949 and the government in exile on Taiwan 1950-1975; 	noun; 	
+縫	4.1	féng	to sew; to stitch; seam; crack; narrow slit; CL:道[dào]; 	noun; 	
+鞋子	4.09	xié zi	shoe; 	noun; 	
+風光	4.09	fēng guāng	scene; view; sight; landscape; to be well-regarded; to be well-off; grand (dialect); impressive (dialect); 	noun; 	
+嫌	4.08	xián	to dislike; suspicion; resentment; enmity; abbr. for 嫌犯[xián fàn], criminal suspect; 	verb; 	
+雇	4.08	gù	to employ; to hire; to rent; 	verb; 	
+天天	4.08	tiān tiān	every day; 	noun; 	
+傍晚	4.07	bàng wăn	in the evening; when night falls; towards evening; at night fall; at dusk; 	time word; 	
+外出	4.07	wài chū	to go out; to go away (on a trip etc); 	verb; intransitive verb; 	
+從來不	4.07	cóng lái bù	never; 	noun; 	
+挨	4.07	āi	in order; in sequence; close to; adjacent to; to suffer; to endure; to pull through (hard times); to delay; to stall; to play for time; to dawdle; 	verb; 	
+胳膊	4.05	gē bo	arm; CL:隻|只[zhī],條|条[tiáo],雙|双[shuāng]; 	noun; 	
+點子	4.05	diăn zi	spot; point; dot; speck; drop (of liquid); droplet; point (of argument); idea; crux; indication; pointer; 	noun; 	
+接連	4.05	jiē lián	on end; in a row; in succession; 	verb; 	
+門檻	4.04	mén kăn	doorstep; sill; threshold; fig. knack or trick (esp. scheme to get sth cheaper); 	noun; 	
+口音	4.04	kŏu yīn	oral speech sounds (linguistics); voice; accent; 	noun; 	
+鹹	4.03	xián	salted; salty; stingy; miserly; 	noun; 	
+堵	4.03	dŭ	to block up (a road, pipe etc); to stop up (a hole); (fig.) (of a person) choked up with anxiety or stress; wall (literary); (classifier for walls); 	verb; 	
+一口	4.02	yī kŏu	readily; flatly (deny, admit and so on); a mouthful; a bite; 	numeral; 	
+蹲	4.02	dūn	to crouch; to squat; to stay (somewhere); 	verb; 	
+難看	4.02	nán kàn	ugly; unsightly; 	noun; 	
+哄	4.02	hōng	roar of laughter (onom.); hubbub; to roar (as a crowd); to deceive; to coax; to amuse (a child); 	verb; 	
+大雨	4.02	dà yŭ	heavy rain; CL:場|场[cháng]; 	noun; 	
+一眼	4.01	yī yăn	a glance; a quick look; a glimpse; 	numeral; 	
+低下	4.01	dī xià	low status; lowly; to lower (one's head); 	adjective; 	
+河水	4.01	hé shuĭ	river water; 	noun; 	
+胸口	4.01	xiōng kŏu	pit of the stomach; 	noun; 	
+一旁	4.01	yī páng	aside; to the side of; 	noun of locality; 	
+廢話	4.0	fèi huà	nonsense; rubbish; superfluous words; You don't say!; No kidding! (gently sarcastic); 	noun; 	
+過時	4.0	guò shí	old-fashioned; out of date; to be later than the time stipulated or agreed upon; 	noun; 	
+聲響	4.0	shēng xiăng	sound; noise; 	noun; 	
+咳嗽	4.0	ké sou	to cough; CL:陣|阵[zhèn]; 	verb; intransitive verb; 	
+路過	3.99	lù guò	to pass by or through; 	noun; 	
+孕婦	3.98	yùn fù	pregnant woman; 	verb; verb morpheme; 	
+河邊	3.97	hé biān	river bank; 	noun; 	
+聽話	3.97	tīng huà	to do what one is told; obedient; 	noun; 	
+擋住	3.96	dăng zhù	to obstruct; 	noun; 	
+得意	3.96	dé yì	proud of oneself; pleased with oneself; complacent; 	adjective; 	
+搖晃	3.96	yáo huàng	to rock; to shake; to sway; 	noun; 	
+毛巾	3.95	máo jīn	towel; CL:條|条[tiáo]; 	noun; 	
+少爺	3.95	shào ye	son of the boss; young master of the house; your son (honorific); 	adjective; 	
+和龍	3.95	hé lóng	Helong county level city in Yanbian Korean autonomous prefecture 延邊朝鮮族自治州|延边朝鲜族自治州, Jilin; 	conjunction; coordinating conjunction; 	
+額頭	3.95	é tóu	forehead; 	noun; 	
+瓜	3.94	guā	melon; gourd; squash; 	noun; 	
+饅頭	3.94	mán tou	steamed roll; steamed bun; steamed bread; CL:個|个[gè]; 	noun; 	
+櫃檯	3.94	guì tái	sales counter; front desk; bar; (of markets, medicines etc) OTC (over-the-counter); 	noun; 	
+半個	3.94	bàn ge	half of sth; 	numeral; 	
+鴨子	3.93	yā zi	duck; male prostitute (slang); 	noun; 	
+女婿	3.93	nǚ xu	daughter's husband; son-in-law; 	noun; 	
+折騰	3.93	zhē teng	to toss from side to side (e.g. sleeplessly); to repeat sth over and over again; to torment sb; to play crazy; to squander (time, money); 	classifier; 	
+盤子	3.93	pán zi	tray; plate; dish; CL:個|个[gè]; 	noun; 	
+擲	3.93	zhì	to toss; to throw dice; Taiwan pr. [zhí]; 	noun; 	
+走開	3.93	zŏu kāi	to leave; to walk away; to beat it; to move aside; 	verb; 	
+牲畜	3.92	shēng chù	domesticated animals; livestock; 	noun; 	
+做生意	3.92	zuò shēng yì	to do business; 	verb; 	
+竄	3.92	cuàn	to flee; to scuttle; to exile or banish; to amend or edit; 	noun; 	
+進城	3.92	jìn chéng	to go to town; to enter a big city (to live or work); 	noun; 	
+城門	3.92	chéng mén	city gate; 	noun; 	
+棵	3.91	kē	classifier for trees, cabbages, plants etc; 	classifier; 	
+打發	3.91	dă fa	to dispatch sb to do sth; to make sb leave; to pass (the time); (old) to make arrangements; (old) to bestow (alms etc); 	verb; 	
+手腳	3.91	shŏu jiăo	hand and foot; movement of limbs; action; trick; step in a procedure (CL: 道[dào]); 	noun; 	
+自古	3.9	zì gŭ	(since) ancient times; (from) time immemorial; 	adverb; 	
+請安	3.9	qĭng ān	to pay respects; to wish good health; in Qing times, a specific form of salutation (see also 打千[dă qiān]); 	noun; 	
+夥計	3.9	huŏ ji	variant of 伙計|伙计[huŏ ji]; 	noun; 	
+偏偏	3.89	piān piān	(indicates that sth turns out just the opposite of what one would wish) unfortunately; as it happened; (indicates that sth is the opposite of what would be normal or reasonable) stubbornly; contrarily; against reason; (indicates that sb or a group is singled out) precisely; only; of all people; 	adverb; 	
+深感	3.88	shēn găn	to feel deeply; 	verb; 	
+絲綢	3.88	sī chóu	silk cloth; silk; 	noun; 	
+蒼蠅	3.88	cāng ying	housefly; CL:隻|只[zhī]; 	noun; 	
+頻頻	3.88	pín pín	repeatedly; again and again; continuously; constantly; 	noun; 	
+喘	3.88	chuăn	to gasp; to pant; asthma; 	verb; 	
+手氣	3.88	shŏu qì	luck (in gambling); 	noun; 	
+背包	3.87	bēi bāo	knapsack; rucksack; infantry pack; field pack; blanket roll; CL:個|个[gè]; 	noun; 	
+屎	3.87	shĭ	stool; feces; ear wax; nasal mucus; 	noun; 	
+神色	3.86	shén sè	expression; look; 	noun; 	
+強壯	3.86	qiáng zhuàng	strong; sturdy; robust; 	noun; 	
+青蛙	3.86	qīng wā	frog; CL:隻|只[zhī]; (slang) ugly guy; 	noun; 	
+兩旁	3.86	liăng páng	both sides; either side; 	noun; 	
+嘿嘿	3.86	hēi hēi	(onom.) he he; mischievous laughter; 	onomatopoeia; 	
+正文	3.84	zhèng wén	main text (as opposed to footnotes); main body (of a book); 	noun; personal name; 	
+走近	3.84	zŏu jìn	to approach; to draw near to; 	verb; 	
+田地	3.84	tián dì	field; farmland; cropland; plight; extent; 	noun; 	
+闊	3.84	kuò	rich; wide; broad; 	noun; 	
+愣	3.84	lèng	to look distracted; to stare blankly; distracted; blank; (coll.) unexpectedly; rash; rashly; 	verb; intransitive verb; 	
+炎熱	3.83	yán rè	blistering hot; sizzling hot (weather); 	noun; noun morpheme; 	
+螞蟻	3.83	mă yĭ	ant; 	noun; 	
+做人	3.83	zuò rén	to conduct oneself; to behave with integrity; 	verb; 	
+有著	3.82	yŏu zhe	to have; to possess; 	verb; verb 有; 	
+眉頭	3.82	méi tóu	brows; 	noun; 	
+光滑	3.81	guāng huá	glossy; sleek; smooth; 	adjective; 	
+勝負	3.81	shèng fù	victory or defeat; the outcome of a battle; 	noun; 	
+潑	3.8	pō	to splash; to spill; rough and coarse; brutish; 	noun; 	
+旺盛	3.8	wàng shèng	vigorous; exuberant; 	adjective; 	
+泥土	3.8	ní tŭ	earth; soil; mud; clay; 	noun; 	
+輸給	3.8	shū gĕi	to lose to (sb); to be outdone by; 	noun; 	
+吉利	3.79	jí lì	Geely, Chinese car make; auspicious; lucky; propitious; 	adjective; 	
+田野	3.78	tián yĕ	field; open land; CL:片[piàn]; 	noun; personal name; 	
+塵土	3.78	chén tŭ	dust; 	noun; 	
+接著	3.78	jiē zhe	to catch and hold on; to continue; to go on to do sth; to follow; to carry on; then; after that; subsequently; to proceed; to ensue; in turn; in one's turn; 	verb; 	
+燈籠	3.78	dēng lóng	lantern; 	noun; 	
+扛	3.78	gāng	to raise aloft with both hands; (of two or more people) to carry sth together; to carry on one's shoulder; (fig.) to take on (a burden, duty etc); 	verb; 	
+商會	3.78	shāng huì	chamber of commerce; 	verb; verb morpheme; 	
+喝醉	3.78	hē zuì	to get drunk; 	verb; verb morpheme; 	
+咧	3.77	liē	see 咧咧[liē liē]; to draw back the corners of one's mouth; modal particle expressing exclamation; 	verb; 	
+怒氣	3.77	nù qì	anger; 	verb; verb morpheme; 	
+充斥	3.76	chōng chì	to be full of; to flood; to congest; 	verb; 	
+車輪	3.76	chē lún	wheel; 	noun; 	
+疲倦	3.76	pí juàn	to tire; tired; 	adjective; 	
+地道	3.76	dì dào	tunnel; causeway; authentic; genuine; proper; 	adjective; 	
+麻雀	3.75	má què	sparrow; (dialect) mahjong; 	noun; 	
+遊蕩	3.75	yóu dàng	to wander; to roam about; to loaf about; to be idle; 	noun; 	
+照射	3.75	zhào shè	to shine on; to light up; to irradiate; 	verb; 	
+池塘	3.75	chí táng	pool; pond; 	noun; 	
+熄滅	3.75	xī miè	to stop burning; to go out (of fire); to die out; extinguished; 	verb; 	
+樹葉	3.75	shù yè	tree leaves; 	noun; 	
+油漆	3.75	yóu qī	oil paints; lacquer; to paint; CL:層|层[céng]; 	noun; 	
+遊玩	3.74	yóu wán	to amuse oneself; to have fun; to go sightseeing; to take a stroll; 	noun; 	
+有錢人	3.74	yŏu qián rén	rich person; the rich; 	verb; verb 有; 	
+響亮	3.73	xiăng liàng	loud and clear; resounding; 	noun; 	
+沉睡	3.73	chén shuì	to be fast asleep; (fig.) to lie dormant; to lie undiscovered; 	verb; intransitive verb; 	
+桌面	3.73	zhuō miàn	desktop; tabletop; 	noun; 	
+糞	3.72	fèn	manure; dung; 	noun; 	
+站住	3.72	zhàn zhù	to stand; 	verb; 	
+胡鬧	3.72	hú nào	to act willfully and make a scene; to make trouble; 	noun; personal name; Chinese surname; 	
+贏家	3.72	yíng jiā	winner; 	noun; 	
+著手	3.72	zhuó shŏu	to put one's hand to it; to start out on a task; to set out; 	verb; verb morpheme; 	
+皮帶	3.71	pí dài	strap; leather belt; CL:條|条[tiáo],根[gēn]; 	noun; 	
+缸	3.71	gāng	jar; vat; classifier for loads of laundry; CL:口[kŏu]; 	noun; 	
+風聲	3.71	fēng shēng	sound of the wind; rumor; talk; news; reputation; 	noun; 	
+鄉間	3.7	xiāng jiān	in the country; rural; pastoral; 	noun; 	
+握住	3.7	wò zhù	to grip; to hold; 	verb; 	
+妓院	3.7	jì yuàn	brothel; whorehouse; 	noun; 	
+早安	3.7	zăo ān	Good morning!; 	verb; intransitive verb; 	
+大腿	3.69	dà tuĭ	thigh; 	noun; 	
+天色	3.69	tiān sè	color of the sky; time of day, as indicated by the color of the sky; weather; 	noun; 	
+世面	3.69	shì miàn	aspects of society; the world; 	noun; 	
+告辭	3.68	gào cí	to say goodbye; to take one's leave; 	verb; 	
+夕陽	3.67	xī yáng	sunset; the setting sun; 	time word; time morpheme; 	
+午後	3.67	wŭ hòu	afternoon; 	time word; time morpheme; 	
+岳父	3.67	yuè fù	wife's father, father-in-law; 	noun; 	
+波浪	3.66	bō làng	wave; 	noun; 	
+皺紋	3.66	zhòu wén	wrinkle; CL:道[dào]; 	noun; 	
+釘子	3.66	dīng zi	nail; snag; saboteur; 	noun; 	
+嗓音	3.65	săng yīn	voice; 	noun; 	
+麻將	3.65	má jiàng	mahjong; CL:副[fù]; 	noun; 	
+栽	3.65	zāi	to grow; to plant; to insert; to force on sb; to fall head first; 	verb; 	
+哭聲	3.64	kū shēng	sound of weeping; 	verb; 	
+頭巾	3.64	tóu jīn	cloth head covering worn by men in ancient times; headscarf (typically worn by women); kerchief; turban; 	noun; 	
+馬桶	3.64	mă tŏng	chamber pot; wooden pan used as toilet; toilet bowl; 	noun; 	
+家境	3.64	jiā jìng	family financial situation; family circumstances; 	noun; 	
+短褲	3.63	duăn kù	short pants; shorts; 	adjective; 	
+煙囪	3.63	yān cōng	chimney; 	noun; 	
+擠滿	3.63	jĭ măn	crowded to bursting point; filled to overflowing; jam-packed; 	noun; 	
+叫醒	3.62	jiào xĭng	to awaken; to wake sb up; to rouse; 	verb; 	
+草叢	3.61	căo cóng	underbrush; 	noun; 	
+身手	3.61	shēn shŏu	skill; talent; agility; 	noun; 	
+賭注	3.61	dŭ zhù	stake (in a gamble); (what is at) stake; 	noun; 	
+滾滾	3.6	gŭn gŭn	nickname for a panda; to surge on; to roll on; 	noun; 	
+莊稼	3.6	zhuāng jia	farm crop; CL:種|种[zhŏng]; 	noun; 	
+掙脫	3.6	zhèng tuō	to throw off; to struggle free of; Taiwan pr. [zhēng tuō]; 	noun; 	
+打量	3.6	dă liàng	to size sb up; to look sb up and down; to take the measure of; to suppose; to reckon; 	verb; 	
+差一點	3.59	chà yī diăn	see 差點|差点[chà diăn]; 	adjective; 	
+彎腰	3.59	wān yāo	to stoop; 	noun; 	
+算計	3.59	suàn ji	to reckon; to calculate; to plan; to expect; to scheme; 	verb; 	
+歌謠	3.57	gē yáo	folksong; ballad; nursery rhyme; 	noun; 	
+拖鞋	3.57	tuō xié	slippers; sandals; flip-flops; CL:雙|双[shuāng],隻|只[zhī]; 	noun; 	
+筆直	3.57	bĭ zhí	perfectly straight; straight as a ramrod; bolt upright; 	noun; 	
+勾當	3.56	gòu dàng	shady business; 	verb; 	
+赤裸	3.56	chì luŏ	naked; bare; 	adjective; 	
+慌張	3.56	huāng zhāng	confused; flustered; 	adjective; 	
+引子	3.56	yĭn zi	introduction; primer; opening words; 	noun; 	
+半月	3.56	bàn yuè	half-moon; fortnight; 	numeral; 	
+免不了	3.56	miăn bù liăo	unavoidable; can't be avoided; 	verb; 	
+搶先	3.56	qiăng xiān	to rush (to do sth urgent); to try to be the first; to forestall; 	noun; 	
+床邊	3.55	chuáng biān	bedside; 	noun; 	
+祖宗	3.55	zŭ zōng	ancestor; forebear; 	noun; 	
+項圈	3.55	xiàng quān	necklace; 	noun; 	
+認輸	3.55	rèn shū	to concede; to admit defeat; 	noun; 	
+臉蛋	3.54	liăn dàn	cheek; face; 	noun; 	
+牆角	3.53	qiáng jiăo	corner (junction of two walls); 	noun; 	
+編著	3.52	biān zhù	to compile; to write; 	noun; 	
+把頭	3.52	bă tóu	labor contractor; gangmaster; 	preposition; preposition 把; 	
+整夜	3.52	zhĕng yè	the whole night; all through the night; 	adverb; 	
+青樓	3.52	qīng lóu	(literary) brothel; pleasure quarters; 	adjective; 	
+起先	3.52	qĭ xiān	at first; in the beginning; 	adverb; 	
+滯	3.51	zhì	sluggish; 	noun; 	
+活著	3.5	huó zhe	alive; 	noun; 	
+田產	3.5	tián chăn	estate; lands; 	noun; personal name; Chinese surname; 	
+跑堂	3.5	păo táng	waiter (old); 	verb; 	
+怔	3.5	zhēng	to stare blankly; startled; stumped for words; to stare blankly; 	verb; 	
+點數	3.5	diăn shù	to count and check; to tally; points (collected in some bonus scheme etc); 	noun; 	
+激昂	3.49	jī áng	impassioned; worked up; 	adjective; 	
+喊叫	3.48	hăn jiào	to cry out; to shout; 	verb; 	
+照看	3.48	zhào kàn	to look after; to attend to; to have in care; 	verb; 	
+汗水	3.48	hàn shuĭ	sweat; perspiration; 	noun; 	
+樹幹	3.48	shù gàn	tree trunk; 	noun; 	
+古板	3.48	gŭ băn	outmoded; old-fashioned; inflexible; 	adjective; 	
+大錢	3.48	dà qián	high denomination of banknotes or coins; lots of money; a big sum (e.g. a bribe); 	adjective; 	
+巴掌	3.48	bā zhăng	palm of the hand; classifier: slap; 	noun; 	
+茶水	3.47	chá shuĭ	tea prepared in large quantity using inexpensive tea leaves; 	noun; 	
+水壺	3.47	shuĭ hú	kettle; canteen; watering can; 	noun; 	
+捲起	3.47	juăn qĭ	to roll up; to curl up; (of dust etc) to swirl up; 	noun; 	
+半晌	3.47	bàn shăng	half of the day; a long time; quite a while; 	numeral; 	
+骰子	3.47	tóu zi	dice; 	noun; 	
+心疼	3.47	xīn téng	to love dearly; to feel sorry for sb; to regret; to grudge; to be distressed; 	verb; 	
+田間	3.46	tián jiān	field; farm; farming area; village; 	noun; personal name; Chinese surname; 	
+犁	3.46	lí	plow; 	noun; 	
+訓斥	3.45	xùn chì	to reprimand; to rebuke; to berate; stern criticism; 	noun; 	
+銀元	3.45	yín yuán	flat silver (former coinage); also written 銀圓|银圆; silver dollar; 	noun; 	
+牌九	3.45	pái jiŭ	pai gow (gambling game played with dominoes); 	noun; 	
+二來	3.45	èr lái	secondly, ...; 	numeral; 	
+衣衫	3.44	yī shān	clothing; unlined garment; 	noun; 	
+貓眼	3.44	māo yăn	peephole; chrysoberyl; 	noun; 	
+稀奇	3.43	xī qí	rare; strange; 	adjective; 	
+扇子	3.42	shàn zi	fan; CL:把[bă]; 	noun; 	
+臭味	3.42	chòu wèi	bad smell; foul odor; 	noun; 	
+唷	3.42	yō	(interjection expressing surprise) Oh!; My!; final particle expressing exhortation, admiration etc; 	noun; 	
+敲打	3.42	qiāo dă	to beat sb; to beat (a drum); 	verb; 	
+抖動	3.41	dŏu dòng	to tremble; 	verb; intransitive verb; 	
+吆喝	3.41	yāo he	to shout; to bawl; to yell (to urge on an animal); to hawk (one's wares); to denounce loudly; to shout slogans; 	verb; 	
+逃竄	3.41	táo cuàn	to run away; to flee in disarray; 	verb; 	
+拍手	3.41	pāi shŏu	to clap one's hands; 	verb; intransitive verb; 	
+農忙	3.4	nóng máng	busy farming season; 	noun; 	
+水邊	3.4	shuĭ biān	edge of the water; waterside; shore (of sea, lake or river); 	noun; 	
+頂撞	3.4	dĭng zhuàng	to contradict (elders or superiors); 	noun; 	
+爪子	3.39	zhuă zi	(animal's) claw; 	noun; 	
+糟蹋	3.38	zāo tà	to waste; to defile; to abuse; to insult; to defile; to trample on; to wreck; also pr. [zāo ta]; 	verb; 	
+葷	3.37	hūn	strong-smelling vegetable (garlic etc); non-vegetarian food (meat, fish etc); vulgar; obscene; 	noun; 	
+茂盛	3.37	mào shèng	lush; 	adjective; 	
+打鼓	3.37	dă gŭ	to beat a drum; to play a drum; (fig.) to feel nervous; 	verb; 	
+存心	3.37	cún xīn	deliberately; 	adverb; 	
+摘下	3.36	zhāi xià	to take off; to remove (one's hat, a door from its hinges etc); to pick (a piece of fruit from a tree etc); (sports) to pick off (a rebound etc); 	verb; 	
+苦根	3.36	kŭ gēn	underlying cause of poverty; 	adjective; 	
+香火	3.36	xiāng huŏ	incense burning in front of a temple; burning joss sticks; 	noun; 	
+撒尿	3.36	sā niào	to pass water; to piss; to urinate; to wee wee; 	verb; intransitive verb; 	
+前世	3.36	qián shì	previous generations; previous incarnation (Buddhism); 	time word; 	
+捂	3.36	wŭ	to enclose; to cover with the hand (one's eyes, nose or ears); to cover up (an affair); contrary; to contradict; 	verb; 	
+拍打	3.35	pāi da	to pat; to slap; (of a bird) to flap (one's wings); 	verb; 	
+泥巴	3.35	ní bā	mud; 	noun; 	
+偷聽	3.35	tōu tīng	to eavesdrop; to monitor (secretly); 	verb; 	
+心腸	3.35	xīn cháng	heart; intention; one's inclination; state of mind; to have the heart for sth; mood; 	noun; 	
+兒媳	3.34	ér xí	daughter-in-law; 	noun; 	
+耗子	3.34	hào zi	(dialect) mouse; rat; 	noun; 	
+扯住	3.34	chĕ zhù	to grasp firmly; 	verb; 	
+開脫	3.34	kāi tuō	to exculpate; to absolve; to exonerate; 	noun; 	
+舊日	3.33	jiù rì	former times; olden days; 	noun; 	
+清點	3.33	qīng diăn	to check; to make inventory; 	adjective; 	
+化緣	3.32	huà yuán	(of a monk) to beg; 	verb; 	
+鬼混	3.32	guĭ hùn	to hang around; to fool around; to live aimlessly; 	verb; intransitive verb; 	
+吃喝	3.32	chī hē	to eat and drink; food and drink; 	verb; 	
+失聲	3.31	shī shēng	to lose one's voice; (to cry out) involuntarily; 	verb; 	
+偷懶	3.31	tōu lăn	to goof off; to be lazy; 	verb; 	
+布鞋	3.31	bù xié	cloth shoes; CL:雙|双[shuāng],隻|只[zhī]; 	noun; 	
+逛街	3.31	guàng jiē	to take a walk; to window-shop; to stroll down the street; 	verb; 	
+閉著	3.31	bì zhe	closed; 	noun; 	
+洩氣	3.3	xiè qì	to leak (gas); to be discouraged; to despair; (disparaging) pathetic; to vent one's anger; (of a tire) to be flat; 	noun; 	
+叼	3.3	diāo	to hold with one's mouth (as a smoker with a cigarette or a dog with a bone); 	verb; 	
+屢見不鮮	3.29	lǚ jiàn bù xiān	a common occurrence (idiom); 	noun; 	
+擺弄	3.29	băi nòng	to move back and forth; to fiddle with; 	noun; 	
+兜售	3.29	dōu shòu	to hawk; to peddle; 	verb; 	
+嫌棄	3.29	xián qì	to avoid sb (out of dislike); to turn one's back on sb; to ignore; 	verb; 	
+賭徒	3.29	dŭ tú	gambler; 	noun; 	
+洗牌	3.29	xĭ pái	to shuffle cards; 	verb; 	
+大肚子	3.29	dà dù zi	pregnant; potbelly; big eater; 	noun; 	
+佇立	3.28	zhù lì	to stand for a long time; 	noun; 	
+兩句	3.28	liăng jù	(say) a few words; 	noun; 	
+小道	3.26	xiăo dào	bypath; trail; bribery as a means of achieving a goal; minor arts (Confucian reference to agriculture, medicine, divination, and other professions unworthy of a gentleman); 	noun; 	
+開導	3.26	kāi dăo	to talk sb round; to straighten sth out; to enlighten; 	noun; 	
+亮光	3.26	liàng guāng	light; beam of light; gleam of light; light reflected from an object; 	noun; 	
+草帽	3.25	căo mào	straw hat; 	noun; 	
+野地	3.25	yĕ dì	wilderness; 	noun; 	
+輸掉	3.25	shū diào	to lose; 	noun; 	
+青草	3.24	qīng căo	grass; 	noun; 	
+私塾	3.24	sī shú	private school (in former times); 	noun; 	
+摸牌	3.24	mō pái	to draw a tile (at mahjong); to play mahjong; 	verb; 	
+手心	3.24	shŏu xīn	palm (of one's hand); control (extended meaning from having something in the palm of one's hand); 	noun; 	
+穿著	3.23	chuān zhuó	attire; clothes; dress; 	verb; 	
+拜佛	3.23	bài fó	to worship Buddha; 	verb; intransitive verb; 	
+苦味	3.22	kŭ wèi	bitter taste; bitterness; 	noun; 	
+草鞋	3.22	căo xié	straw sandals; 	noun; 	
+村舍	3.21	cūn shè	cottage; 	noun; 	
+壓住	3.21	yā zhù	to press down; to crush down; to restrain (anger); to keep down (voice); 	noun; 	
+鋤頭	3.21	chú tou	hoe; CL:把[bă]; 	noun; 	
+叫喚	3.21	jiào huan	to cry out; to bark out a sound; 	verb; intransitive verb; 	
+敗落	3.21	bài luò	(of status or wealth) to decline; (of buildings etc) to become dilapidated; run-down; (of plants) to wilt; 	noun; 	
+學時	3.21	xué shí	class hour; period; 	noun; 	
+有生以來	3.2	yŏu shēng yĭ lái	since birth; for one's whole life; 	verb; verb 有; 	
+黝黑	3.2	yŏu hēi	dark; black; suntanned; 	status word; 	
+哆嗦	3.2	duō suo	to tremble; to shiver; uncontrolled shaking of the body; 	verb; intransitive verb; 	
+一聲不吭	3.19	yī shēng bù kēng	to not say a word; 	numeral; 	
+拉屎	3.18	lā shĭ	to defecate; to shit; to crap; 	verb; 	
+茶碗	3.17	chá wăn	teacup; 	noun; 	
+透亮	3.17	tòu liàng	bright; shining; translucent; crystal clear; 	verb; intransitive verb; 	
+光耀	3.17	guāng yào	dazzling; brilliant; 	noun; 	
+亂糟糟	3.17	luàn zāo zāo	chaotic; topsy turvy; a complete mess; 	noun; 	
+債主	3.16	zhài zhŭ	creditor; 	noun; 	
+賊亮	3.16	zéi liàng	bright; shiny; dazzling; glaring; 	noun; 	
+起勁	3.15	qĭ jìn	vigorously; energetically; enthusiastically; 	verb; directional verb; 	
+風騷	3.15	fēng sāo	literary excellence; flirtatious behavior; 	noun; 	
+腰板	3.15	yāo băn	waist and back; fig. upright and still healthy; 	noun; 	
+賭局	3.15	dŭ jú	game of chance; gambling party; gambling joint; 	noun; 	
+酸曲	3.14	suān qŭ	love song; 	noun; 	
+游動	3.14	yóu dòng	to move about; to go from place to place; roving; mobile; 	verb; 	
+沙啞	3.14	shā yă	hoarse; rough; 	noun; personal name; Chinese surname; 	
+讓位	3.14	ràng wèi	to abdicate; to yield; 	noun; 	
+揚長而去	3.13	yáng cháng ér qù	to swagger off; to walk off (or drive off etc) without a second thought for those left behind; 	noun; 	
+不孝	3.13	bù xiào	unfilial; 	adjective; 	
+轎子	3.13	jiào zi	sedan chair; palanquin; litter; 	noun; 	
+嫖	3.12	piáo	to visit a prostitute; 	verb; 	
+無恙	3.12	wú yàng	in good health; 	noun; 	
+揖	3.12	yī	to greet by raising clasped hands; 	verb; verb morpheme; 	
+手電	3.11	shŏu diàn	flashlight; torch; 	noun; 	
+滿腹	3.1	măn fù	filled with; preoccupied with; 	noun; 	
+闖蕩	3.1	chuăng dàng	to leave home to make one's way in the world; to leave the life one knows to seek success; 	noun; 	
+滿不在乎	3.09	măn bù zài hu	not in the least concerned (idiom); reckless; couldn't give a damn about it; unperturbed; couldn't care less; harum scarum; 	noun; 	
+帳目	3.09	zhàng mù	account; 	noun; 	
+逃之夭夭	3.08	táo zhī yāo yāo	to escape without trace (idiom); to make one's getaway (from the scene of a crime); to show a clean pair of heels; 	verb; verb phrase; 	
+翻動	3.08	fān dòng	to flip over; to turn (a page); to scroll (an electronic document); to stir (food in a pot etc); to move things about; to rummage; 	verb; 	
+舒坦	3.08	shū tan	comfortable; at ease; 	adjective; 	
+檢點	3.07	jiăn diăn	to examine; to check; to keep a lookout; cautious; restrained (in speech or mannerisms); 	noun; 	
+推說	3.07	tuī shuō	to plead; to claim as an excuse; 	verb; 	
+慢吞吞	3.06	màn tūn tūn	very slow; exasperatingly slow; 	status word; 	
+褲襠	3.06	kù dāng	crotch of trousers; 	noun; 	
+安分	3.05	ān fèn	content with one's lot; knowing one's place; 	adjective; 	
+派頭	3.05	pài tóu	manner; style; panache; 	multiword expression; 	
+賞心悅目	3.04	shăng xīn yuè mù	warms the heart and delights the eye (idiom); pleasing; delightful; 	noun; 	
+散漫	3.03	săn màn	undisciplined; unorganized; 	adjective; 	
+脊背	3.03	jĭ bèi	back (of a human or other vertebrate); 	noun; 	
+長衫	3.03	cháng shān	long gown; cheongsam; traditional Asian dress for men or (in Hong Kong) women's qipao; 	noun; 	
+雷公	3.03	léi gōng	Lei Gong or Duke of Thunder, the God of Thunder in Chinese mythology; 	noun; 	
+羞怯	3.02	xiū qiè	shy; timid; 	adjective; 	
+織布	3.02	zhī bù	woven cloth; to weave cloth; 	noun; 	
+好端端	3.02	hăo duān duān	perfectly all right; without rhyme or reason; 	status word; 	
+暗地	3.02	àn dì	secretly; inwardly; 	adjective; 	
+凸起	3.02	tū qĭ	convex; protruding; to protrude; to bulge; to buckle upwards; 	verb; intransitive verb; 	
+孤身	3.02	gū shēn	alone; lonely; 	noun; 	
+各不相同	3.01	gè bù xiāng tóng	to have nothing in common with each other (idiom); 	pronoun; demonstrative pronoun; 	
+亮出	3.01	liàng chū	to suddenly reveal; to flash (one's ID, a banknote etc); 	verb; intransitive verb; 	
+樹梢	3.0	shù shāo	the tip of a tree; treetop; 	noun; 	
+悄聲	3.0	qiăo shēng	quietly; in a low voice; 	noun; 	
+說白了	3.0	shuō bái le	to speak frankly; 	noun; 	
+哄笑	3.0	hōng xiào	to roar with laughter; hoots of laughter; guffaw; 	verb; noun-verb; 	
+彩旗	2.99	căi qí	colored flag; 	noun; 	
+鹹菜	2.95	xián cài	salted vegetables; pickles; 	noun; 	
+揪住	2.95	jiū zhù	to grab; 	verb; 	
+呵欠	2.94	hē qiàn	yawn; 	noun; 	
+褲管	2.91	kù guăn	trouser leg; 	noun; 	
+黑桃	2.91	hēi táo	spade ♠ (in card games); 	noun; 	
+唰	2.88	shuā	(onom.) swishing; rustling; 	noun; 	
+報曉	2.87	bào xiăo	to herald the break of day; 	noun; 	
+沒趣	2.87	méi qù	embarrassing; dull; unsatisfactory; 	noun; 	
+賢惠	2.77	xián huì	variant of 賢慧|贤慧[xián huì]; 	noun; 	
+鬧騰	2.77	nào teng	to disturb; to create confusion; to make a din; 	noun; 	
+犯愁	2.75	fàn chóu	to worry; to be anxious; 	verb; intransitive verb; 	
+丈人	2.72	zhàng rén	wife's father (father-in-law); old man; 	noun; 	
+青筋	2.71	qīng jīn	veins; blue veins; 	noun; 	
+袖管	2.71	xiù guăn	sleeve; 	noun; 	
+浪蕩	2.68	làng dàng	to loiter; to hang around; dissolute; licentious; 	noun; 	
+哭喪	2.68	kū sāng	to wail at a funeral; formal wailing while offering sacrifice to the departed; 	verb; 	
+嗚嗚	2.67	wū wū	(interj) boo hoo; 	noun; 	
+懷胎	2.66	huái tāi	to become pregnant; to carry a child in the womb; 	noun; 	
+路途遙遠	2.59	lù tú yáo yuăn	distant; far-flung; 	noun; 	
+千字文	2.58	qiān zì wén	Thousand Character Classic, 6th century poem used as a traditional reading primer; 	numeral; 	
+竊竊	2.57	qiè qiè	privately; secretly; unobtrusively; 	noun; 	
+蒸騰	2.57	zhēng téng	(of a vapor etc) to rise; to hang in the air; 	verb; 	
+粗啞	2.56	cū yă	husky; hoarse; raucous; 	adjective; 	
+嚇一跳	2.55	xià yī tiào	startled; to frighten; scared out of one's skin; 	noun; 	
+動彈不得	2.52	dòng tan bu dé	to be unable to move a single step; 	noun; 	
+耕田	2.5	gēng tián	to cultivate soil; to till fields; 	verb; intransitive verb; 	
+孽子	2.49	niè zĭ	unfilial son; unworthy son; illegitimate son; concubine's son; 	adjective; adjective morpheme; 	
+饞嘴	2.47	chán zuĭ	gluttonous; glutton; 	noun; 	
+嘻嘻	2.44	xī xī	hee hee; happy; 	onomatopoeia; 	
+肥碩	2.43	féi shuò	fleshy (fruit); plump; large and firm-fleshed (limbs, body); stout; 	noun; 	
+不可救藥	2.41	bù kĕ jiù yào	incurable; incorrigible; beyond cure; hopeless; 	verb; 	
+天剛亮	2.41	tiān gāng liàng	daybreak; 	classifier; temporal classifier; 	
+扶犁	2.4	fú lí	to put one's hand to the plow; 	noun; personal name; Chinese given name; 	
+樹蔭	2.39	shù yìn	shade of a tree; 	noun; 	
+嘩嘩	2.39	huā huā	sound of gurgling water; 	noun; 	
+笑盈盈	2.37	xiào yíng yíng	smilingly; to be all smiles; 	status word; 	
+狗吠	2.36	gŏu fèi	bark; CL:聲|声[shēng]; to bark; 	noun; 	
+慢悠悠	2.32	màn yōu yōu	unhurried; 	status word; 	
+撩起	2.31	liāo qĭ	to raise; to lift up (curtains, clothing etc); 	verb; 	
+有氣無力	2.3	yŏu qì wú lì	weakly and without strength (idiom); dispirited; 	verb; verb 有; 	
+敗家子	2.29	bài jiā zĭ	spendthrift; wastrel; prodigal; 	noun; 	
+鶚	2.28	è	(bird species of China) western osprey (Pandion haliaetus); 	noun; 	
+收復失地	2.2	shōu fù shī dì	to recover lost territory; 	verb; 	
+搔癢	2.16	sāo yăng	to scratch (an itch); to tickle; 	verb; 	
+撓癢癢	2.11	náo yăng yang	to tickle; 	noun; 	
+舀水	2.1	yăo shuĭ	to ladle water; to scoop up water; 	verb; 	
+真心實意	2.08	zhēn xīn shí yì	genuine and sincere (idiom); wholehearted; 	noun; 	
+二流子	2.08	èr liú zi	loafer; idler; bum; 	noun; 	
+瞇	2.07	mī	to narrow one's eyes; to squint; (dialect) to take a nap; 	noun; 	
+嫖妓	2.03	piáo jì	to visit a prostitute; 	verb; 	
+松花蛋	2.03	sōng huā dàn	thousand-year egg; preserved egg; 	noun; 	
+茶垢	1.98	chá gòu	tea stain (on the inside of a tea pot, tea cup etc); 	noun; 	
+黿	1.95	yuán	sea turtle; 	noun; 	
+打盹	1.95	dă dŭn	to doze off; 	verb; intransitive verb; 	
+佃戶	1.94	diàn hù	tenant farmer; 	verb; 	
+打呵欠	1.93	dă hē qiàn	to yawn; 	verb; 	
+沉不住氣	1.92	chén bù zhù qì	to lose one's cool; to get impatient; unable to remain calm; 	verb; 	
+青天白日	1.89	qīng tiān bái rì	in broad daylight; in the middle of the day; KMT emblem, a white sun on a blue background; 	noun; 	
+田埂	1.76	tián gĕng	embankment or foothpath between paddy fields; 	noun; 	
+賒帳	1.75	shē zhàng	see 賒賬|赊账[shē zhàng]; 	noun; 	
+泥鰍	1.74	ní qiu	loach; mud fish; CL:條|条[tiáo]; 	noun; 	
+談情說愛	1.72	tán qíng shuō ài	to murmur endearments (idiom); to get into a romantic relationship; 	noun; 	
+自鳴得意	1.65	zì míng dé yì	to think highly of oneself; 	preposition; 	
+軟硬不吃	1.65	ruăn yìng bù chī	unmoved by force or persuasion; 	noun; 	
+轉彎抹角	1.6	zhuăn wān mò jiăo	see 拐彎抹角|拐弯抹角[guăi wān mò jiăo]; 	noun; 	
+腳丫子	1.56	jiăo yā zi	(coll.) foot; 	noun; 	
+信口開河	1.53	xìn kŏu kāi hé	to speak without thinking (idiom); to blurt sth out; 	adverb; 	
+紋絲不動	1.29	wén sī bù dòng	to not move a single jot (idiom); 	noun; 	
+乇	1.26	tuō	archaic variant of 托[tuō]; "blade of grass" component in Chinese characters; 	classifier; 	
+左思右想	1.19	zuŏ sī yòu xiăng	to turn over in one's mind (idiom); to think through from different angles; to ponder; 	noun; personal name; 	
+十有八九	1.15	shí yŏu bā jiŭ	most likely; mostly (in 8 or 9 cases out of 10); vast majority; 	noun; noun phrase; 	
+細聲細氣	1.12	xì shēng xì qì	in a fine voice (idiom); softly spoken; 	noun; 	
+偷雞摸狗	1.06	tōu jī mō gŏu	to imitate the dog and steal chicken (idiom); to pilfer; to dally with women; to have affairs; 	verb; 	
+花花綠綠	1.06	huā huā lǜ lǜ	brightly colored; gaudy; 	noun; personal name; 	
+支支吾吾	0.98	zhī zhī wú wú	to hem and haw; to stall; to stammer; to mumble; to falter; 	status word; 	
+昏昏沉沉	0.98	hūn hūn chén chén	dizzy; 	status word; 	
+眉開眼笑	0.93	méi kāi yăn xiào	brows raised in delight, eyes laughing (idiom); beaming with joy; all smiles; 	noun; 	
+吃喝嫖賭	0.89	chī hē piáo dŭ	to go dining, wining, whoring and gambling; to lead a life of dissipation; 	verb; 	
+南腔北調	0.88	nán qiāng bĕi diào	a regional accent; 	distinguishing word; 	
+逆來順受	0.82	nì lái shùn shòu	to resign oneself to adversity (idiom); to grin and bear it; to submit meekly to insults, maltreatment, humiliation etc; 	verb; verb morpheme; 	
+鼻青眼腫	0.58	bí qīng yăn zhŏng	a black eye (idiom); serious injury to the face; fig. a setback; a defeat; 	noun; noun morpheme; 	
+罵罵咧咧	0.42	mà ma liē liē	to swear while talking; to be foul-mouthed; 	noun; 	

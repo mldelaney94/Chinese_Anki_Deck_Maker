@@ -34,7 +34,7 @@ def add_pinyin_and_definition(word_list, zh_dict):
                 if index == 0:
                     pass
                 elif index == 1: #pinyin
-                    word.append(attrib)
+                    word.append(attrib.lower())
                 else: #english
                     if EXCLUDE_SURNAME_DEFINITION and 'surname' in attrib:
                         pass
@@ -139,9 +139,14 @@ def sort_by_freq(word_list, descending):
 
 def save_generated_set(word_list, location):
     with open(location, 'w+') as g:
-        for elem in word_list:
-            for part in elem:
-                g.write(str(part)+'\t')
+        for word in word_list:
+            for part in word:
+                if isinstance(part, list):
+                    for elem in part:
+                        g.write(str(elem)+'; ')
+                    g.write('\t')
+                else:
+                    g.write(str(part)+'\t')
             g.write('\n')
 
 def main(f):
