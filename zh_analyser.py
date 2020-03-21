@@ -30,9 +30,6 @@ def add_pinyin_and_definition(word_list, zh_dict):
     for word in word_list:
         if word[0] in zh_dict:
             attrib_list = zh_dict[word[0]]
-            if word[0] == "大雨":
-                print('i exist in this lsit')
-                print(attrib_list)
             for index, attrib in enumerate(attrib_list):
                 if index == 0:
                     pass
@@ -42,9 +39,19 @@ def add_pinyin_and_definition(word_list, zh_dict):
                     if EXCLUDE_SURNAME_DEFINITION and 'surname' in attrib:
                         pass
                     else:
-                        word.append(attrib)
-    #word_list = [word for word in word_list if len(word) == 4]
-    print(word_list)
+                        #len of list is 3 or 2 depending on if freq has been
+                        #added
+                        if ADD_FREQ_TO_OUTPUT == 1:
+                            if len(word) == 3:
+                                word.append([attrib])
+                            else:
+                                word[3].append(attrib)
+                        else:
+                            if len(word) == 2:
+                                word.append([attrib])
+                            else:
+                                word[2].append(attrib)
+    word_list = [word for word in word_list if len(word) > 2]
     return word_list
 
 def filter_by_freq(word_list):
@@ -73,9 +80,7 @@ def add_parts_of_speech(word_list):
         pos = pynlpir.segment(word[0], pos_tagging=True, pos_names='all',
                               pos_english=True)
         pos = pos[0][1].split(':')
-        for part in pos:
-            word.append(part)
-
+        word.append(pos)
     pynlpir.close()
     return word_list
 
@@ -141,7 +146,7 @@ def main(f):
     word_list = remove_tocfl_vocab(word_list)
     word_list = remove_hsk_vocab(word_list)
     word_list = add_pinyin_and_definition(word_list, zh_dict)
-    #word_list = add_parts_of_speech(word_list)
+    word_list = add_parts_of_speech(word_list)
 
     save_generated_set(word_list, sys.argv[2])
 
@@ -153,14 +158,14 @@ if __name__ == "__main__":
     global SORT_BY_FREQ
 
     SORT_BY_FREQ = 1
-    EXCLUDE_SURNAME_DEFINITION = 0
+    EXCLUDE_SURNAME_DEFINITION = 1
     ADD_POS_TO_OUTPUT = 1
     HSK_LEVEL = 7 #needs to be one above desired lvl of filtering
     HSK_FILTERING = 0
     TOCFL_LEVEL = 6
     TOCFL_FILTERING = 0
     ADD_FREQ_TO_OUTPUT = 1
-    FREQ_FILTERING = 0
+    FREQ_FILTERING = 1
     SIMP_OR_TRAD = 'trad'
     QUIET = False
     UPPER_FREQ_BOUND = 6.0
