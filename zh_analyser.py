@@ -163,7 +163,6 @@ def main(f):
     word_list = sort_by_freq(word_list, 0)
 
     save_generated_set(word_list, sys.argv[2])
-    print('din')
 
 if __name__ == "__main__":
     #walk through optional args
