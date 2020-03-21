@@ -24,73 +24,67 @@ def segment_NLP(in_file):
     word_list = [[el] for el in word_list]
     return word_list
 
-def add_pinyin_and_definition(h_set, zh_dict):
-    """Adds pinyin and definition from zh_dict to entries in hanzi_set"""
-    hpe_set = set()
-    while h_set:
-        elem = h_set.pop()
-        elem_split = elem.split('\t')
-        if elem_split[0] in zh_dict:
-            attrib_list = zh_dict[elem_split[0]]
-            eng_attrib_num = 1
+def add_pinyin_and_definition(word_list, zh_dict):
+    """Adds pinyin and definition from zh_dict to entries in hanzi_set. Adds
+    english definition as a list of items"""
+    for word in word_list:
+        if word[0] in zh_dict:
+            attrib_list = zh_dict[word[0]]
+            if word[0] == "大雨":
+                print('i exist in this lsit')
+                print(attrib_list)
             for index, attrib in enumerate(attrib_list):
                 if index == 0:
                     pass
                 elif index == 1: #pinyin
-                    elem += str(attrib) + '\t'
+                    word.append(attrib)
                 else: #english
                     if EXCLUDE_SURNAME_DEFINITION and 'surname' in attrib:
                         pass
                     else:
-                        elem += str(eng_attrib_num) + '. ' + str(attrib) + ';'
-                        eng_attrib_num += 1
-            elem = elem.strip(';')
-            hpe_set.add(elem)
-    return hpe_set
+                        word.append(attrib)
+    #word_list = [word for word in word_list if len(word) == 4]
+    print(word_list)
+    return word_list
 
-def add_freq_to_elem(elem, freq):
-    """Appends relative freqs to entries"""
-    return elem + str(freq) + '\t'
-
-def filter_by_freq(seg_set):
-    """Filters words based on their relative frequency"""
+def filter_by_freq(word_list):
+    """Filters words based on their relative frequency, always adds frequency
+    to the word list"""
     if not FREQ_FILTERING:
-        return seg_set
-    freq_set = set()
-    while seg_set:
-        elem = seg_set.pop()
-        ssplit = elem.split('\t')
-        freq = zipf_frequency(ssplit[0], 'zh', wordlist='large')
-        if LOWER_FREQ_BOUND < freq < UPPER_FREQ_BOUND:
-            if ADD_FREQ_TO_OUTPUT:
-                elem = add_freq_to_elem(elem, freq)
-            freq_set.add(elem)
-    return freq_set
+        return word_list
+    filtered_word_list = []
+    for word in word_list:
+        freq = zipf_frequency(word[0], 'zh', wordlist='large', minimum=0.0)
+        if FREQ_FILTERING:
+            if LOWER_FREQ_BOUND < freq < UPPER_FREQ_BOUND:
+                word.append(freq)
+                filtered_word_list.append(word)
+        else:
+            word.append(freq)
+            filtered_word_list.append(word)
+    return filtered_word_list
 
-def add_parts_of_speech(seg_set):
+def add_parts_of_speech(word_list):
     """Parts of speech such as noun, verb will be added to entries where available"""
     if not ADD_POS_TO_OUTPUT:
-        return seg_set
+        return word_list
     pynlpir.open()
-    pos_set = set()
-    while seg_set:
-        elem = seg_set.pop()
-        pos = pynlpir.segment(elem[0], pos_tagging=True, pos_names='all',
+    for word in word_list:
+        pos = pynlpir.segment(word[0], pos_tagging=True, pos_names='all',
                               pos_english=True)
         pos = pos[0][1].split(':')
         for part in pos:
-            elem += '\t' + part
-        pos_set.add(elem)
+            word.append(part)
 
     pynlpir.close()
-    return pos_set
+    return word_list
 
-def remove_hsk_vocab(seg_set):
+def remove_hsk_vocab(word_list):
     """Filters HSK vocab"""
     if not HSK_FILTERING:
-        return seg_set
+        return word_list
     hsk_dict = {}
-    hsk_filtered_set = set()
+    hsk_removed_list = []
     if SIMP_OR_TRAD == 'trad':
         with open('HSK_materials/HSK_1-6_trad.txt', 'r') as h:
             for line in h:
@@ -101,24 +95,20 @@ def remove_hsk_vocab(seg_set):
             for line in h:
                 liness = line.split()
                 hsk_dict[liness[0]] = liness[1]
-
-    #seg_set = [elem for elem in seg_set if elem.split()[0] in hsk_dict and
-    #int(hsk_dict[elem.split()[0]]) < HSK_LEVEL]
-    for elem in seg_set:
-        hanzi = elem.split('\t')[0]
+    for word in word_list:
+        hanzi = word[0]
         if hanzi in hsk_dict and int(hsk_dict[hanzi]) < HSK_LEVEL:
             pass
         else:
-            hsk_filtered_set.add(elem)
+            hsk_removed_list.append(word)
+    return hsk_removed_list
 
-    return hsk_filtered_set
-
-def remove_tocfl_vocab(seg_set):
+def remove_tocfl_vocab(word_list):
     """filters TOCFL vocab"""
     if not TOCFL_FILTERING:
-        return seg_set
+        return word_list
     tocfl_dict = {}
-    tocfl_filtered_set = set()
+    tocfl_removed_list = []
     if SIMP_OR_TRAD == 'trad':
         with open('TOCFL_materials/TOCFL_1-5_trad.txt', 'r') as h:
             for line in h:
@@ -129,19 +119,13 @@ def remove_tocfl_vocab(seg_set):
             for line in h:
                 liness = line.split()
                 tocfl_dict[liness[0]] = liness[1]
-
-    for elem in seg_set:
-        hanzi = elem.split('\t')[0]
+    for word in word_list:
+        hanzi = word[0]
         if hanzi in tocfl_dict and int(tocfl_dict[hanzi]) < TOCFL_LEVEL:
             pass
         else:
-            tocfl_filtered_set.add(elem)
-
-    return tocfl_filtered_set
-
-def add_newlines(seg_set):
-    newline_set = [elem + '\n' for elem in seg_set]
-    return newline_set
+            tocfl_removed_list.append(word)
+    return tocfl_removed_list
 
 def save_generated_set(seg_set, location):
     with open(location, 'w+') as g:
@@ -152,15 +136,14 @@ def main(f):
     zh_dict = cc_cedict_parser.parse_dict(SIMP_OR_TRAD)
     jieba.set_dictionary('dicts/jieba_dict_large.txt')
 
-    seg_list = segment_NLP(f)
-    seg_set = filter_by_freq(seg_set)
-    seg_set = remove_tocfl_vocab(seg_set)
-    seg_set = remove_hsk_vocab(seg_set)
-    seg_set = add_pinyin_and_definition(seg_set, zh_dict)
-    seg_set = add_parts_of_speech(seg_set)
-    seg_set = add_newlines(seg_set)
+    word_list = segment_NLP(f)
+    word_list = filter_by_freq(word_list)
+    word_list = remove_tocfl_vocab(word_list)
+    word_list = remove_hsk_vocab(word_list)
+    word_list = add_pinyin_and_definition(word_list, zh_dict)
+    #word_list = add_parts_of_speech(word_list)
 
-    save_generated_set(seg_set, sys.argv[2])
+    save_generated_set(word_list, sys.argv[2])
 
 if __name__ == "__main__":
     #walk through optional args
@@ -173,15 +156,15 @@ if __name__ == "__main__":
     EXCLUDE_SURNAME_DEFINITION = 0
     ADD_POS_TO_OUTPUT = 1
     HSK_LEVEL = 7 #needs to be one above desired lvl of filtering
-    HSK_FILTERING = 1
+    HSK_FILTERING = 0
     TOCFL_LEVEL = 6
-    TOCFL_FILTERING = 1
+    TOCFL_FILTERING = 0
     ADD_FREQ_TO_OUTPUT = 1
-    FREQ_FILTERING = 1
+    FREQ_FILTERING = 0
     SIMP_OR_TRAD = 'trad'
     QUIET = False
-    UPPER_FREQ_BOUND = 3.0
-    LOWER_FREQ_BOUND = 2.5
+    UPPER_FREQ_BOUND = 6.0
+    LOWER_FREQ_BOUND = 0.0
 
     if len(sys.argv) < 3:
         print("Please give the location of the file to be read and the save" +
