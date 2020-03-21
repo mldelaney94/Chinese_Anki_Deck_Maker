@@ -132,9 +132,17 @@ def remove_tocfl_vocab(word_list):
             tocfl_removed_list.append(word)
     return tocfl_removed_list
 
-def save_generated_set(seg_set, location):
+def sort_by_freq(word_list, descending):
+    if descending:
+        return sorted(word_list, key=lambda word: word[1])
+    return sorted(word_list, key=lambda word: word[1], reverse=True)
+
+def save_generated_set(word_list, location):
     with open(location, 'w+') as g:
-        g.write("".join(seg_set))
+        for elem in word_list:
+            for part in elem:
+                g.write(str(part)+'\t')
+            g.write('\n')
 
 def main(f):
     """Parses text and applies filters"""
@@ -147,6 +155,7 @@ def main(f):
     word_list = remove_hsk_vocab(word_list)
     word_list = add_pinyin_and_definition(word_list, zh_dict)
     word_list = add_parts_of_speech(word_list)
+    word_list = sort_by_freq(word_list, 0)
 
     save_generated_set(word_list, sys.argv[2])
 
