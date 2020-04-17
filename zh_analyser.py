@@ -20,7 +20,7 @@ def segment_NLP(in_file):
     with open(in_file, 'r') as g:
         for line in g:
             word_list += jieba.cut(line, cut_all=False) #accurate mode
-    word_list = list(unique_everseen(word_list))
+    word_list = list(unique_everseen(word_list)) #mimic set uniqueness in list
     word_list = [[el] for el in word_list]
     return word_list
 
@@ -41,7 +41,7 @@ def add_pinyin_and_definition(word_list, zh_dict):
                     else:
                         #len of list is 3 or 2 depending on if freq has been
                         #added
-                        if ADD_FREQ_TO_OUTPUT == 1:
+                        if ADD_FREQ_TO_OUTPUT:
                             if len(word) == 3:
                                 word.append([attrib])
                             else:
