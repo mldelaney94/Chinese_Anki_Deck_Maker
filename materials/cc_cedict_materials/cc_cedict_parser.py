@@ -76,12 +76,14 @@ def add_entry(parts, dictionary, key_is_trad_or_simp):
 
 def parse_dict(key_is_trad_or_simp):
     #make each line into a dictionary
-    print("Parsing dictionary . . .")
+    if not QUIET:
+        print("Parsing dictionary . . .")
     with open("C:\\Users\\Matthew\\dev\\Chinese_Anki_Creator\\materials\\dicts\\cedict_modified.txt", 'r') as f:
         text = f.read()
         lines = text.split('\n')
         dictionary = parse_lines(lines, key_is_trad_or_simp)
-    print("Done")
+    if not QUIET:
+        print("Done")
 
     return dictionary
 
@@ -90,5 +92,7 @@ if __name__ == "__main__":
         print("Please type 'trad' or 'simp' as first argument depending on"
                 " how you want the dictionary to be built.")
         exit()
+    global QUIET
+    QUIET = True
     parsed_dict = parse_dict(sys.argv[1])
     print(parsed_dict)
