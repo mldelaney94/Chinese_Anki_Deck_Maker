@@ -11,7 +11,7 @@ from more_itertools import unique_everseen
 import pynlpir
 from wordfreq import zipf_frequency
 
-from cc_cedict_materials import cc_cedict_parser
+from materials.cc_cedict_materials import cc_cedict_parser
 
 def segment_NLP(in_file):
     """ Segments zh input using Jieba NLP, returns a list of lists with the
@@ -20,8 +20,10 @@ def segment_NLP(in_file):
     with open(in_file, 'r') as g:
         for line in g:
             word_list += jieba.cut(line, cut_all=False) #accurate mode
-    word_list = list(unique_everseen(word_list)) #mimic set uniqueness in list
-    word_list = [[el] for el in word_list]
+    word_list = list(unique_everseen(word_list)) #mimic set uniqueness in list,
+    #unknown if list(set(word_list)) is faster but this does keep ordering
+    word_list = [[el] for el in word_list] #each word will be its own list with 
+    #definition and pinyin added as items to the word
     return word_list
 
 def add_pinyin_and_definition(word_list, zh_dict):
@@ -51,23 +53,27 @@ def add_pinyin_and_definition(word_list, zh_dict):
                                 word.append([attrib])
                             else:
                                 word[2].append(attrib)
-    word_list = [word for word in word_list if len(word) > 2]
+    word_list = [word for word in word_list if len(word) > 2] #removes all
+    #words that where not found in the dictionary
     return word_list
 
 def filter_by_freq(word_list):
     """Filters words based on their relative frequency, always adds frequency
     to the word list"""
-    if not FREQ_FILTERING:
+    if not FREQ_FILTERING and not ADD_FREQ_TO_OUTPUT: #TODO figure out freq_filtering - this function has
+        #two responsibilities - freq filtering, and then adding freq to word
         return word_list
     filtered_word_list = []
     for word in word_list:
         freq = zipf_frequency(word[0], 'zh', wordlist='large', minimum=0.0)
         if FREQ_FILTERING:
-            if LOWER_FREQ_BOUND < freq < UPPER_FREQ_BOUND:
-                word.append(freq)
+            if LOWER_FREQ_BOUND <= freq <= UPPER_FREQ_BOUND:
+                if ADD_FREQ_TO_OUTPUT:
+                    word.append(freq)
                 filtered_word_list.append(word)
         else:
-            word.append(freq)
+            if ADD_FREQ_TO_OUTPUT:
+                word.append(freq)
             filtered_word_list.append(word)
     return filtered_word_list
 
@@ -91,12 +97,12 @@ def remove_hsk_vocab(word_list):
     hsk_dict = {}
     hsk_removed_list = []
     if SIMP_OR_TRAD == 'trad':
-        with open('HSK_materials/HSK_1-6_trad.txt', 'r') as h:
+        with open('materials/HSK_materials/HSK_1-6_trad.txt', 'r') as h:
             for line in h:
                 liness = line.split()
                 hsk_dict[liness[0]] = liness[1]
     else:
-        with open('HSK_materials/HSK_1-6_simp.txt', 'r') as h:
+        with open('materials/HSK_materials/HSK_1-6_simp.txt', 'r') as h:
             for line in h:
                 liness = line.split()
                 hsk_dict[liness[0]] = liness[1]
@@ -115,12 +121,12 @@ def remove_tocfl_vocab(word_list):
     tocfl_dict = {}
     tocfl_removed_list = []
     if SIMP_OR_TRAD == 'trad':
-        with open('TOCFL_materials/TOCFL_1-5_trad.txt', 'r') as h:
+        with open('materials/TOCFL_materials/TOCFL_1-5_trad.txt', 'r') as h:
             for line in h:
                 liness = line.split()
                 tocfl_dict[liness[0]] = liness[1]
     else:
-        with open('TOCFL_materials/TOCFL_1-5_simp.txt', 'r') as h:
+        with open('materials/TOCFL_materials/TOCFL_1-5_simp.txt', 'r') as h:
             for line in h:
                 liness = line.split()
                 tocfl_dict[liness[0]] = liness[1]
@@ -152,17 +158,19 @@ def save_generated_set(word_list, location):
 def main(f):
     """Parses text and applies filters"""
     zh_dict = cc_cedict_parser.parse_dict(SIMP_OR_TRAD)
-    jieba.set_dictionary('dicts/jieba_dict_large.txt')
+    jieba.set_dictionary('materials/dicts/jieba_dict_large.txt')
+    print(filter_by_freq([['你好'], ['給'], ['個'], ['個哥各也頁']]))
+    print(add_pinyin_and_definition([['你好'], ['給'], ['個'], ['個哥各']], zh_dict))
 
-    word_list = segment_NLP(f)
-    word_list = filter_by_freq(word_list)
-    word_list = remove_tocfl_vocab(word_list)
-    word_list = remove_hsk_vocab(word_list)
-    word_list = add_pinyin_and_definition(word_list, zh_dict)
-    word_list = add_parts_of_speech(word_list)
-    word_list = sort_by_freq(word_list, 0)
+    #word_list = segment_NLP(f)
+    #word_list = filter_by_freq(word_list)
+    #word_list = remove_tocfl_vocab(word_list)
+    #word_list = remove_hsk_vocab(word_list)
+    #word_list = add_pinyin_and_definition(word_list, zh_dict)
+    #word_list = add_parts_of_speech(word_list)
+    #word_list = sort_by_freq(word_list, 0)
 
-    save_generated_set(word_list, sys.argv[2])
+    #save_generated_set(word_list, sys.argv[2])
 
 if __name__ == "__main__":
     #walk through optional args
@@ -178,11 +186,11 @@ if __name__ == "__main__":
     HSK_FILTERING = 0
     TOCFL_LEVEL = 6
     TOCFL_FILTERING = 0
-    ADD_FREQ_TO_OUTPUT = 1
+    ADD_FREQ_TO_OUTPUT = 0
     FREQ_FILTERING = 1
     SIMP_OR_TRAD = 'trad'
     QUIET = False
-    UPPER_FREQ_BOUND = 6.0
+    UPPER_FREQ_BOUND = 8.0
     LOWER_FREQ_BOUND = 0.0
 
     if len(sys.argv) < 3:

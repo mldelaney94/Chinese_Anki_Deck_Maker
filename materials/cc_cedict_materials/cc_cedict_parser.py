@@ -77,7 +77,7 @@ def add_entry(parts, dictionary, key_is_trad_or_simp):
 def parse_dict(key_is_trad_or_simp):
     #make each line into a dictionary
     print("Parsing dictionary . . .")
-    with open("C:\\Users\\Matthew\\dev\\Chinese_Anki_Creator\\dicts\\cedict_modified.txt", 'r') as f:
+    with open("C:\\Users\\Matthew\\dev\\Chinese_Anki_Creator\\materials\\dicts\\cedict_modified.txt", 'r') as f:
         text = f.read()
         lines = text.split('\n')
         dictionary = parse_lines(lines, key_is_trad_or_simp)
