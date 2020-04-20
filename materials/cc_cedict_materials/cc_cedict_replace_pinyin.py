@@ -1,5 +1,5 @@
 """ This program makes a new dictionary with accent pinyin instead of numbered
-pinyin.  It checks to see if each line has any of the 170 keys in REP, and
+pinyin.  It checks to see if each line has any of the 171 keys in REP, and
 replaces them with the value if so. This, although unperformant, does not need
 to be improved as it is only run once.
 

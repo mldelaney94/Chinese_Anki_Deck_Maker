@@ -22,7 +22,7 @@ def segment_NLP(in_file):
             word_list += jieba.cut(line, cut_all=False) #accurate mode
     word_list = list(unique_everseen(word_list)) #mimic set uniqueness in list,
     #unknown if list(set(word_list)) is faster but this does keep ordering
-    word_list = [[el] for el in word_list] #each word will be its own list with 
+    word_list = [[el] for el in word_list] #each word will be its own list with
     #definition and pinyin added as items to the word
     return word_list
 
@@ -30,6 +30,7 @@ def add_pinyin_and_definition(word_list, zh_dict):
     """Adds pinyin and definition from zh_dict to entries in hanzi_set. Adds
     english definition as a list of items"""
     for word in word_list:
+        english_translation_list = []
         if word[0] in zh_dict:
             attrib_list = zh_dict[word[0]]
             for index, attrib in enumerate(attrib_list):
@@ -41,18 +42,8 @@ def add_pinyin_and_definition(word_list, zh_dict):
                     if EXCLUDE_SURNAME_DEFINITION and 'surname' in attrib:
                         pass
                     else:
-                        #len of list is 3 or 2 depending on if freq has been
-                        #added
-                        if ADD_FREQ_TO_OUTPUT:
-                            if len(word) == 3:
-                                word.append([attrib])
-                            else:
-                                word[3].append(attrib)
-                        else:
-                            if len(word) == 2:
-                                word.append([attrib])
-                            else:
-                                word[2].append(attrib)
+                        english_translation_list.append(attrib)
+            word.append(english_translation_list)
     word_list = [word for word in word_list if len(word) > 2] #removes all
     #words that where not found in the dictionary
     return word_list
@@ -157,10 +148,12 @@ def save_generated_set(word_list, location):
 
 def main(f):
     """Parses text and applies filters"""
+    cc_cedict_parser.QUIET = True
     zh_dict = cc_cedict_parser.parse_dict(SIMP_OR_TRAD)
     jieba.set_dictionary('materials/dicts/jieba_dict_large.txt')
     print(filter_by_freq([['你好'], ['給'], ['個'], ['個哥各也頁']]))
     print(add_pinyin_and_definition([['你好'], ['給'], ['個'], ['個哥各']], zh_dict))
+    print(add_parts_of_speech([['你好'], ['給'], ['個'], ['個哥各也頁']]))
 
     #word_list = segment_NLP(f)
     #word_list = filter_by_freq(word_list)
