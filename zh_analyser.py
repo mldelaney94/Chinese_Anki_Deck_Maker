@@ -5,6 +5,7 @@ or below a certain level on the HSK or TOCFL test
 Matthew Delaney 2020"""
 
 import sys
+from operator import itemgetter
 
 import jieba
 from more_itertools import unique_everseen
@@ -99,7 +100,7 @@ def remove_hsk_vocab(word_list):
                 hsk_dict[liness[0]] = liness[1]
     for word in word_list:
         hanzi = word[0]
-        if hanzi in hsk_dict and int(hsk_dict[hanzi]) < HSK_LEVEL:
+        if hanzi in hsk_dict and int(hsk_dict[hanzi]) <= HSK_LEVEL:
             pass
         else:
             hsk_removed_list.append(word)
@@ -123,18 +124,18 @@ def remove_tocfl_vocab(word_list):
                 tocfl_dict[liness[0]] = liness[1]
     for word in word_list:
         hanzi = word[0]
-        if hanzi in tocfl_dict and int(tocfl_dict[hanzi]) < TOCFL_LEVEL:
+        if hanzi in tocfl_dict and int(tocfl_dict[hanzi]) <= TOCFL_LEVEL:
             pass
         else:
             tocfl_removed_list.append(word)
     return tocfl_removed_list
 
-def sort_by_freq(word_list, descending):
-    if descending:
-        return sorted(word_list, key=lambda word: word[1])
-    return sorted(word_list, key=lambda word: word[1], reverse=True)
+def sort_by_freq(word_list, ascending):
+    if not ADD_FREQ_TO_OUTPUT:
+        return word_list
+    return sorted(word_list, key=itemgetter(1), reverse=ascending)
 
-def save_generated_set(word_list, location):
+def save_generated_list(word_list, location):
     with open(location, 'w+') as g:
         for word in word_list:
             for part in word:
@@ -151,19 +152,16 @@ def main(f):
     cc_cedict_parser.QUIET = True
     zh_dict = cc_cedict_parser.parse_dict(SIMP_OR_TRAD)
     jieba.set_dictionary('materials/dicts/jieba_dict_large.txt')
-    print(filter_by_freq([['你好'], ['給'], ['個'], ['個哥各也頁']]))
-    print(add_pinyin_and_definition([['你好'], ['給'], ['個'], ['個哥各']], zh_dict))
-    print(add_parts_of_speech([['你好'], ['給'], ['個'], ['個哥各也頁']]))
 
-    #word_list = segment_NLP(f)
-    #word_list = filter_by_freq(word_list)
-    #word_list = remove_tocfl_vocab(word_list)
-    #word_list = remove_hsk_vocab(word_list)
-    #word_list = add_pinyin_and_definition(word_list, zh_dict)
-    #word_list = add_parts_of_speech(word_list)
-    #word_list = sort_by_freq(word_list, 0)
+    word_list = segment_NLP(f)
+    word_list = filter_by_freq(word_list)
+    word_list = remove_tocfl_vocab(word_list)
+    word_list = remove_hsk_vocab(word_list)
+    word_list = add_pinyin_and_definition(word_list, zh_dict)
+    word_list = add_parts_of_speech(word_list)
+    word_list = sort_by_freq(word_list, 0)
 
-    #save_generated_set(word_list, sys.argv[2])
+    save_generated_list(word_list, sys.argv[2])
 
 if __name__ == "__main__":
     #walk through optional args
@@ -175,13 +173,13 @@ if __name__ == "__main__":
     SORT_BY_FREQ = 1
     EXCLUDE_SURNAME_DEFINITION = 1
     ADD_POS_TO_OUTPUT = 1
-    HSK_LEVEL = 7 #needs to be one above desired lvl of filtering
-    HSK_FILTERING = 0
+    HSK_LEVEL = 3 #needs to be one above desired lvl of filtering
+    HSK_FILTERING = 1
     TOCFL_LEVEL = 6
     TOCFL_FILTERING = 0
     ADD_FREQ_TO_OUTPUT = 0
     FREQ_FILTERING = 1
-    SIMP_OR_TRAD = 'trad'
+    SIMP_OR_TRAD = 'simp'
     QUIET = False
     UPPER_FREQ_BOUND = 8.0
     LOWER_FREQ_BOUND = 0.0

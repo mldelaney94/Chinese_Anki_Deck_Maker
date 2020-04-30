@@ -10,6 +10,26 @@ class TestAnalyser(unittest.TestCase):
     def setUpClass(cls):
         cc_cedict_parser.QUIET = True
         cls.zh_dict = cc_cedict_parser.parse_dict('trad')
+        cls.hsk_trad_list = []
+        with open('materials/HSK_materials/HSK_1-6_trad.txt', 'r') as h:
+            for line in h:
+                liness = line.split()
+                cls.hsk_trad_list.append([liness[0]])
+        cls.hsk_simp_list = []
+        with open('materials/HSK_materials/HSK_1-6_simp.txt', 'r') as h:
+            for line in h:
+                liness = line.split()
+                cls.hsk_simp_list.append([liness[0]])
+        cls.tocfl_trad_list = []
+        with open('materials/TOCFL_materials/TOCFL_1-5_trad.txt', 'r') as h:
+            for line in h:
+                liness = line.split()
+                cls.tocfl_trad_list.append([liness[0]])
+        cls.tocfl_simp_list = []
+        with open('materials/TOCFL_materials/TOCFL_1-5_simp.txt', 'r') as h:
+            for line in h:
+                liness = line.split()
+                cls.tocfl_simp_list.append([liness[0]])
 
     def setUp(self):
         self.small_word_list = [['你好'], ['給'], ['個'], ['個哥各也頁']]
@@ -76,7 +96,7 @@ class TestAnalyser(unittest.TestCase):
         self.assertEqual(zh_analyser.filter_by_freq(self.small_word_list),
             [['你好', 3.88], ['給', 6.19], ['個', 6.5],
             ['個哥各也頁', 0.47]])
-    
+
     def test_add_parts_of_speech_to_output(self):
         zh_analyser.ADD_POS_TO_OUTPUT = True
         self.assertEqual(zh_analyser.add_parts_of_speech(self.small_word_list), [['你好', ['pronoun', 'personal pronoun']],
@@ -87,8 +107,73 @@ class TestAnalyser(unittest.TestCase):
         self.assertEqual(zh_analyser.add_parts_of_speech(self.small_word_list),
                 self.small_word_list)
 
-    def test_sort_by_freq_freq_added(self):
-        print('nothing')
+    def test_sort_by_freq_freq_descending(self):
+        """Relies on [1] containing frequency int from 'filter_by_freq'"""
+        zh_analyser.FREQ_FILTERING = 0
+        zh_analyser.ADD_FREQ_TO_OUTPUT = 1
+        self.small_word_list = zh_analyser.filter_by_freq(self.small_word_list)
+        self.assertEqual(zh_analyser.sort_by_freq(self.small_word_list, 1),
+            [['個', 6.5], ['給', 6.19], ['你好', 3.88], ['個哥各也頁', 0.47]])
+    
+    def test_sort_by_freq_ascending(self):
+        """Relies on [1] containing frequency int from 'filter_by_freq'"""
+        zh_analyser.FREQ_FILTERING = 0
+        zh_analyser.ADD_FREQ_TO_OUTPUT = 1
+        self.small_word_list = zh_analyser.filter_by_freq(self.small_word_list)
+        self.assertEqual(zh_analyser.sort_by_freq(self.small_word_list, 0),
+            [['個哥各也頁', 0.47], ['你好', 3.88], ['給', 6.19], ['個', 6.5]])
+
+    def test_remove_trad_hsk_vocab_remove_all(self):
+        zh_analyser.SIMP_OR_TRAD = 'trad'
+        zh_analyser.HSK_LEVEL = 6
+        zh_analyser.HSK_FILTERING = 1
+        self.assertEqual(zh_analyser.remove_hsk_vocab(self.hsk_trad_list), [])
+    
+    def test_remove_simp_hsk_vocab_remove_all(self):
+        zh_analyser.SIMP_OR_TRAD = 'simp'
+        zh_analyser.HSK_LEVEL = 6
+        zh_analyser.HSK_FILTERING = 1
+        self.assertEqual(zh_analyser.remove_hsk_vocab(self.hsk_simp_list), [])
+
+    def test_remove_trad_tocfl_vocab_remove_all(self):
+        zh_analyser.SIMP_OR_TRAD = 'trad'
+        zh_analyser.TOCFL_LEVEL = 5
+        zh_analyser.TOCFL_FILTERING = 1
+        self.assertEqual(zh_analyser.remove_tocfl_vocab(self.tocfl_trad_list), [])
+    
+    def test_remove_simp_tocfl_vocab_remove_all(self):
+        zh_analyser.SIMP_OR_TRAD = 'simp'
+        zh_analyser.TOCFL_LEVEL = 5
+        zh_analyser.TOCFL_FILTERING = 1
+        self.assertEqual(zh_analyser.remove_tocfl_vocab(self.tocfl_simp_list), [])
+
+    def test_remove_trad_hsk_vocab_remove_none(self):
+        zh_analyser.SIMP_OR_TRAD = 'trad'
+        zh_analyser.HSK_LEVEL = 0
+        zh_analyser.HSK_FILTERING = 1
+        self.assertEqual(zh_analyser.remove_hsk_vocab(self.hsk_trad_list),
+                self.hsk_trad_list)
+    
+    def test_remove_simp_hsk_vocab_remove_none(self):
+        zh_analyser.SIMP_OR_TRAD = 'simp'
+        zh_analyser.HSK_LEVEL = 0
+        zh_analyser.HSK_FILTERING = 1
+        self.assertEqual(zh_analyser.remove_hsk_vocab(self.hsk_simp_list),
+                self.hsk_simp_list)
+
+    def test_remove_trad_tocfl_vocab_remove_none(self):
+        zh_analyser.SIMP_OR_TRAD = 'trad'
+        zh_analyser.TOCFL_LEVEL = 0
+        zh_analyser.TOCFL_FILTERING = 1
+        self.assertEqual(zh_analyser.remove_tocfl_vocab(self.tocfl_trad_list),
+                self.tocfl_trad_list)
+    
+    def test_remove_simp_tocfl_vocab_remove_none(self):
+        zh_analyser.SIMP_OR_TRAD = 'simp'
+        zh_analyser.TOCFL_LEVEL = 0
+        zh_analyser.TOCFL_FILTERING = 1
+        self.assertEqual(zh_analyser.remove_tocfl_vocab(self.tocfl_simp_list),
+                self.tocfl_simp_list)
 
 if __name__ == "__main__":
     unittest.main()
