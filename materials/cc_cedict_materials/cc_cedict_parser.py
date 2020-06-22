@@ -1,20 +1,20 @@
-#A parser for the CC-Cedict. Convert the Chinese-English dictionary into a 
-#list of python dictionaries with "traditional","simplified", "pinyin",
-#and "english" keys.
+""" A parser for the CC-Cedict. Convert the Chinese-English dictionary into a 
+list of python dictionaries with "traditional","simplified", "pinyin",
+and "english" keys.
 
-#Make sure that the cedict_ts.u8 file is in the same folder as this file,
-#and that the name matches the file name on line 13.
+Make sure that the cedict_ts.u8 file is in the same folder as this file,
+and that the name matches the file name on line 13.
 
-#Before starting, open the CEDICT text file and delete the copyright 
-#information at the top. Otherwise the program will try to parse it and you
-#will get an error message.
+Before starting, open the CEDICT text file and delete the copyright 
+information at the top. Otherwise the program will try to parse it and you
+will get an error message.
 
-#Characters that are commonly used as surnames have two entries in CC-CEDICT.
+Characters that are commonly used as surnames have two entries in CC-CEDICT.
 
-#This code was written by Franki Allegra in February 2020. Edited by Matthew Delaney February 2020
-#https://github.com/rubber-duck-dragon/rubber-duck-dragon.github.io/blob/master/cc-cedict_parser/parser.py
+This code was written by Franki Allegra in February 2020. Edited by Matthew Delaney February 2020
+https://github.com/rubber-duck-dragon/rubber-duck-dragon.github.io/blob/master/cc-cedict_parser/parser.py
+"""
 
-#open CEDICT file
 
 import sys
 

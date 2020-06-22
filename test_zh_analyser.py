@@ -9,6 +9,7 @@ class TestAnalyser(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cc_cedict_parser.QUIET = True
+        #All of these tests use traditional characters
         cls.zh_dict = cc_cedict_parser.parse_dict('trad')
         cls.hsk_trad_list = []
         with open('materials/HSK_materials/HSK_1-6_trad.txt', 'r') as h:

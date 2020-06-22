@@ -1,3 +1,6 @@
+""" This was just used to turn the HSK lists I found online into something that
+uses alphanumeric numbers rather than characters to denote the level of each
+piece of vocab"""
 with open('HSK_Official_2012_1-6_Sorted.txt', 'r') as f:
     new_file = []
     for line in f:

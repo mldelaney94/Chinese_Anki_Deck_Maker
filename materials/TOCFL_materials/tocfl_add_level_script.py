@@ -1,3 +1,7 @@
+""" The purpose of this script is to take the five files that contain 1 level
+worth of TOCFL vocab and combine them all into one file with the level
+information intact """
+
 total_set = set()
 with open('TOCFL_bigrams_L01c.txt', 'r') as l1:
     for line in l1:
@@ -50,7 +54,6 @@ with open('TOCFL_bigrams_L04c.txt', 'r') as l4:
         else:
             liness[0] = liness[0] + ' 4'
             total_set.add(liness[0])
-
 
 with open('TOCFL_bigrams_L05c.txt', 'r') as l5:
     for line in l5:
