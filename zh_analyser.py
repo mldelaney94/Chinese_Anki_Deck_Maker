@@ -100,7 +100,7 @@ def remove_hsk_vocab(word_list):
                 hsk_dict[liness[0]] = liness[1]
     for word in word_list:
         hanzi = word[0]
-        if hanzi in hsk_dict and int(hsk_dict[hanzi]) <= HSK_LEVEL:
+        if hanzi in hsk_dict and int(hsk_dict[hanzi]) > HSK_LEVEL:
             pass
         else:
             hsk_removed_list.append(word)
@@ -124,7 +124,7 @@ def remove_tocfl_vocab(word_list):
                 tocfl_dict[liness[0]] = liness[1]
     for word in word_list:
         hanzi = word[0]
-        if hanzi in tocfl_dict and int(tocfl_dict[hanzi]) <= TOCFL_LEVEL:
+        if hanzi in tocfl_dict and int(tocfl_dict[hanzi]) > TOCFL_LEVEL:
             pass
         else:
             tocfl_removed_list.append(word)
