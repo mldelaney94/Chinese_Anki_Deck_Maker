@@ -14,22 +14,23 @@ from wordfreq import zipf_frequency
 
 from materials.cc_cedict_materials import cc_cedict_parser
 
-def segment_NLP(in_file):
-    """ Segments zh input using Jieba NLP, returns a list of lists with the
-    words as their first entries """
+def segment_NLP(text):
+    """ Segments newline separated zh input using Jieba NLP, returns a list of
+    lists with the words as their first entries """
     word_list = []
-    with open(in_file, 'r') as g:
-        for line in g:
-            word_list += jieba.cut(line, cut_all=False) #accurate mode
+    for line in text:
+        word_list += jieba.cut(line, cut_all=False) #accurate mode
     word_list = list(unique_everseen(word_list)) #mimic set uniqueness in list,
     #unknown if list(set(word_list)) is faster but this does keep ordering
     word_list = [[el] for el in word_list] #each word will be its own list with
     #definition and pinyin added as items to the word
     return word_list
 
-def add_pinyin_and_definition(word_list, zh_dict):
+def add_pinyin_and_definition(word_list, zh_dict, include_surname_def,
+        include_surname_tag):
     """Adds pinyin and definition from zh_dict to entries in hanzi_set. Adds
     english definition as a list of items"""
+    #TODO figure out tags vs def
     for word in word_list:
         english_translation_list = []
         if word[0] in zh_dict:
@@ -40,7 +41,7 @@ def add_pinyin_and_definition(word_list, zh_dict):
                 elif index == 1: #pinyin
                     word.append(attrib.lower())
                 else: #english
-                    if EXCLUDE_SURNAME_DEFINITION and 'surname' in attrib:
+                    if not include_surname_definition and 'surname' in attrib:
                         pass
                     else:
                         english_translation_list.append(attrib)
@@ -49,29 +50,29 @@ def add_pinyin_and_definition(word_list, zh_dict):
     #words that where not found in the dictionary
     return word_list
 
-def filter_by_freq(word_list):
+def filter_by_freq(word_list, freq_filtering, add_freq_to_output):
     """Filters words based on their relative frequency, always adds frequency
     to the word list"""
-    if not FREQ_FILTERING and not ADD_FREQ_TO_OUTPUT: #TODO figure out freq_filtering - this function has
+    if not freq_filtering and not add_freq_to_output: #TODO figure out freq_filtering - this function has
         #two responsibilities - freq filtering, and then adding freq to word
         return word_list
     filtered_word_list = []
     for word in word_list:
         freq = zipf_frequency(word[0], 'zh', wordlist='large', minimum=0.0)
-        if FREQ_FILTERING:
-            if LOWER_FREQ_BOUND <= freq <= UPPER_FREQ_BOUND:
-                if ADD_FREQ_TO_OUTPUT:
+        if freq_filtering:
+            if lower_freq_bound <= freq <= upper_freq_bound:
+                if add_freq_to_output:
                     word.append(freq)
                 filtered_word_list.append(word)
         else:
-            if ADD_FREQ_TO_OUTPUT:
+            if add_freq_to_output:
                 word.append(freq)
             filtered_word_list.append(word)
     return filtered_word_list
 
-def add_parts_of_speech(word_list):
+def add_parts_of_speech(word_list, add_pos_tag):
     """Parts of speech such as noun, verb will be added to entries where available"""
-    if not ADD_POS_TO_OUTPUT:
+    if not add_pos_tag:
         return word_list
     pynlpir.open()
     for word in word_list:
@@ -82,13 +83,11 @@ def add_parts_of_speech(word_list):
     pynlpir.close()
     return word_list
 
-def remove_hsk_vocab(word_list):
+def remove_hsk_vocab(word_list, hsk_level, simp_or_trad):
     """Filters HSK vocab"""
-    if not HSK_FILTERING:
-        return word_list
     hsk_dict = {}
     hsk_removed_list = []
-    if SIMP_OR_TRAD == 'trad':
+    if simp_or_trad == 'trad':
         with open('materials/HSK_materials/HSK_1-6_trad.txt', 'r') as h:
             for line in h:
                 liness = line.split()
@@ -100,19 +99,17 @@ def remove_hsk_vocab(word_list):
                 hsk_dict[liness[0]] = liness[1]
     for word in word_list:
         hanzi = word[0]
-        if hanzi in hsk_dict and int(hsk_dict[hanzi]) > HSK_LEVEL:
+        if hanzi in hsk_dict and int(hsk_dict[hanzi]) < hsk_level:
             pass
         else:
             hsk_removed_list.append(word)
     return hsk_removed_list
 
-def remove_tocfl_vocab(word_list):
+def remove_tocfl_vocab(word_list, tocfl_level, simp_or_trad):
     """filters TOCFL vocab"""
-    if not TOCFL_FILTERING:
-        return word_list
     tocfl_dict = {}
     tocfl_removed_list = []
-    if SIMP_OR_TRAD == 'trad':
+    if simp_or_trad == 'trad':
         with open('materials/TOCFL_materials/TOCFL_1-5_trad.txt', 'r') as h:
             for line in h:
                 liness = line.split()
@@ -124,14 +121,14 @@ def remove_tocfl_vocab(word_list):
                 tocfl_dict[liness[0]] = liness[1]
     for word in word_list:
         hanzi = word[0]
-        if hanzi in tocfl_dict and int(tocfl_dict[hanzi]) > TOCFL_LEVEL:
+        if hanzi in tocfl_dict and int(tocfl_dict[hanzi]) < tocfl_level:
             pass
         else:
             tocfl_removed_list.append(word)
     return tocfl_removed_list
 
-def sort_by_freq(word_list, ascending):
-    if not ADD_FREQ_TO_OUTPUT:
+def sort_by_freq(word_list, ascending, add_freq_to_output):
+    if not add_freq_to_output:
         return word_list
     return sorted(word_list, key=itemgetter(1), reverse=ascending)
 
@@ -147,13 +144,13 @@ def save_generated_list(word_list, location):
                     g.write(str(part)+'\t')
             g.write('\n')
 
-def main(f):
+def analyse(text):
     """Parses text and applies filters"""
     cc_cedict_parser.QUIET = True
     zh_dict = cc_cedict_parser.parse_dict(SIMP_OR_TRAD)
     jieba.set_dictionary('materials/dicts/jieba_dict_large.txt')
 
-    word_list = segment_NLP(f)
+    word_list = segment_NLP(text)
     word_list = filter_by_freq(word_list)
     word_list = remove_tocfl_vocab(word_list)
     word_list = remove_hsk_vocab(word_list)
@@ -164,28 +161,8 @@ def main(f):
     save_generated_list(word_list, sys.argv[2])
 
 if __name__ == "__main__":
-    #walk through optional args
-    global QUIET, UPPER_FREQ_BOUND, LOWER_FREQ_BOUND, SIMP_OR_TRAD, HSK_LEVEL
-    global HSK_FILTERING, TOCFL_LEVEL, TOCFL_FILTERING, ADD_FREQ_TO_OUTPUT
-    global FREQ_FILTERING, ADD_POS_TO_OUTPUT, EXCLUDE_SURNAME_DEFINITION
-    global SORT_BY_FREQ
-
-    SORT_BY_FREQ = 1
-    EXCLUDE_SURNAME_DEFINITION = 1
-    ADD_POS_TO_OUTPUT = 1
-    HSK_LEVEL = 3 #needs to be one above desired lvl of filtering
-    HSK_FILTERING = 1
-    TOCFL_LEVEL = 6
-    TOCFL_FILTERING = 0
-    ADD_FREQ_TO_OUTPUT = 0
-    FREQ_FILTERING = 1
-    SIMP_OR_TRAD = 'simp'
-    QUIET = False
-    UPPER_FREQ_BOUND = 8.0
-    LOWER_FREQ_BOUND = 0.0
-
     if len(sys.argv) < 3:
         print("Please give the location of the file to be read and the save" +
               "file location, in that order")
 
-    main(sys.argv[1])
+    analyse(sys.argv[1])
