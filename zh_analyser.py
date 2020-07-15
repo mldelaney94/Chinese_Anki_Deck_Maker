@@ -41,7 +41,7 @@ def add_pinyin_and_definition(word_list, zh_dict, include_surname_def,
                 elif index == 1: #pinyin
                     word.append(attrib.lower())
                 else: #english
-                    if not include_surname_definition and 'surname' in attrib:
+                    if not include_surname_def and 'surname' in attrib:
                         pass
                     else:
                         english_translation_list.append(attrib)
@@ -50,29 +50,22 @@ def add_pinyin_and_definition(word_list, zh_dict, include_surname_def,
     #words that where not found in the dictionary
     return word_list
 
-def filter_by_freq(word_list, freq_filtering, add_freq_to_output):
-    """Filters words based on their relative frequency, always adds frequency
-    to the word list"""
-    if not freq_filtering and not add_freq_to_output: #TODO figure out freq_filtering - this function has
-        #two responsibilities - freq filtering, and then adding freq to word
-        return word_list
+def filter_by_freq(word_list, lower_freq_bound, upper_freq_bound,
+        add_freq_to_output):
+    """Filters words based on their relative frequency and adds frequency info
+    to the wordlist"""
     filtered_word_list = []
     for word in word_list:
         freq = zipf_frequency(word[0], 'zh', wordlist='large', minimum=0.0)
-        if freq_filtering:
-            if lower_freq_bound <= freq <= upper_freq_bound:
-                if add_freq_to_output:
-                    word.append(freq)
-                filtered_word_list.append(word)
-        else:
+        if lower_freq_bound <= freq <= upper_freq_bound:
             if add_freq_to_output:
                 word.append(freq)
             filtered_word_list.append(word)
     return filtered_word_list
 
-def add_parts_of_speech(word_list, add_pos_tag):
+def add_parts_of_speech(word_list, add_parts_of_speech):
     """Parts of speech such as noun, verb will be added to entries where available"""
-    if not add_pos_tag:
+    if not add_parts_of_speech:
         return word_list
     pynlpir.open()
     for word in word_list:
@@ -144,19 +137,22 @@ def save_generated_list(word_list, location):
                     g.write(str(part)+'\t')
             g.write('\n')
 
-def analyse(text):
+def analyse(text, sort_by_freq, add_freq_to_output, hsk_level, tocfl_level,
+        simp_or_trad, add_parts_of_speech, upper_freq_bound, lower_freq_bound,
+        deck_name, zh_input, include_surname_tag, include_surname_def):
     """Parses text and applies filters"""
     cc_cedict_parser.QUIET = True
     zh_dict = cc_cedict_parser.parse_dict(SIMP_OR_TRAD)
     jieba.set_dictionary('materials/dicts/jieba_dict_large.txt')
 
-    word_list = segment_NLP(text)
-    word_list = filter_by_freq(word_list)
-    word_list = remove_tocfl_vocab(word_list)
-    word_list = remove_hsk_vocab(word_list)
-    word_list = add_pinyin_and_definition(word_list, zh_dict)
-    word_list = add_parts_of_speech(word_list)
-    word_list = sort_by_freq(word_list, 0)
+    word_list = segment_NLP(zh_input)
+    word_list = filter_by_freq(word_list, lower_freq_bound, upper_freq_bound, add_freq_to_output)
+    word_list = remove_hsk_vocab(word_list, hsk_level, simp_or_trad)
+    word_list = remove_tocfl_vocab(word_list, tocfl_level, simp_or_trad)
+    word_list = add_pinyin_and_definition(word_list, zh_dict,
+            include_surname_def, include_surname_tag)
+    word_list = add_parts_of_speech(word_list, add_parts_of_speech)
+    word_list = sort_by_freq(word_list, 0, add_freq_to_output)
 
     save_generated_list(word_list, sys.argv[2])
 
