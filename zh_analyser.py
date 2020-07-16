@@ -155,10 +155,3 @@ def analyse(text, sort_by_freq, add_freq_to_output, hsk_level, tocfl_level,
     word_list = sort_by_freq(word_list, 0, add_freq_to_output)
 
     save_generated_list(word_list, 'test.txt')
-
-if __name__ == "__main__":
-    if len(sys.argv) < 3:
-        print("Please give the location of the file to be read and the save" +
-              "file location, in that order")
-
-    analyse(sys.argv[1])
