@@ -124,25 +124,25 @@ class TestAnalyser(unittest.TestCase):
 
     def test_remove_trad_hsk_vocab_remove_all(self):
         simp_or_trad = 'trad'
-        hsk_level = 7
+        hsk_level = 6
         self.assertEqual(zh_analyser.remove_hsk_vocab(self.hsk_trad_list,
             hsk_level, simp_or_trad), [])
     
     def test_remove_simp_hsk_vocab_remove_all(self):
         simp_or_trad = 'simp'
-        hsk_level = 7
+        hsk_level = 6
         self.assertEqual(zh_analyser.remove_hsk_vocab(self.hsk_simp_list,
             hsk_level, simp_or_trad), [])
 
     def test_remove_trad_tocfl_vocab_remove_all(self):
         simp_or_trad = 'trad'
-        tocfl_level = 6
+        tocfl_level = 5
         self.assertEqual(zh_analyser.remove_tocfl_vocab(self.tocfl_trad_list,
             tocfl_level, simp_or_trad), [])
     
     def test_remove_simp_tocfl_vocab_remove_all(self):
         simp_or_trad = 'simp'
-        tocfl_level = 6
+        tocfl_level = 5
         self.assertEqual(zh_analyser.remove_tocfl_vocab(self.tocfl_simp_list,
             tocfl_level, simp_or_trad), [])
 

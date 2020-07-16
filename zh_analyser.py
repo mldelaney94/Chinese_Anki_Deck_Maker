@@ -92,7 +92,7 @@ def remove_hsk_vocab(word_list, hsk_level, simp_or_trad):
                 hsk_dict[liness[0]] = liness[1]
     for word in word_list:
         hanzi = word[0]
-        if hanzi in hsk_dict and int(hsk_dict[hanzi]) < hsk_level:
+        if hanzi in hsk_dict and int(hsk_dict[hanzi]) <= hsk_level:
             pass
         else:
             hsk_removed_list.append(word)
@@ -114,7 +114,7 @@ def remove_tocfl_vocab(word_list, tocfl_level, simp_or_trad):
                 tocfl_dict[liness[0]] = liness[1]
     for word in word_list:
         hanzi = word[0]
-        if hanzi in tocfl_dict and int(tocfl_dict[hanzi]) < tocfl_level:
+        if hanzi in tocfl_dict and int(tocfl_dict[hanzi]) <= tocfl_level:
             pass
         else:
             tocfl_removed_list.append(word)
@@ -154,7 +154,7 @@ def analyse(text, sort_by_freq, add_freq_to_output, hsk_level, tocfl_level,
     word_list = add_parts_of_speech(word_list, add_parts_of_speech)
     word_list = sort_by_freq(word_list, 0, add_freq_to_output)
 
-    save_generated_list(word_list, sys.argv[2])
+    save_generated_list(word_list, 'test.txt')
 
 if __name__ == "__main__":
     if len(sys.argv) < 3:
