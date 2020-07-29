@@ -8,6 +8,7 @@ import sys
 from operator import itemgetter
 
 import jieba
+import jieba.posseg as pseg
 from more_itertools import unique_everseen
 import pynlpir
 from wordfreq import zipf_frequency
@@ -22,9 +23,8 @@ def segment_NLP(text):
         word_list += jieba.cut(line, cut_all=False) #accurate mode
     word_list = list(unique_everseen(word_list)) #mimic set uniqueness in list,
     #unknown if list(set(word_list)) is faster but this does keep ordering
-    word_list = [[el] for el in word_list] #each word will be its own list with
+    return [[el] for el in word_list] #each word will be its own list with
     #definition and pinyin added as items to the word
-    return word_list
 
 def add_pinyin_and_definition(word_list, zh_dict, include_surname_def,
         include_surname_tag):
@@ -155,3 +155,45 @@ def analyse(text, sort_by_freq, add_freq_to_output, hsk_level, tocfl_level,
     word_list = sort_by_freq(word_list, 0, add_freq_to_output)
 
     save_generated_list(word_list, 'test.txt')
+
+def segment_NLP_test(text):
+    """ Segments newline separated zh input using Jieba NLP, returns a list of
+    lists with the words as their first entries """
+    word_list = []
+    word_list = jieba.posseg.lcut(text) #accurate mode
+    return word_list
+
+def add_parts_of_speech_test(word_list, add_parts_of_speech):
+    if not add_parts_of_speech:
+        return word_list
+    for word in word_list:
+        pos = jieba.posseg.lcut(word[0])
+        tag = process_part_of_speech(str(pos[0]).split('/')[1])
+        word.append(tag)
+    return word_list
+
+def process_part_of_speech(pos):
+    """Jieba speech tagging can combine tags in weird ways, this function
+    extracts all the different types of tags and returns them as one list"""
+    pos_dict = {
+            'Ag': 'help', 'a': 'adj', 'ad': 'help', 'an': 'help', 'b':
+            'help', 'c': 'conj', 'dg': 'help', 'd': 'adv', 'e': 'exclamation',
+            'f': 'noun of locality', 'g': 'morpheme', 'h': 'help', 'i':
+            'chengyu', 'j': 'help', 'k': 'help', 'l': 'idiom', 'm': 'numeral',
+            'Ng': 'help', 'n': 'noun', 'nr': 'name', 'ns': 'place name',
+            'nt': 'help', 'nz': 'help/special', 'o': 'onomatopoeia',
+            'p': 'preposition', 'q': 'measure word', 'r': 'pronoun', 's':
+            's/f help', 'tg': 'time morpheme', 't': 'time', 'u': 'auxiliary',
+            'vg': 'verb morpheme', 'v': 'v', 'vd': 'help', 'vn': 'help', 'w':
+            'punctuation', 'x': 'help', 'y': 'modal verb', 'z': 'descriptive word',
+            'un': 'unknown'
+            }
+    if pos in pos_dict:
+        return pos_dict[pos]
+    
+    return 'unknown'
+
+if __name__ == '__main__':
+    word_list = segment_NLP('这是，；我的狗狗点一')
+    word_list = add_parts_of_speech_test(word_list, 1)
+    print(word_list)
