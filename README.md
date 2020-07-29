@@ -15,5 +15,10 @@ words.
 To run tests:
 
 ```commandline
+# install dependencies
+
+pip install -r requirements.txt
+
+# run tests
 python -m unittest
 ```
