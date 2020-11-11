@@ -17,7 +17,7 @@ https://github.com/rubber-duck-dragon/rubber-duck-dragon.github.io/blob/master/c
 
 
 import sys
-import os
+from pathlib import Path
 
 #define functions
 
@@ -91,9 +91,7 @@ def parse_dict(key_is_trad_or_simp):
 def get_dict_path():
     """ This function assumes that the path of the dictionary is relatively set
     in stone """
-    cur_path = os.path.dirname(__name__)
-    new_path = os.path.relpath('..\\dicts\\cedict_modified.txt', cur_path)
-    return new_path
+    return Path("materials/dicts/cedict_modified.txt")
 
 if __name__ == "__main__":
     if len(sys.argv) == 1:
