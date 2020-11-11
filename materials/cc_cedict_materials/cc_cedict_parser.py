@@ -17,6 +17,7 @@ https://github.com/rubber-duck-dragon/rubber-duck-dragon.github.io/blob/master/c
 
 
 import sys
+import os
 
 #define functions
 
@@ -78,7 +79,7 @@ def parse_dict(key_is_trad_or_simp):
     #make each line into a dictionary
     if not QUIET:
         print("Parsing dictionary . . .")
-    with open("C:\\Users\\Matthew\\dev\\Chinese_Anki_Creator\\materials\\dicts\\cedict_modified.txt", 'r') as f:
+    with open(get_dict_path(), 'r') as f:
         text = f.read()
         lines = text.split('\n')
         dictionary = parse_lines(lines, key_is_trad_or_simp)
@@ -86,6 +87,13 @@ def parse_dict(key_is_trad_or_simp):
         print("Done")
 
     return dictionary
+
+def get_dict_path():
+    """ This function assumes that the path of the dictionary is relatively set
+    in stone """
+    cur_path = os.path.dirname(__name__)
+    new_path = os.path.relpath('..\\dicts\\cedict_modified.txt', cur_path)
+    return new_path
 
 if __name__ == "__main__":
     if len(sys.argv) == 1:

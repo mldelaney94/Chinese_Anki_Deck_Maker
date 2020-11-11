@@ -1,6 +1,6 @@
 from operator import itemgetter
 
-with open('TOCFL_1-5_simp.txt', 'r') as f:
+with open('rem_dupes_simp.txt', 'r') as f:
     sorted_list = []
     for line in f:
         line = line.strip()
@@ -12,7 +12,7 @@ with open('TOCFL_1-5_simp.txt', 'r') as f:
             g.write(' '.join(word))
             g.write('\n')
 
-with open('TOCFL_1-5_trad.txt', 'r') as f:
+with open('rem_dupes_trad.txt', 'r') as f:
     sorted_list = []
     for line in f:
         line = line.strip()
