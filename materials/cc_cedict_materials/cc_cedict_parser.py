@@ -91,7 +91,7 @@ def parse_dict(key_is_trad_or_simp):
 def get_dict_path():
     """ This function assumes that the path of the dictionary is relatively set
     in stone """
-    return Path("materials/dicts/cedict_modified.txt")
+    return Path("../dicts/cedict_modified.txt")
 
 if __name__ == "__main__":
     if len(sys.argv) == 1:
